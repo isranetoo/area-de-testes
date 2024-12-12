@@ -174,7 +174,7 @@ def main():
             salvar_novo_arquivo(nome_arquivo, novo_dado)
             print(f"Processamento de {nome_arquivo} concluído")
     
-    # Chama a função para atualizar os arquivos
+
     atualizar_arquivo_json()
 
 if __name__ == "__main__":

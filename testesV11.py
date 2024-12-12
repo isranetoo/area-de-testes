@@ -79,7 +79,6 @@ class DetalhesCNA:
                     if detail_url:
                         url_completa = BASE_URL + detail_url
                         self.buscar_detalhes(url_completa, nome)
-                        # Verifica se o nome do advogado está presente no arquivo de resultados e atualiza
                         self.atualizar_detalhes(nome, item)
         except Exception as e:
             print(f"Erro ao processar arquivo JSON: {e}")
@@ -102,22 +101,17 @@ class DetalhesCNA:
     def atualizar_detalhes(self, nome_advogado, dados_item):
         """Atualiza o arquivo final com as informações do advogado se o nome coincidir."""
         try:
-            # Procura por arquivos na pasta de detalhes
             arquivos_resultado = [f for f in os.listdir(PASTA_DETALHES_OAB) if f.endswith('.json')]
             for arquivo_resultado in arquivos_resultado:
-                # Verifica se o nome do advogado está no nome do arquivo
                 if nome_advogado.replace(" ", "_") in arquivo_resultado:
                     caminho_arquivo_resultado = os.path.join(PASTA_DETALHES_OAB, arquivo_resultado)
                     with open(caminho_arquivo_resultado, 'r', encoding='utf-8') as arquivo:
                         dados_resultado = json.load(arquivo)
-                    
-                    # Atualiza o JSON com as novas informações
+                
                     if dados_item.get("Nome"):
                         dados_resultado["Data"]["Nome"] = dados_item.get("Nome")
                     if dados_item.get("DetailUrl"):
                         dados_resultado["Data"]["DetailUrl"] = dados_item.get("DetailUrl")
-                    
-                    # Salva o arquivo atualizado
                     salvar_em_arquivo(PASTA_DETALHES_OAB, arquivo_resultado, dados_resultado)
                     print(f"Arquivo {arquivo_resultado} atualizado com sucesso.")
         except Exception as e:
