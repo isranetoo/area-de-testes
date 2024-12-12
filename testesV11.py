@@ -75,9 +75,12 @@ class DetalhesCNA:
                     dados = json.load(f)
                 for item in dados.get('Data', []):
                     detail_url = item.get('DetailUrl')
+                    nome = item.get('Nome')
                     if detail_url:
                         url_completa = BASE_URL + detail_url
-                        self.buscar_detalhes(url_completa, item.get('Nome', 'desconhecido'))
+                        self.buscar_detalhes(url_completa, nome)
+                        # Verifica se o nome do advogado está presente no arquivo de resultados e atualiza
+                        self.atualizar_detalhes(nome, item)
         except Exception as e:
             print(f"Erro ao processar arquivo JSON: {e}")
 
@@ -88,13 +91,37 @@ class DetalhesCNA:
             if resposta.status_code == 200:
                 detalhes = resposta.json()
                 timestamp = datetime.now().strftime("%d-%m-%Y")
-                nome_arquivo = f"detalhes_{nome_advogado}_data_{timestamp}.json"
+                nome_arquivo = f"detalhes_{nome_advogado.replace(' ','_')}_data_{timestamp}.json"
                 salvar_em_arquivo(PASTA_DETALHES_OAB, nome_arquivo, detalhes)
                 print(f"Detalhes salvos em URL: {url}")
             else:
                 print(f"Erro ao acessar detalhes: Status {resposta.status_code} para URL {url}")
         except Exception as e:
             print(f"Erro ao buscar detalhes para URL: {e}")
+
+    def atualizar_detalhes(self, nome_advogado, dados_item):
+        """Atualiza o arquivo final com as informações do advogado se o nome coincidir."""
+        try:
+            # Procura por arquivos na pasta de detalhes
+            arquivos_resultado = [f for f in os.listdir(PASTA_DETALHES_OAB) if f.endswith('.json')]
+            for arquivo_resultado in arquivos_resultado:
+                # Verifica se o nome do advogado está no nome do arquivo
+                if nome_advogado.replace(" ", "_") in arquivo_resultado:
+                    caminho_arquivo_resultado = os.path.join(PASTA_DETALHES_OAB, arquivo_resultado)
+                    with open(caminho_arquivo_resultado, 'r', encoding='utf-8') as arquivo:
+                        dados_resultado = json.load(arquivo)
+                    
+                    # Atualiza o JSON com as novas informações
+                    if dados_item.get("Nome"):
+                        dados_resultado["Data"]["Nome"] = dados_item.get("Nome")
+                    if dados_item.get("DetailUrl"):
+                        dados_resultado["Data"]["DetailUrl"] = dados_item.get("DetailUrl")
+                    
+                    # Salva o arquivo atualizado
+                    salvar_em_arquivo(PASTA_DETALHES_OAB, arquivo_resultado, dados_resultado)
+                    print(f"Arquivo {arquivo_resultado} atualizado com sucesso.")
+        except Exception as e:
+            print(f"Erro ao atualizar detalhes: {e}")
 
 def processar_arquivo_json(caminho_arquivo):
     """Processa um arquivo JSON e extrai informações relevantes."""
@@ -139,7 +166,6 @@ def atualizar_arquivo_json():
             caminho_arquivo_processado = os.path.join(PASTA_SAIDA, arquivo)
             caminho_arquivo_resultado = os.path.join(PASTA_DETALHES_OAB, arquivo)
             
-            # Verifica se o arquivo existe na pasta de resultados
             if os.path.exists(caminho_arquivo_resultado):
                 with open(caminho_arquivo_processado, 'r', encoding='utf-8') as arquivo_processado:
                     dados_processados = json.load(arquivo_processado)
@@ -147,13 +173,11 @@ def atualizar_arquivo_json():
                 with open(caminho_arquivo_resultado, 'r', encoding='utf-8') as arquivo_resultado:
                     dados_resultado = json.load(arquivo_resultado)
                 
-                # Adiciona as informações coletadas do arquivo processado ao arquivo de resultado
                 if dados_processados.get("URL"):
                     dados_resultado["Data"]["URL"] = dados_processados["URL"]
                 if dados_processados.get("Inscricao"):
                     dados_resultado["Data"]["Inscricao"] = dados_processados["Inscricao"]
                 
-                # Salva o arquivo atualizado na pasta de resultados
                 salvar_em_arquivo(PASTA_DETALHES_OAB, arquivo, dados_resultado)
                 print(f"Arquivo {arquivo} atualizado com sucesso.")
             else:
@@ -174,7 +198,6 @@ def main():
             salvar_novo_arquivo(nome_arquivo, novo_dado)
             print(f"Processamento de {nome_arquivo} concluído")
     
-    # Chama a função para atualizar os arquivos
     atualizar_arquivo_json()
 
 if __name__ == "__main__":
