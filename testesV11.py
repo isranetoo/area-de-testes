@@ -19,7 +19,22 @@ def salvar_em_arquivo(pasta, nome_arquivo, conteudo):
             json.dump(conteudo, arquivo, ensure_ascii=False, indent=4)
         print(f"Arquivo salvo em: {caminho}")
     except Exception as e:
-        print(f"Erro ao salvar o arquivo em: {e}")
+        print(f"Erro ao salvar o arquivo: {e}")
+
+def baixar_imagem(url, nome_arquivo):
+    """Faz o download da imagem do URL e salva com o nome especificado."""
+    try:
+        resposta = requests.get(url, stream=True)
+        if resposta.status_code == 200:
+            caminho_imagem = os.path.join(PASTA_SAIDA, f"{nome_arquivo}.jpg")
+            with open(caminho_imagem, 'wb') as arquivo:
+                for chunk in resposta.iter_content(1024):
+                    arquivo.write(chunk)
+            print(f"Imagem baixada e salva em: {caminho_imagem}")
+        else:
+            print(f"Erro ao baixar a imagem: Status {resposta.status_code} para URL {url}")
+    except Exception as e:
+        print(f"Erro ao baixar a imagem: {e}")
 
 class SessaoCNA:
     """
@@ -43,9 +58,9 @@ class SessaoCNA:
             resposta = self.sessao.post(BASE_URL + 'Home/Search', json=payload, headers={'Content-Type': 'application/json'})
             if resposta.status_code == 200:
                 documentos = resposta.json()
-                if documentos: 
+                if documentos:
                     timestamp = datetime.now().strftime("%d-%m-%Y")
-                    nome_arquivo = f"Advogado_{self.NomeAdvo.replace(' ','_')}_data_{timestamp}.json"
+                    nome_arquivo = f"Advogado_{self.NomeAdvo.replace(' ', '_')}_data_{timestamp}.json"
                     salvar_em_arquivo(PASTA_OAB, nome_arquivo, documentos)
                     print(f"Dados obtidos com sucesso para advogado: {self.NomeAdvo}")
                 else:
@@ -75,11 +90,9 @@ class DetalhesCNA:
                     dados = json.load(f)
                 for item in dados.get('Data', []):
                     detail_url = item.get('DetailUrl')
-                    nome = item.get('Nome')
                     if detail_url:
                         url_completa = BASE_URL + detail_url
-                        self.buscar_detalhes(url_completa, nome)
-                        self.atualizar_detalhes(nome, item)
+                        self.buscar_detalhes(url_completa, item.get('Nome', 'desconhecido'))
         except Exception as e:
             print(f"Erro ao processar arquivo JSON: {e}")
 
@@ -90,32 +103,13 @@ class DetalhesCNA:
             if resposta.status_code == 200:
                 detalhes = resposta.json()
                 timestamp = datetime.now().strftime("%d-%m-%Y")
-                nome_arquivo = f"detalhes_{nome_advogado.replace(' ','_')}_data_{timestamp}.json"
+                nome_arquivo = f"detalhes_{nome_advogado}_data_{timestamp}.json"
                 salvar_em_arquivo(PASTA_DETALHES_OAB, nome_arquivo, detalhes)
                 print(f"Detalhes salvos em URL: {url}")
             else:
                 print(f"Erro ao acessar detalhes: Status {resposta.status_code} para URL {url}")
         except Exception as e:
             print(f"Erro ao buscar detalhes para URL: {e}")
-
-    def atualizar_detalhes(self, nome_advogado, dados_item):
-        """Atualiza o arquivo final com as informações do advogado se o nome coincidir."""
-        try:
-            arquivos_resultado = [f for f in os.listdir(PASTA_DETALHES_OAB) if f.endswith('.json')]
-            for arquivo_resultado in arquivos_resultado:
-                if nome_advogado.replace(" ", "_") in arquivo_resultado:
-                    caminho_arquivo_resultado = os.path.join(PASTA_DETALHES_OAB, arquivo_resultado)
-                    with open(caminho_arquivo_resultado, 'r', encoding='utf-8') as arquivo:
-                        dados_resultado = json.load(arquivo)
-                
-                    if dados_item.get("Nome"):
-                        dados_resultado["Data"]["Nome"] = dados_item.get("Nome")
-                    if dados_item.get("DetailUrl"):
-                        dados_resultado["Data"]["DetailUrl"] = dados_item.get("DetailUrl")
-                    salvar_em_arquivo(PASTA_DETALHES_OAB, arquivo_resultado, dados_resultado)
-                    print(f"Arquivo {arquivo_resultado} atualizado com sucesso.")
-        except Exception as e:
-            print(f"Erro ao atualizar detalhes: {e}")
 
 def processar_arquivo_json(caminho_arquivo):
     """Processa um arquivo JSON e extrai informações relevantes."""
@@ -128,12 +122,16 @@ def processar_arquivo_json(caminho_arquivo):
             sociedade = dados["Data"]["Sociedades"][0]
             insc = sociedade.get("Inscricao")
         if dados.get("Data") and dados["Data"].get("DetailUrl"):
-            detail_url = dados["Data"]["DetailUrl"]
+            detail_url = dados["Data"].get("DetailUrl")
 
         if detail_url:
             url_completa = BASE_URL + detail_url
         else:
             url_completa = None
+
+        if url_completa:
+            nome_imagem = os.path.splitext(os.path.basename(caminho_arquivo))[0]
+            baixar_imagem(url_completa, nome_imagem)
 
         novo_json = {
             "Inscricao": insc,
@@ -155,23 +153,21 @@ def atualizar_arquivo_json():
         if not arquivos_processados:
             print(f"Nenhum arquivo JSON encontrado na pasta {PASTA_SAIDA}")
             return
-        
+
         for arquivo in arquivos_processados:
             caminho_arquivo_processado = os.path.join(PASTA_SAIDA, arquivo)
             caminho_arquivo_resultado = os.path.join(PASTA_DETALHES_OAB, arquivo)
-            
             if os.path.exists(caminho_arquivo_resultado):
                 with open(caminho_arquivo_processado, 'r', encoding='utf-8') as arquivo_processado:
                     dados_processados = json.load(arquivo_processado)
-                
+
                 with open(caminho_arquivo_resultado, 'r', encoding='utf-8') as arquivo_resultado:
                     dados_resultado = json.load(arquivo_resultado)
-                
+
                 if dados_processados.get("URL"):
                     dados_resultado["Data"]["URL"] = dados_processados["URL"]
                 if dados_processados.get("Inscricao"):
                     dados_resultado["Data"]["Inscricao"] = dados_processados["Inscricao"]
-                
                 salvar_em_arquivo(PASTA_DETALHES_OAB, arquivo, dados_resultado)
                 print(f"Arquivo {arquivo} atualizado com sucesso.")
             else:
@@ -191,7 +187,7 @@ def main():
             novo_dado = processar_arquivo_json(caminho_arquivo)
             salvar_novo_arquivo(nome_arquivo, novo_dado)
             print(f"Processamento de {nome_arquivo} concluído")
-    
+
     atualizar_arquivo_json()
 
 if __name__ == "__main__":
