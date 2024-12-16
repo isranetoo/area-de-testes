@@ -1,7 +1,9 @@
 import os
 import pytesseract
-from PIL import Image
 import json
+from PIL import Image
+from PIL import ImageFilter
+
 
 if os.name == "nt":
     pytesseract.pytesseract.tesseract_cmd = 'C:\\Program Files\\Tesseract-OCR\\tesseract.exe'
@@ -10,8 +12,18 @@ def cortar_e_salvar_img(image_path, coordenadas, novo_nome):
     """Corta e salva uma parte da imagem."""
     image = Image.open(image_path)
     cropped_imagem = image.crop(coordenadas)
-    cropped_imagem.save(novo_nome)
+    
+    sharpened_imagem = cropped_imagem.filter(ImageFilter.SHARPEN)
+    
+    sharpened_imagem.save(novo_nome)
     print(f"Imagem salva como: {novo_nome}")
+
+def obter_proximo_nome_arquivo(base_nome, extensao):
+    """Obtém o próximo nome de arquivo com contagem incremental."""
+    contador = 1
+    while os.path.exists(f"{base_nome}_{contador}{extensao}"):
+        contador += 1
+    return f"{base_nome}_{contador}{extensao}"
 
 def processar_varias_imagens_e_cortes(diretorio):
     """Processa imagens de um diretório com cortes e salva os resultados em JSON."""
@@ -48,13 +60,14 @@ def processar_varias_imagens_e_cortes(diretorio):
 
             resultados[os.path.basename(image_path)] = resultados.get(os.path.basename(image_path), [])
             resultados[os.path.basename(image_path)].append({
-                "crop_index": i + 1,
+                "telefone": i + 1,
                 "resultado": result
             })
 
-    with open("resultados.json", "w", encoding="utf-8") as json_file:
+    nome_arquivo_json = obter_proximo_nome_arquivo("numero_telefone", ".json")
+    with open(nome_arquivo_json, "w", encoding="utf-8") as json_file:
         json.dump(resultados, json_file, indent=4, ensure_ascii=False)
-    print("Resultados salvos em resultados.json")
+    print(f"Resultados salvos em {nome_arquivo_json}")
 
 diretorio_imagens = "imgs_CNA_OAB"
 processar_varias_imagens_e_cortes(diretorio_imagens)
