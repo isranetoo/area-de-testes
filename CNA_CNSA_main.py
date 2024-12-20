@@ -1,25 +1,20 @@
 import os
 import json
 import requests
-from datetime import datetime
-import subprocess
-import time
-from selenium import webdriver
-from selenium.webdriver.chrome.service import Service
-from selenium.webdriver.common.by import By
-from webdriver_manager.chrome import ChromeDriverManager
-from selenium.webdriver.chrome.options import Options
+import pytesseract
+from PIL import Image, ImageFilter
+from bs4 import BeautifulSoup  # Para parsear HTML
+
+if os.name == "nt":
+    pytesseract.pytesseract.tesseract_cmd = 'C:\\Program Files\\Tesseract-OCR\\tesseract.exe'
 
 BASE_URL = 'https://cna.oab.org.br/'
 PASTAS = {
-    'OAB': 'output_CNA_OAB',
-    'Detalhes': 'resultados_CNA_detalhes',
-    'Saida': 'detalhes_CNA_processados',
-    'SaidaImg': 'imgs_CNA_OAB',
-    'SaidaSelenium': 'resultados_CNSA_detalhes'
+    'temp': "temp_files",
+    'saida_CNA': 'output_CNA',
 }
 
-# Criar todas as pastas necessárias
+# Criar diretórios, se não existirem
 for pasta in PASTAS.values():
     os.makedirs(pasta, exist_ok=True)
 
@@ -32,96 +27,135 @@ def salvar_em_arquivo(pasta, nome_arquivo, conteudo):
     except Exception as e:
         print(f"Erro ao salvar arquivo: {e}")
 
-def baixar_imagem(url, nome_arquivo):
-    """Baixa imagem da URL e salva localmente."""
-    try:
-        resposta = requests.get(url, stream=True)
-        if resposta.status_code == 200:
-            with open(os.path.join(PASTAS['SaidaImg'], f"{nome_arquivo}.png"), 'wb') as arquivo:
-                for chunk in resposta.iter_content(1024):
-                    arquivo.write(chunk)
-            print(f"Imagem salva: {nome_arquivo}")
-        else:
-            print(f"Erro ao baixar imagem: {resposta.status_code}")
-    except Exception as e:
-        print(f"Erro ao salvar imagem: {e}")
-
-class SessaoCNA:
-    """Classe para interagir com o sistema CNA."""
-    def __init__(self, nome_advo):
+class BuscaCNA:
+    """Classe para buscar e salvar detalhes adicionais."""
+    def __init__(self):
         self.sessao = requests.Session()
-        self.nome_advo = nome_advo
 
-    def enviar_requisicao(self):
+    def busca_nome(self, nome_advo: str) -> dict:
         """Realiza a requisição e salva os dados do advogado."""
-        payload = {"NomeAdvo": self.nome_advo, "UF": "SP", "IsMobile": "false"}
+        payload = {"NomeAdvo": nome_advo, "IsMobile": "false"}
         try:
             resposta = self.sessao.post(BASE_URL + 'Home/Search', json=payload, headers={'Content-Type': 'application/json'})
             if resposta.status_code == 200:
-                dados = resposta.json()
-                if dados:
-                    timestamp = datetime.now().strftime("%d-%m-%Y")
-                    salvar_em_arquivo(PASTAS['OAB'], f"Advogado_{self.nome_advo.replace(' ', '_')}_data_{timestamp}.json", dados)
-                    print(f"Dados do advogado {self.nome_advo} obtidos com sucesso.")
-                else:
-                    print(f"Nenhum dado encontrado para {self.nome_advo}")
+                resposta_json = resposta.json()
             else:
                 print(f"Erro na requisição: {resposta.status_code}")
+                return {}
         except Exception as e:
             print(f"Erro ao realizar requisição: {e}")
+            return {}
 
-def iniciar_driver():
-    """Inicia o driver do Selenium com configurações."""
-    chrome_options = Options()
-    chrome_options.add_argument("--headless")
-    chrome_options.add_argument("--disable-gpu")
-    chrome_options.add_argument("--no-sandbox")
-    driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=chrome_options)
-    return driver
+        if not resposta_json:
+            print(f"Nenhum dado encontrado para {nome_advo}")
+            return {}
 
-def processar_arquivos_selenium():
-    """Processa arquivos JSON e coleta informações com Selenium."""
-    driver = iniciar_driver()
-    for arquivo in os.listdir(PASTAS['Detalhes']):
-        if arquivo.endswith(".json"):
-            caminho_arquivo = os.path.join(PASTAS['Detalhes'], arquivo)
-            with open(caminho_arquivo, 'r', encoding='utf-8') as f:
-                dados = json.load(f)
-            
-            sociedades = dados.get("Data", {}).get("Sociedades", [])
-            if not sociedades:
-                print(f"Nenhuma sociedade encontrada no arquivo: {arquivo}")
-                resultado = {"erro": "Nenhuma sociedade encontrada", "url": None}
-            else:
-                url_parcial = sociedades[0].get("Url")
-                if url_parcial:
-                    url_completa = BASE_URL + url_parcial
-                    print(f"Acessando a URL: {url_completa}")
-                    try:
-                        driver.get(url_completa)
-                        time.sleep(3)
-                        elemento = driver.find_element(By.XPATH, '//*[@id="bodyContent"]/div[3]/div/div/div[2]/div[6]')
-                        conteudo_elemento = elemento.text
-                        resultado = {"conteudo_coletado": conteudo_elemento, "url": url_completa}
-                        print(f"Conteúdo coletado: {conteudo_elemento}")
-                    except Exception as e:
-                        print(f"Erro ao acessar a URL ou coletar o elemento: {e}")
-                        resultado = {"erro": str(e), "url": url_completa}
+        resultado_pesquisa = resposta_json.get("Data", [])
+        for resultado_adv in resultado_pesquisa:
+            if 'DetailUrl' not in resultado_adv:
+                continue
+
+            detalhes = self.buscar_detalhes(BASE_URL + resultado_adv['DetailUrl'])
+            resultado_adv["image_url"] = detalhes.get("DetailUrl", None)
+            resultado_adv["Sociedades"] = detalhes.get("Sociedades", False)
+
+            img_file = self.baixar_imagem(BASE_URL + resultado_adv["image_url"])
+            telefones = self.extrair_telefones_imagem(img_file)
+            resultado_adv.update(telefones)
+
+            if resultado_adv["Sociedades"]:
+                for soc in resultado_adv["Sociedades"]:
+                    if "Url" in soc:
+                        sociedades = self.coleta_sociedade(soc["Url"])
+                        resultado_adv.setdefault("Sociedades_Details", []).append(sociedades)
+
+        return resultado_pesquisa
+
+    def buscar_detalhes(self, url):
+        """Busca e salva detalhes adicionais do advogado."""
+        try:
+            resposta = self.sessao.post(url, headers={'Content-Type': 'application/json'})
+            if resposta.status_code == 200:
+                return resposta.json().get("Data", {})
+        except Exception as e:
+            print(f"Erro ao buscar detalhes: {e}")
+        return {}
+
+    def baixar_imagem(self, url):
+        """Baixa imagem da URL e salva localmente."""
+        try:
+            resposta = self.sessao.get(url, stream=True)
+            if resposta.status_code == 200:
+                img_path = os.path.join(PASTAS['temp'], "temp.png")
+                with open(img_path, 'wb') as arquivo:
+                    for chunk in resposta.iter_content(1024):
+                        arquivo.write(chunk)
+                print(f"Imagem salva: {img_path}")
+                return img_path
+        except Exception as e:
+            print(f"Erro ao salvar imagem: {e}")
+        return None
+
+    def extrair_telefones_imagem(self, img_path):
+        """Extrai telefones de uma imagem."""
+        lista_cortes_imagem = [
+            (0, 255, 100, 275),  # Coordenadas: esquerda, cima, direita, baixo
+            (0, 275, 100, 300)
+        ]
+
+        resultados = {}
+        for i, coordenadas in enumerate(lista_cortes_imagem):
+            image = Image.open(img_path)
+            cropped_imagem = image.crop(coordenadas)
+            sharpened_imagem = cropped_imagem.filter(ImageFilter.SHARPEN)
+
+            ocr_config = '--psm 11 --oem 3 -c tessedit_char_whitelist=1234567890()-'
+            result = pytesseract.image_to_string(sharpened_imagem, config=ocr_config)
+            result = result.strip().replace(chr(32), "").replace("\n", "")
+
+            resultados[f"telefone_{i}"] = result
+
+        return resultados
+
+    def coleta_sociedade(self, url):
+        """Faz um POST na URL e extrai o ID do formulário no atributo action."""
+        try:
+            resposta = self.sessao.post(BASE_URL + url, headers={'Content-Type': 'application/x-www-form-urlencoded'})
+            if resposta.status_code == 200:
+                soup = BeautifulSoup(resposta.text, 'html.parser')
+                form = soup.find('form')  # Encontrar o primeiro formulário
+                if form and 'action' in form.attrs:
+                    action_url = form['action']
+                    # Extrair o ID do `action` (assumindo que está no final da URL)
+                    id_extracted = action_url.split('/')[-1]
+                    print(f"ID extraído: {id_extracted}")
+                    return {"id": id_extracted, "action_url": action_url}
                 else:
-                    print(f"URL não encontrada no arquivo: {arquivo}")
-                    resultado = {"erro": "URL não encontrada", "url": None}
-            
-            caminho_saida = os.path.join(PASTAS['SaidaSelenium'], arquivo)
-            with open(caminho_saida, 'w', encoding='utf-8') as f_out:
-                json.dump(resultado, f_out, ensure_ascii=False, indent=4)
-            print(f"Arquivo processado e salvo em: {caminho_saida}")
-    driver.quit()
-
-def main():
-    NomeAdvo = input("Digite o nome do Advogado: ").strip()
-    sessao_cna = SessaoCNA(NomeAdvo)
-    sessao_cna.enviar_requisicao()
-    processar_arquivos_selenium()
+                    print("Formulário ou atributo 'action' não encontrado.")
+                    return {"erro": "Formulário ou action ausente."}
+            else:
+                print(f"Erro na requisição POST. Status: {resposta.status_code}")
+                print(f"Conteúdo retornado: {resposta.text[:500]}")
+                return {"erro": f"HTTP {resposta.status_code}"}
+        except Exception as e:
+            print(f"Erro ao coletar sociedade: {e}")
+            return {"erro": str(e)}
 
 if __name__ == "__main__":
-    main()
+    caminho_lista_nomes = "lista_nomes.txt"
+    if not os.path.exists(caminho_lista_nomes):
+        raise ValueError(f"Arquivo {caminho_lista_nomes} não encontrado!")
+
+    with open(caminho_lista_nomes, 'r', encoding='utf-8') as arquivo:
+        nomes = [linha.strip() for linha in arquivo.readlines() if linha.strip()]
+
+    if not nomes:
+        raise ValueError(f"Nenhum nome encontrado na lista!")
+
+    resultados = {}
+    busca_cna = BuscaCNA()
+    for nome in nomes:
+        print(f"Processando nome: {nome}")
+        resultados_nome = busca_cna.busca_nome(nome)
+        salvar_em_arquivo(PASTAS['saida_CNA'], nome + ".json", resultados_nome)
+        resultados[nome] = resultados_nome
