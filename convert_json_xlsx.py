@@ -1,6 +1,6 @@
 import pandas as pd
 
-data = pd.read_json('resultado_combinado.json')
+data = pd.read_json('Ricardo.json')
 
 data.to_excel('resultado_combinado.xlsx', index=False)
 

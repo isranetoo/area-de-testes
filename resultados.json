@@ -1,0 +1,672 @@
+[
+    {
+        "numero": "1007168-33.2023.8.26.0001",
+        "valorDaCausa": null,
+        "area_code": null,
+        "tribunal_code": null,
+        "vara_code": null,
+        "area": null,
+        "tribunal": "TJ-SP",
+        "instancias": [
+            {
+                "fonte_script": "Scrapper",
+                "fonte_sistema": "TJ-SP",
+                "fonte_tipo": "TRIBUNAL",
+                "fonte_url": "https://esaj.tjsp.jus.br/",
+                "grau": null,
+                "classe": null,
+                "orgaoJulgador": "4ª Câmara de Direito Privado",
+                "segredoJustica": null,
+                "justicaGratuita": null,
+                "assunto_principal": null,
+                "assuntos": "Apelação Cível / Tratamento médico-hospitalar",
+                "first_mov": "2024-09-26T11:43:42.215",
+                "last_mov": "2024-12-26T11:43:41.894",
+                "envolvidos": [
+                    {
+                        "nome": "J. M. R. I.",
+                        "tipo": "RECLAMANTE",
+                        "polo": "ATIVO",
+                        "id_sistema": {
+                            "login": "03411657430"
+                        },
+                        "documento": [],
+                        "endereco": {},
+                        "representantes": [
+                            {
+                                "nome": "RENE GOMES DA VEIGA PESSOA JUNIOR",
+                                "tipo": "ADVOGADO",
+                                "polo": "ATIVO",
+                                "id_sistema": {
+                                    "login": "03867168466"
+                                },
+                                "documento": [
+                                    {
+                                        "CPF": "038.671.684-66"
+                                    }
+                                ],
+                                "endereco": {
+                                    "logradouro": "CARACOL",
+                                    "numero": "00",
+                                    "complemento": "BL 02 AP 302",
+                                    "bairro": "CANDEIAS",
+                                    "municipio": "JABOATAO DOS GUARARAPES",
+                                    "estado": "PE",
+                                    "cep": "54430-180"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "Relator(a)": "Vitor Frederico Kümpel",
+        "Comarca": "Comarca: São Paulo",
+        "Data do julgamento": "Data do julgamento: 22/12/2024",
+        "Data de publicação": "Data de publicação: 22/12/2024",
+        "Ementa": "Ementa: AGRAVO DE INSTRUMENTO - JUSTIÇA GRATUITA – Pessoa física – Requisitos legais previstos no artigo 98 do CPC e no artigo 5°, inciso LXXIV, da Constituição Federal – Preenchimento – Necessidade para concessão da gratuidade processual: – Apenas diante do preenchimento dos requisitos legais previstos no artigo 98 do CP e no artigo 5°, inciso LXXIV, da Constituição Federal, é que se admite a"
+    },
+    {
+        "numero": "2295309-93.2024.8.26.0000",
+        "valorDaCausa": null,
+        "area_code": null,
+        "tribunal_code": null,
+        "vara_code": null,
+        "area": null,
+        "tribunal": "TJ-SP",
+        "instancias": [
+            {
+                "fonte_script": "Scrapper",
+                "fonte_sistema": "TJ-SP",
+                "fonte_tipo": "TRIBUNAL",
+                "fonte_url": "https://esaj.tjsp.jus.br/",
+                "grau": null,
+                "classe": null,
+                "orgaoJulgador": "13ª Câmara de Direito Privado",
+                "segredoJustica": null,
+                "justicaGratuita": null,
+                "assunto_principal": null,
+                "assuntos": "Agravo de Instrumento / Bancários",
+                "first_mov": "2024-09-26T11:43:42.215",
+                "last_mov": "2024-12-26T11:43:41.894",
+                "envolvidos": [
+                    {
+                        "nome": "J. M. R. I.",
+                        "tipo": "RECLAMANTE",
+                        "polo": "ATIVO",
+                        "id_sistema": {
+                            "login": "03411657430"
+                        },
+                        "documento": [],
+                        "endereco": {},
+                        "representantes": [
+                            {
+                                "nome": "RENE GOMES DA VEIGA PESSOA JUNIOR",
+                                "tipo": "ADVOGADO",
+                                "polo": "ATIVO",
+                                "id_sistema": {
+                                    "login": "03867168466"
+                                },
+                                "documento": [
+                                    {
+                                        "CPF": "038.671.684-66"
+                                    }
+                                ],
+                                "endereco": {
+                                    "logradouro": "CARACOL",
+                                    "numero": "00",
+                                    "complemento": "BL 02 AP 302",
+                                    "bairro": "CANDEIAS",
+                                    "municipio": "JABOATAO DOS GUARARAPES",
+                                    "estado": "PE",
+                                    "cep": "54430-180"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "Relator(a)": "Nelson Jorge Júnior",
+        "Comarca": "Comarca: Praia Grande",
+        "Data do julgamento": "Data do julgamento: 22/12/2024",
+        "Data de publicação": "Data de publicação: 22/12/2024",
+        "Ementa": "Ementa: AGRAVO DE INSTRUMENTO - JUSTIÇA GRATUITA – Pessoa física – Requisitos legais previstos no artigo 98 do CPC e no artigo 5°, inciso LXXIV, da Constituição Federal – Preenchimento – Necessidade para concessão da gratuidade processual: – Apenas diante do preenchimento dos requisitos legais previstos no artigo 98 do CP e no artigo 5°, inciso LXXIV, da Constituição Federal, é que se admite a"
+    },
+    {
+        "numero": "2360791-85.2024.8.26.0000",
+        "valorDaCausa": null,
+        "area_code": null,
+        "tribunal_code": null,
+        "vara_code": null,
+        "area": null,
+        "tribunal": "TJ-SP",
+        "instancias": [
+            {
+                "fonte_script": "Scrapper",
+                "fonte_sistema": "TJ-SP",
+                "fonte_tipo": "TRIBUNAL",
+                "fonte_url": "https://esaj.tjsp.jus.br/",
+                "grau": null,
+                "classe": null,
+                "orgaoJulgador": "27ª Câmara de Direito Privado",
+                "segredoJustica": null,
+                "justicaGratuita": null,
+                "assunto_principal": null,
+                "assuntos": "Agravo de Instrumento / Alienação Fiduciária",
+                "first_mov": "2024-09-26T11:43:42.215",
+                "last_mov": "2024-12-26T11:43:41.894",
+                "envolvidos": [
+                    {
+                        "nome": "J. M. R. I.",
+                        "tipo": "RECLAMANTE",
+                        "polo": "ATIVO",
+                        "id_sistema": {
+                            "login": "03411657430"
+                        },
+                        "documento": [],
+                        "endereco": {},
+                        "representantes": [
+                            {
+                                "nome": "RENE GOMES DA VEIGA PESSOA JUNIOR",
+                                "tipo": "ADVOGADO",
+                                "polo": "ATIVO",
+                                "id_sistema": {
+                                    "login": "03867168466"
+                                },
+                                "documento": [
+                                    {
+                                        "CPF": "038.671.684-66"
+                                    }
+                                ],
+                                "endereco": {
+                                    "logradouro": "CARACOL",
+                                    "numero": "00",
+                                    "complemento": "BL 02 AP 302",
+                                    "bairro": "CANDEIAS",
+                                    "municipio": "JABOATAO DOS GUARARAPES",
+                                    "estado": "PE",
+                                    "cep": "54430-180"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "Relator(a)": "Daise Fajardo Nogueira Jacot",
+        "Comarca": "Comarca: Atibaia",
+        "Data do julgamento": "Data do julgamento: 22/12/2024",
+        "Data de publicação": "Data de publicação: 22/12/2024",
+        "Ementa": "Ementa: AGRAVO DE INSTRUMENTO - JUSTIÇA GRATUITA – Pessoa física – Requisitos legais previstos no artigo 98 do CPC e no artigo 5°, inciso LXXIV, da Constituição Federal – Preenchimento – Necessidade para concessão da gratuidade processual: – Apenas diante do preenchimento dos requisitos legais previstos no artigo 98 do CP e no artigo 5°, inciso LXXIV, da Constituição Federal, é que se admite a"
+    },
+    {
+        "numero": "2281835-55.2024.8.26.0000",
+        "valorDaCausa": null,
+        "area_code": null,
+        "tribunal_code": null,
+        "vara_code": null,
+        "area": null,
+        "tribunal": "TJ-SP",
+        "instancias": [
+            {
+                "fonte_script": "Scrapper",
+                "fonte_sistema": "TJ-SP",
+                "fonte_tipo": "TRIBUNAL",
+                "fonte_url": "https://esaj.tjsp.jus.br/",
+                "grau": null,
+                "classe": null,
+                "orgaoJulgador": "26ª Câmara de Direito Privado",
+                "segredoJustica": null,
+                "justicaGratuita": null,
+                "assunto_principal": null,
+                "assuntos": "Agravo de Instrumento / Locação de Imóvel",
+                "first_mov": "2024-09-26T11:43:42.215",
+                "last_mov": "2024-12-26T11:43:41.894",
+                "envolvidos": [
+                    {
+                        "nome": "J. M. R. I.",
+                        "tipo": "RECLAMANTE",
+                        "polo": "ATIVO",
+                        "id_sistema": {
+                            "login": "03411657430"
+                        },
+                        "documento": [],
+                        "endereco": {},
+                        "representantes": [
+                            {
+                                "nome": "RENE GOMES DA VEIGA PESSOA JUNIOR",
+                                "tipo": "ADVOGADO",
+                                "polo": "ATIVO",
+                                "id_sistema": {
+                                    "login": "03867168466"
+                                },
+                                "documento": [
+                                    {
+                                        "CPF": "038.671.684-66"
+                                    }
+                                ],
+                                "endereco": {
+                                    "logradouro": "CARACOL",
+                                    "numero": "00",
+                                    "complemento": "BL 02 AP 302",
+                                    "bairro": "CANDEIAS",
+                                    "municipio": "JABOATAO DOS GUARARAPES",
+                                    "estado": "PE",
+                                    "cep": "54430-180"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "Relator(a)": "Morais Pucci",
+        "Comarca": "Comarca: São Paulo",
+        "Data do julgamento": "Data do julgamento: 22/12/2024",
+        "Data de publicação": "Data de publicação: 22/12/2024",
+        "Ementa": "Ementa: AGRAVO DE INSTRUMENTO - JUSTIÇA GRATUITA – Pessoa física – Requisitos legais previstos no artigo 98 do CPC e no artigo 5°, inciso LXXIV, da Constituição Federal – Preenchimento – Necessidade para concessão da gratuidade processual: – Apenas diante do preenchimento dos requisitos legais previstos no artigo 98 do CP e no artigo 5°, inciso LXXIV, da Constituição Federal, é que se admite a"
+    },
+    {
+        "numero": "1018416-57.2021.8.26.0068",
+        "valorDaCausa": null,
+        "area_code": null,
+        "tribunal_code": null,
+        "vara_code": null,
+        "area": null,
+        "tribunal": "TJ-SP",
+        "instancias": [
+            {
+                "fonte_script": "Scrapper",
+                "fonte_sistema": "TJ-SP",
+                "fonte_tipo": "TRIBUNAL",
+                "fonte_url": "https://esaj.tjsp.jus.br/",
+                "grau": null,
+                "classe": null,
+                "orgaoJulgador": "26ª Câmara de Direito Privado",
+                "segredoJustica": null,
+                "justicaGratuita": null,
+                "assunto_principal": null,
+                "assuntos": "Apelação Cível / Fornecimento de Energia Elétrica",
+                "first_mov": "2024-09-26T11:43:42.215",
+                "last_mov": "2024-12-26T11:43:41.894",
+                "envolvidos": [
+                    {
+                        "nome": "J. M. R. I.",
+                        "tipo": "RECLAMANTE",
+                        "polo": "ATIVO",
+                        "id_sistema": {
+                            "login": "03411657430"
+                        },
+                        "documento": [],
+                        "endereco": {},
+                        "representantes": [
+                            {
+                                "nome": "RENE GOMES DA VEIGA PESSOA JUNIOR",
+                                "tipo": "ADVOGADO",
+                                "polo": "ATIVO",
+                                "id_sistema": {
+                                    "login": "03867168466"
+                                },
+                                "documento": [
+                                    {
+                                        "CPF": "038.671.684-66"
+                                    }
+                                ],
+                                "endereco": {
+                                    "logradouro": "CARACOL",
+                                    "numero": "00",
+                                    "complemento": "BL 02 AP 302",
+                                    "bairro": "CANDEIAS",
+                                    "municipio": "JABOATAO DOS GUARARAPES",
+                                    "estado": "PE",
+                                    "cep": "54430-180"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "Relator(a)": "Morais Pucci",
+        "Comarca": "Comarca: São Paulo",
+        "Data do julgamento": "Data do julgamento: 22/12/2024",
+        "Data de publicação": "Data de publicação: 22/12/2024",
+        "Ementa": "Ementa: AGRAVO DE INSTRUMENTO - JUSTIÇA GRATUITA – Pessoa física – Requisitos legais previstos no artigo 98 do CPC e no artigo 5°, inciso LXXIV, da Constituição Federal – Preenchimento – Necessidade para concessão da gratuidade processual: – Apenas diante do preenchimento dos requisitos legais previstos no artigo 98 do CP e no artigo 5°, inciso LXXIV, da Constituição Federal, é que se admite a"
+    },
+    {
+        "numero": "2352559-84.2024.8.26.0000",
+        "valorDaCausa": null,
+        "area_code": null,
+        "tribunal_code": null,
+        "vara_code": null,
+        "area": null,
+        "tribunal": "TJ-SP",
+        "instancias": [
+            {
+                "fonte_script": "Scrapper",
+                "fonte_sistema": "TJ-SP",
+                "fonte_tipo": "TRIBUNAL",
+                "fonte_url": "https://esaj.tjsp.jus.br/",
+                "grau": null,
+                "classe": null,
+                "orgaoJulgador": "31ª Câmara de Direito Privado",
+                "segredoJustica": null,
+                "justicaGratuita": null,
+                "assunto_principal": null,
+                "assuntos": "Agravo de Instrumento / Fornecimento de Energia Elétrica",
+                "first_mov": "2024-09-26T11:43:42.215",
+                "last_mov": "2024-12-26T11:43:41.894",
+                "envolvidos": [
+                    {
+                        "nome": "J. M. R. I.",
+                        "tipo": "RECLAMANTE",
+                        "polo": "ATIVO",
+                        "id_sistema": {
+                            "login": "03411657430"
+                        },
+                        "documento": [],
+                        "endereco": {},
+                        "representantes": [
+                            {
+                                "nome": "RENE GOMES DA VEIGA PESSOA JUNIOR",
+                                "tipo": "ADVOGADO",
+                                "polo": "ATIVO",
+                                "id_sistema": {
+                                    "login": "03867168466"
+                                },
+                                "documento": [
+                                    {
+                                        "CPF": "038.671.684-66"
+                                    }
+                                ],
+                                "endereco": {
+                                    "logradouro": "CARACOL",
+                                    "numero": "00",
+                                    "complemento": "BL 02 AP 302",
+                                    "bairro": "CANDEIAS",
+                                    "municipio": "JABOATAO DOS GUARARAPES",
+                                    "estado": "PE",
+                                    "cep": "54430-180"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "Relator(a)": "Rosangela Telles",
+        "Comarca": "Comarca: Bebedouro",
+        "Data do julgamento": "Data do julgamento: 19/12/2024",
+        "Data de publicação": "Data de publicação: 22/12/2024",
+        "Ementa": "Ementa: AGRAVO DE INSTRUMENTO - JUSTIÇA GRATUITA – Pessoa física – Requisitos legais previstos no artigo 98 do CPC e no artigo 5°, inciso LXXIV, da Constituição Federal – Preenchimento – Necessidade para concessão da gratuidade processual: – Apenas diante do preenchimento dos requisitos legais previstos no artigo 98 do CP e no artigo 5°, inciso LXXIV, da Constituição Federal, é que se admite a"
+    },
+    {
+        "numero": "0000683-44.2013.8.26.0596",
+        "valorDaCausa": null,
+        "area_code": null,
+        "tribunal_code": null,
+        "vara_code": null,
+        "area": null,
+        "tribunal": "TJ-SP",
+        "instancias": [
+            {
+                "fonte_script": "Scrapper",
+                "fonte_sistema": "TJ-SP",
+                "fonte_tipo": "TRIBUNAL",
+                "fonte_url": "https://esaj.tjsp.jus.br/",
+                "grau": null,
+                "classe": null,
+                "orgaoJulgador": "37ª Câmara de Direito Privado",
+                "segredoJustica": null,
+                "justicaGratuita": null,
+                "assunto_principal": null,
+                "assuntos": "Apelação Cível / Contratos Bancários",
+                "first_mov": "2024-09-26T11:43:42.215",
+                "last_mov": "2024-12-26T11:43:41.894",
+                "envolvidos": [
+                    {
+                        "nome": "J. M. R. I.",
+                        "tipo": "RECLAMANTE",
+                        "polo": "ATIVO",
+                        "id_sistema": {
+                            "login": "03411657430"
+                        },
+                        "documento": [],
+                        "endereco": {},
+                        "representantes": [
+                            {
+                                "nome": "RENE GOMES DA VEIGA PESSOA JUNIOR",
+                                "tipo": "ADVOGADO",
+                                "polo": "ATIVO",
+                                "id_sistema": {
+                                    "login": "03867168466"
+                                },
+                                "documento": [
+                                    {
+                                        "CPF": "038.671.684-66"
+                                    }
+                                ],
+                                "endereco": {
+                                    "logradouro": "CARACOL",
+                                    "numero": "00",
+                                    "complemento": "BL 02 AP 302",
+                                    "bairro": "CANDEIAS",
+                                    "municipio": "JABOATAO DOS GUARARAPES",
+                                    "estado": "PE",
+                                    "cep": "54430-180"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "Relator(a)": "José Wagner de Oliveira Melatto Peixoto",
+        "Comarca": "Comarca: Serrana",
+        "Data do julgamento": "Data do julgamento: 17/12/2024",
+        "Data de publicação": "Data de publicação: 22/12/2024",
+        "Ementa": "Ementa: AGRAVO DE INSTRUMENTO - JUSTIÇA GRATUITA – Pessoa física – Requisitos legais previstos no artigo 98 do CPC e no artigo 5°, inciso LXXIV, da Constituição Federal – Preenchimento – Necessidade para concessão da gratuidade processual: – Apenas diante do preenchimento dos requisitos legais previstos no artigo 98 do CP e no artigo 5°, inciso LXXIV, da Constituição Federal, é que se admite a"
+    },
+    {
+        "numero": "2336525-34.2024.8.26.0000",
+        "valorDaCausa": null,
+        "area_code": null,
+        "tribunal_code": null,
+        "vara_code": null,
+        "area": null,
+        "tribunal": "TJ-SP",
+        "instancias": [
+            {
+                "fonte_script": "Scrapper",
+                "fonte_sistema": "TJ-SP",
+                "fonte_tipo": "TRIBUNAL",
+                "fonte_url": "https://esaj.tjsp.jus.br/",
+                "grau": null,
+                "classe": null,
+                "orgaoJulgador": "18ª Câmara de Direito Privado",
+                "segredoJustica": null,
+                "justicaGratuita": null,
+                "assunto_principal": null,
+                "assuntos": "Agravo de Instrumento / Contratos Bancários",
+                "first_mov": "2024-09-26T11:43:42.215",
+                "last_mov": "2024-12-26T11:43:41.894",
+                "envolvidos": [
+                    {
+                        "nome": "J. M. R. I.",
+                        "tipo": "RECLAMANTE",
+                        "polo": "ATIVO",
+                        "id_sistema": {
+                            "login": "03411657430"
+                        },
+                        "documento": [],
+                        "endereco": {},
+                        "representantes": [
+                            {
+                                "nome": "RENE GOMES DA VEIGA PESSOA JUNIOR",
+                                "tipo": "ADVOGADO",
+                                "polo": "ATIVO",
+                                "id_sistema": {
+                                    "login": "03867168466"
+                                },
+                                "documento": [
+                                    {
+                                        "CPF": "038.671.684-66"
+                                    }
+                                ],
+                                "endereco": {
+                                    "logradouro": "CARACOL",
+                                    "numero": "00",
+                                    "complemento": "BL 02 AP 302",
+                                    "bairro": "CANDEIAS",
+                                    "municipio": "JABOATAO DOS GUARARAPES",
+                                    "estado": "PE",
+                                    "cep": "54430-180"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "Relator(a)": "Helio Faria",
+        "Comarca": "Comarca: Nova Odessa",
+        "Data do julgamento": "Data do julgamento: 21/12/2024",
+        "Data de publicação": "Data de publicação: 22/12/2024",
+        "Ementa": "Ementa: AGRAVO DE INSTRUMENTO - JUSTIÇA GRATUITA – Pessoa física – Requisitos legais previstos no artigo 98 do CPC e no artigo 5°, inciso LXXIV, da Constituição Federal – Preenchimento – Necessidade para concessão da gratuidade processual: – Apenas diante do preenchimento dos requisitos legais previstos no artigo 98 do CP e no artigo 5°, inciso LXXIV, da Constituição Federal, é que se admite a"
+    },
+    {
+        "numero": "1037954-20.2024.8.26.0100",
+        "valorDaCausa": null,
+        "area_code": null,
+        "tribunal_code": null,
+        "vara_code": null,
+        "area": null,
+        "tribunal": "TJ-SP",
+        "instancias": [
+            {
+                "fonte_script": "Scrapper",
+                "fonte_sistema": "TJ-SP",
+                "fonte_tipo": "TRIBUNAL",
+                "fonte_url": "https://esaj.tjsp.jus.br/",
+                "grau": null,
+                "classe": null,
+                "orgaoJulgador": "18ª Câmara de Direito Privado",
+                "segredoJustica": null,
+                "justicaGratuita": null,
+                "assunto_principal": null,
+                "assuntos": "Apelação Cível / Bancários",
+                "first_mov": "2024-09-26T11:43:42.215",
+                "last_mov": "2024-12-26T11:43:41.894",
+                "envolvidos": [
+                    {
+                        "nome": "J. M. R. I.",
+                        "tipo": "RECLAMANTE",
+                        "polo": "ATIVO",
+                        "id_sistema": {
+                            "login": "03411657430"
+                        },
+                        "documento": [],
+                        "endereco": {},
+                        "representantes": [
+                            {
+                                "nome": "RENE GOMES DA VEIGA PESSOA JUNIOR",
+                                "tipo": "ADVOGADO",
+                                "polo": "ATIVO",
+                                "id_sistema": {
+                                    "login": "03867168466"
+                                },
+                                "documento": [
+                                    {
+                                        "CPF": "038.671.684-66"
+                                    }
+                                ],
+                                "endereco": {
+                                    "logradouro": "CARACOL",
+                                    "numero": "00",
+                                    "complemento": "BL 02 AP 302",
+                                    "bairro": "CANDEIAS",
+                                    "municipio": "JABOATAO DOS GUARARAPES",
+                                    "estado": "PE",
+                                    "cep": "54430-180"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "Relator(a)": "Helio Faria",
+        "Comarca": "Comarca: São Paulo",
+        "Data do julgamento": "Data do julgamento: 21/12/2024",
+        "Data de publicação": "Data de publicação: 22/12/2024",
+        "Ementa": "Ementa: AGRAVO DE INSTRUMENTO - JUSTIÇA GRATUITA – Pessoa física – Requisitos legais previstos no artigo 98 do CPC e no artigo 5°, inciso LXXIV, da Constituição Federal – Preenchimento – Necessidade para concessão da gratuidade processual: – Apenas diante do preenchimento dos requisitos legais previstos no artigo 98 do CP e no artigo 5°, inciso LXXIV, da Constituição Federal, é que se admite a"
+    },
+    {
+        "numero": "2337645-15.2024.8.26.0000",
+        "valorDaCausa": null,
+        "area_code": null,
+        "tribunal_code": null,
+        "vara_code": null,
+        "area": null,
+        "tribunal": "TJ-SP",
+        "instancias": [
+            {
+                "fonte_script": "Scrapper",
+                "fonte_sistema": "TJ-SP",
+                "fonte_tipo": "TRIBUNAL",
+                "fonte_url": "https://esaj.tjsp.jus.br/",
+                "grau": null,
+                "classe": null,
+                "orgaoJulgador": "18ª Câmara de Direito Privado",
+                "segredoJustica": null,
+                "justicaGratuita": null,
+                "assunto_principal": null,
+                "assuntos": "Agravo de Instrumento / Cédula de Crédito Bancário",
+                "first_mov": "2024-09-26T11:43:42.215",
+                "last_mov": "2024-12-26T11:43:41.894",
+                "envolvidos": [
+                    {
+                        "nome": "J. M. R. I.",
+                        "tipo": "RECLAMANTE",
+                        "polo": "ATIVO",
+                        "id_sistema": {
+                            "login": "03411657430"
+                        },
+                        "documento": [],
+                        "endereco": {},
+                        "representantes": [
+                            {
+                                "nome": "RENE GOMES DA VEIGA PESSOA JUNIOR",
+                                "tipo": "ADVOGADO",
+                                "polo": "ATIVO",
+                                "id_sistema": {
+                                    "login": "03867168466"
+                                },
+                                "documento": [
+                                    {
+                                        "CPF": "038.671.684-66"
+                                    }
+                                ],
+                                "endereco": {
+                                    "logradouro": "CARACOL",
+                                    "numero": "00",
+                                    "complemento": "BL 02 AP 302",
+                                    "bairro": "CANDEIAS",
+                                    "municipio": "JABOATAO DOS GUARARAPES",
+                                    "estado": "PE",
+                                    "cep": "54430-180"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "Relator(a)": "Helio Faria",
+        "Comarca": "Comarca: Guarulhos",
+        "Data do julgamento": "Data do julgamento: 21/12/2024",
+        "Data de publicação": "Data de publicação: 22/12/2024",
+        "Ementa": "Ementa: AGRAVO DE INSTRUMENTO - JUSTIÇA GRATUITA – Pessoa física – Requisitos legais previstos no artigo 98 do CPC e no artigo 5°, inciso LXXIV, da Constituição Federal – Preenchimento – Necessidade para concessão da gratuidade processual: – Apenas diante do preenchimento dos requisitos legais previstos no artigo 98 do CP e no artigo 5°, inciso LXXIV, da Constituição Federal, é que se admite a"
+    }
+]
