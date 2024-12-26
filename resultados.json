@@ -1,12 +1,13 @@
 [
     {
-        "numero": "1007168-33.2023.8.26.0001",
+        "numero": "1130074-53.2022.8.26.0100",
         "valorDaCausa": null,
         "area_code": null,
         "tribunal_code": null,
         "vara_code": null,
         "area": null,
         "tribunal": "TJ-SP",
+        "comarca": "São Paulo",
         "instancias": [
             {
                 "fonte_script": "Scrapper",
@@ -15,132 +16,140 @@
                 "fonte_url": "https://esaj.tjsp.jus.br/",
                 "grau": null,
                 "classe": null,
-                "orgaoJulgador": "4ª Câmara de Direito Privado",
+                "orgaoJulgador": "12ª Câmara de Direito Privado",
                 "segredoJustica": null,
                 "justicaGratuita": null,
                 "assunto_principal": null,
-                "assuntos": "Apelação Cível / Tratamento médico-hospitalar",
-                "first_mov": "2024-09-26T11:43:42.215",
-                "last_mov": "2024-12-26T11:43:41.894",
+                "assuntos": "Apelação Cível / Cartão de Crédito",
+                "first_mov": null,
+                "last_mov": "26/12/2024",
                 "envolvidos": [
                     {
-                        "nome": "J. M. R. I.",
+                        "nome": null,
                         "tipo": "RECLAMANTE",
                         "polo": "ATIVO",
                         "id_sistema": {
-                            "login": "03411657430"
+                            "login": null
                         },
                         "documento": [],
                         "endereco": {},
                         "representantes": [
                             {
-                                "nome": "RENE GOMES DA VEIGA PESSOA JUNIOR",
+                                "nome": null,
                                 "tipo": "ADVOGADO",
                                 "polo": "ATIVO",
                                 "id_sistema": {
-                                    "login": "03867168466"
+                                    "login": null
                                 },
                                 "documento": [
                                     {
-                                        "CPF": "038.671.684-66"
+                                        "CPF": null
                                     }
                                 ],
                                 "endereco": {
-                                    "logradouro": "CARACOL",
-                                    "numero": "00",
-                                    "complemento": "BL 02 AP 302",
-                                    "bairro": "CANDEIAS",
-                                    "municipio": "JABOATAO DOS GUARARAPES",
-                                    "estado": "PE",
-                                    "cep": "54430-180"
+                                    "logradouro": null,
+                                    "numero": null,
+                                    "complemento": null,
+                                    "bairro": null,
+                                    "municipio": null,
+                                    "estado": null,
+                                    "cep": null
                                 }
                             }
                         ]
-                    }
-                ]
-            }
-        ],
-        "Relator(a)": "Vitor Frederico Kümpel",
-        "Comarca": "Comarca: São Paulo",
-        "Data do julgamento": "Data do julgamento: 22/12/2024",
-        "Data de publicação": "Data de publicação: 22/12/2024",
-        "Ementa": "Ementa: AGRAVO DE INSTRUMENTO - JUSTIÇA GRATUITA – Pessoa física – Requisitos legais previstos no artigo 98 do CPC e no artigo 5°, inciso LXXIV, da Constituição Federal – Preenchimento – Necessidade para concessão da gratuidade processual: – Apenas diante do preenchimento dos requisitos legais previstos no artigo 98 do CP e no artigo 5°, inciso LXXIV, da Constituição Federal, é que se admite a"
-    },
-    {
-        "numero": "2295309-93.2024.8.26.0000",
-        "valorDaCausa": null,
-        "area_code": null,
-        "tribunal_code": null,
-        "vara_code": null,
-        "area": null,
-        "tribunal": "TJ-SP",
-        "instancias": [
-            {
-                "fonte_script": "Scrapper",
-                "fonte_sistema": "TJ-SP",
-                "fonte_tipo": "TRIBUNAL",
-                "fonte_url": "https://esaj.tjsp.jus.br/",
-                "grau": null,
-                "classe": null,
-                "orgaoJulgador": "13ª Câmara de Direito Privado",
-                "segredoJustica": null,
-                "justicaGratuita": null,
-                "assunto_principal": null,
-                "assuntos": "Agravo de Instrumento / Bancários",
-                "first_mov": "2024-09-26T11:43:42.215",
-                "last_mov": "2024-12-26T11:43:41.894",
-                "envolvidos": [
+                    },
                     {
-                        "nome": "J. M. R. I.",
-                        "tipo": "RECLAMANTE",
-                        "polo": "ATIVO",
+                        "nome": null,
+                        "tipo": "RECLAMADO",
+                        "polo": "PASSIVO",
                         "id_sistema": {
-                            "login": "03411657430"
+                            "login": null
                         },
                         "documento": [],
                         "endereco": {},
                         "representantes": [
                             {
-                                "nome": "RENE GOMES DA VEIGA PESSOA JUNIOR",
+                                "nome": null,
                                 "tipo": "ADVOGADO",
-                                "polo": "ATIVO",
+                                "polo": "PASSIVO",
                                 "id_sistema": {
-                                    "login": "03867168466"
+                                    "login": null
                                 },
                                 "documento": [
                                     {
-                                        "CPF": "038.671.684-66"
+                                        "CPF": null
                                     }
                                 ],
                                 "endereco": {
-                                    "logradouro": "CARACOL",
-                                    "numero": "00",
-                                    "complemento": "BL 02 AP 302",
-                                    "bairro": "CANDEIAS",
-                                    "municipio": "JABOATAO DOS GUARARAPES",
-                                    "estado": "PE",
-                                    "cep": "54430-180"
+                                    "logradouro": null,
+                                    "numero": null,
+                                    "complemento": null,
+                                    "bairro": null,
+                                    "municipio": null,
+                                    "estado": null,
+                                    "cep": null
                                 }
                             }
                         ]
+                    },
+                    {
+                        "nome": "Jacob Valente",
+                        "tipo": "RELATOR(A)",
+                        "polo": "OUTROS",
+                        "id_sistema": {
+                            "login": null
+                        },
+                        "documento": [],
+                        "endereco": {},
+                        "representantes": []
+                    }
+                ],
+                "movimentacoes": [
+                    {
+                        "titulo": "Data de publicação",
+                        "tipoConteudo": "HTML",
+                        "data": "26/12/2024",
+                        "ativo": null,
+                        "documento": null,
+                        "mostrarHeaderData": null,
+                        "usuarioCriador": null
+                    },
+                    {
+                        "titulo": null,
+                        "tipoConteudo": null,
+                        "data": null,
+                        "ativo": null,
+                        "documento": null,
+                        "usuarioCriador": null
+                    },
+                    {
+                        "id": null,
+                        "idUnicoDocumento": null,
+                        "titulo": "Ata da Audieancia",
+                        "tipo": "Ata da Audieancia",
+                        "tipoConteudo": "PDF",
+                        "data": "26/12/2024",
+                        "ativo": null,
+                        "documentoSigiloso": null,
+                        "usuarioPerito": null,
+                        "publico": null,
+                        "usuarioJuntada": null,
+                        "usuarioCriador": null,
+                        "instancia": null
                     }
                 ]
             }
-        ],
-        "Relator(a)": "Nelson Jorge Júnior",
-        "Comarca": "Comarca: Praia Grande",
-        "Data do julgamento": "Data do julgamento: 22/12/2024",
-        "Data de publicação": "Data de publicação: 22/12/2024",
-        "Ementa": "Ementa: AGRAVO DE INSTRUMENTO - JUSTIÇA GRATUITA – Pessoa física – Requisitos legais previstos no artigo 98 do CPC e no artigo 5°, inciso LXXIV, da Constituição Federal – Preenchimento – Necessidade para concessão da gratuidade processual: – Apenas diante do preenchimento dos requisitos legais previstos no artigo 98 do CP e no artigo 5°, inciso LXXIV, da Constituição Federal, é que se admite a"
+        ]
     },
     {
-        "numero": "2360791-85.2024.8.26.0000",
+        "numero": "1010755-51.2023.8.26.0005",
         "valorDaCausa": null,
         "area_code": null,
         "tribunal_code": null,
         "vara_code": null,
         "area": null,
         "tribunal": "TJ-SP",
+        "comarca": "São Paulo",
         "instancias": [
             {
                 "fonte_script": "Scrapper",
@@ -149,132 +158,140 @@
                 "fonte_url": "https://esaj.tjsp.jus.br/",
                 "grau": null,
                 "classe": null,
-                "orgaoJulgador": "27ª Câmara de Direito Privado",
+                "orgaoJulgador": "12ª Câmara de Direito Privado",
                 "segredoJustica": null,
                 "justicaGratuita": null,
                 "assunto_principal": null,
-                "assuntos": "Agravo de Instrumento / Alienação Fiduciária",
-                "first_mov": "2024-09-26T11:43:42.215",
-                "last_mov": "2024-12-26T11:43:41.894",
+                "assuntos": "Apelação Cível / Cartão de Crédito",
+                "first_mov": null,
+                "last_mov": "26/12/2024",
                 "envolvidos": [
                     {
-                        "nome": "J. M. R. I.",
+                        "nome": null,
                         "tipo": "RECLAMANTE",
                         "polo": "ATIVO",
                         "id_sistema": {
-                            "login": "03411657430"
+                            "login": null
                         },
                         "documento": [],
                         "endereco": {},
                         "representantes": [
                             {
-                                "nome": "RENE GOMES DA VEIGA PESSOA JUNIOR",
+                                "nome": null,
                                 "tipo": "ADVOGADO",
                                 "polo": "ATIVO",
                                 "id_sistema": {
-                                    "login": "03867168466"
+                                    "login": null
                                 },
                                 "documento": [
                                     {
-                                        "CPF": "038.671.684-66"
+                                        "CPF": null
                                     }
                                 ],
                                 "endereco": {
-                                    "logradouro": "CARACOL",
-                                    "numero": "00",
-                                    "complemento": "BL 02 AP 302",
-                                    "bairro": "CANDEIAS",
-                                    "municipio": "JABOATAO DOS GUARARAPES",
-                                    "estado": "PE",
-                                    "cep": "54430-180"
+                                    "logradouro": null,
+                                    "numero": null,
+                                    "complemento": null,
+                                    "bairro": null,
+                                    "municipio": null,
+                                    "estado": null,
+                                    "cep": null
                                 }
                             }
                         ]
-                    }
-                ]
-            }
-        ],
-        "Relator(a)": "Daise Fajardo Nogueira Jacot",
-        "Comarca": "Comarca: Atibaia",
-        "Data do julgamento": "Data do julgamento: 22/12/2024",
-        "Data de publicação": "Data de publicação: 22/12/2024",
-        "Ementa": "Ementa: AGRAVO DE INSTRUMENTO - JUSTIÇA GRATUITA – Pessoa física – Requisitos legais previstos no artigo 98 do CPC e no artigo 5°, inciso LXXIV, da Constituição Federal – Preenchimento – Necessidade para concessão da gratuidade processual: – Apenas diante do preenchimento dos requisitos legais previstos no artigo 98 do CP e no artigo 5°, inciso LXXIV, da Constituição Federal, é que se admite a"
-    },
-    {
-        "numero": "2281835-55.2024.8.26.0000",
-        "valorDaCausa": null,
-        "area_code": null,
-        "tribunal_code": null,
-        "vara_code": null,
-        "area": null,
-        "tribunal": "TJ-SP",
-        "instancias": [
-            {
-                "fonte_script": "Scrapper",
-                "fonte_sistema": "TJ-SP",
-                "fonte_tipo": "TRIBUNAL",
-                "fonte_url": "https://esaj.tjsp.jus.br/",
-                "grau": null,
-                "classe": null,
-                "orgaoJulgador": "26ª Câmara de Direito Privado",
-                "segredoJustica": null,
-                "justicaGratuita": null,
-                "assunto_principal": null,
-                "assuntos": "Agravo de Instrumento / Locação de Imóvel",
-                "first_mov": "2024-09-26T11:43:42.215",
-                "last_mov": "2024-12-26T11:43:41.894",
-                "envolvidos": [
+                    },
                     {
-                        "nome": "J. M. R. I.",
-                        "tipo": "RECLAMANTE",
-                        "polo": "ATIVO",
+                        "nome": null,
+                        "tipo": "RECLAMADO",
+                        "polo": "PASSIVO",
                         "id_sistema": {
-                            "login": "03411657430"
+                            "login": null
                         },
                         "documento": [],
                         "endereco": {},
                         "representantes": [
                             {
-                                "nome": "RENE GOMES DA VEIGA PESSOA JUNIOR",
+                                "nome": null,
                                 "tipo": "ADVOGADO",
-                                "polo": "ATIVO",
+                                "polo": "PASSIVO",
                                 "id_sistema": {
-                                    "login": "03867168466"
+                                    "login": null
                                 },
                                 "documento": [
                                     {
-                                        "CPF": "038.671.684-66"
+                                        "CPF": null
                                     }
                                 ],
                                 "endereco": {
-                                    "logradouro": "CARACOL",
-                                    "numero": "00",
-                                    "complemento": "BL 02 AP 302",
-                                    "bairro": "CANDEIAS",
-                                    "municipio": "JABOATAO DOS GUARARAPES",
-                                    "estado": "PE",
-                                    "cep": "54430-180"
+                                    "logradouro": null,
+                                    "numero": null,
+                                    "complemento": null,
+                                    "bairro": null,
+                                    "municipio": null,
+                                    "estado": null,
+                                    "cep": null
                                 }
                             }
                         ]
+                    },
+                    {
+                        "nome": "Jacob Valente",
+                        "tipo": "RELATOR(A)",
+                        "polo": "OUTROS",
+                        "id_sistema": {
+                            "login": null
+                        },
+                        "documento": [],
+                        "endereco": {},
+                        "representantes": []
+                    }
+                ],
+                "movimentacoes": [
+                    {
+                        "titulo": "Data de publicação",
+                        "tipoConteudo": "HTML",
+                        "data": "26/12/2024",
+                        "ativo": null,
+                        "documento": null,
+                        "mostrarHeaderData": null,
+                        "usuarioCriador": null
+                    },
+                    {
+                        "titulo": null,
+                        "tipoConteudo": null,
+                        "data": null,
+                        "ativo": null,
+                        "documento": null,
+                        "usuarioCriador": null
+                    },
+                    {
+                        "id": null,
+                        "idUnicoDocumento": null,
+                        "titulo": "Ata da Audieancia",
+                        "tipo": "Ata da Audieancia",
+                        "tipoConteudo": "PDF",
+                        "data": "26/12/2024",
+                        "ativo": null,
+                        "documentoSigiloso": null,
+                        "usuarioPerito": null,
+                        "publico": null,
+                        "usuarioJuntada": null,
+                        "usuarioCriador": null,
+                        "instancia": null
                     }
                 ]
             }
-        ],
-        "Relator(a)": "Morais Pucci",
-        "Comarca": "Comarca: São Paulo",
-        "Data do julgamento": "Data do julgamento: 22/12/2024",
-        "Data de publicação": "Data de publicação: 22/12/2024",
-        "Ementa": "Ementa: AGRAVO DE INSTRUMENTO - JUSTIÇA GRATUITA – Pessoa física – Requisitos legais previstos no artigo 98 do CPC e no artigo 5°, inciso LXXIV, da Constituição Federal – Preenchimento – Necessidade para concessão da gratuidade processual: – Apenas diante do preenchimento dos requisitos legais previstos no artigo 98 do CP e no artigo 5°, inciso LXXIV, da Constituição Federal, é que se admite a"
+        ]
     },
     {
-        "numero": "1018416-57.2021.8.26.0068",
+        "numero": "2369775-58.2024.8.26.0000",
         "valorDaCausa": null,
         "area_code": null,
         "tribunal_code": null,
         "vara_code": null,
         "area": null,
         "tribunal": "TJ-SP",
+        "comarca": "São Paulo",
         "instancias": [
             {
                 "fonte_script": "Scrapper",
@@ -283,333 +300,140 @@
                 "fonte_url": "https://esaj.tjsp.jus.br/",
                 "grau": null,
                 "classe": null,
-                "orgaoJulgador": "26ª Câmara de Direito Privado",
+                "orgaoJulgador": "12ª Câmara de Direito Privado",
                 "segredoJustica": null,
                 "justicaGratuita": null,
                 "assunto_principal": null,
-                "assuntos": "Apelação Cível / Fornecimento de Energia Elétrica",
-                "first_mov": "2024-09-26T11:43:42.215",
-                "last_mov": "2024-12-26T11:43:41.894",
+                "assuntos": "Agravo de Instrumento / Superendividamento",
+                "first_mov": null,
+                "last_mov": "26/12/2024",
                 "envolvidos": [
                     {
-                        "nome": "J. M. R. I.",
+                        "nome": null,
                         "tipo": "RECLAMANTE",
                         "polo": "ATIVO",
                         "id_sistema": {
-                            "login": "03411657430"
+                            "login": null
                         },
                         "documento": [],
                         "endereco": {},
                         "representantes": [
                             {
-                                "nome": "RENE GOMES DA VEIGA PESSOA JUNIOR",
+                                "nome": null,
                                 "tipo": "ADVOGADO",
                                 "polo": "ATIVO",
                                 "id_sistema": {
-                                    "login": "03867168466"
+                                    "login": null
                                 },
                                 "documento": [
                                     {
-                                        "CPF": "038.671.684-66"
+                                        "CPF": null
                                     }
                                 ],
                                 "endereco": {
-                                    "logradouro": "CARACOL",
-                                    "numero": "00",
-                                    "complemento": "BL 02 AP 302",
-                                    "bairro": "CANDEIAS",
-                                    "municipio": "JABOATAO DOS GUARARAPES",
-                                    "estado": "PE",
-                                    "cep": "54430-180"
+                                    "logradouro": null,
+                                    "numero": null,
+                                    "complemento": null,
+                                    "bairro": null,
+                                    "municipio": null,
+                                    "estado": null,
+                                    "cep": null
                                 }
                             }
                         ]
-                    }
-                ]
-            }
-        ],
-        "Relator(a)": "Morais Pucci",
-        "Comarca": "Comarca: São Paulo",
-        "Data do julgamento": "Data do julgamento: 22/12/2024",
-        "Data de publicação": "Data de publicação: 22/12/2024",
-        "Ementa": "Ementa: AGRAVO DE INSTRUMENTO - JUSTIÇA GRATUITA – Pessoa física – Requisitos legais previstos no artigo 98 do CPC e no artigo 5°, inciso LXXIV, da Constituição Federal – Preenchimento – Necessidade para concessão da gratuidade processual: – Apenas diante do preenchimento dos requisitos legais previstos no artigo 98 do CP e no artigo 5°, inciso LXXIV, da Constituição Federal, é que se admite a"
-    },
-    {
-        "numero": "2352559-84.2024.8.26.0000",
-        "valorDaCausa": null,
-        "area_code": null,
-        "tribunal_code": null,
-        "vara_code": null,
-        "area": null,
-        "tribunal": "TJ-SP",
-        "instancias": [
-            {
-                "fonte_script": "Scrapper",
-                "fonte_sistema": "TJ-SP",
-                "fonte_tipo": "TRIBUNAL",
-                "fonte_url": "https://esaj.tjsp.jus.br/",
-                "grau": null,
-                "classe": null,
-                "orgaoJulgador": "31ª Câmara de Direito Privado",
-                "segredoJustica": null,
-                "justicaGratuita": null,
-                "assunto_principal": null,
-                "assuntos": "Agravo de Instrumento / Fornecimento de Energia Elétrica",
-                "first_mov": "2024-09-26T11:43:42.215",
-                "last_mov": "2024-12-26T11:43:41.894",
-                "envolvidos": [
+                    },
                     {
-                        "nome": "J. M. R. I.",
-                        "tipo": "RECLAMANTE",
-                        "polo": "ATIVO",
+                        "nome": null,
+                        "tipo": "RECLAMADO",
+                        "polo": "PASSIVO",
                         "id_sistema": {
-                            "login": "03411657430"
+                            "login": null
                         },
                         "documento": [],
                         "endereco": {},
                         "representantes": [
                             {
-                                "nome": "RENE GOMES DA VEIGA PESSOA JUNIOR",
+                                "nome": null,
                                 "tipo": "ADVOGADO",
-                                "polo": "ATIVO",
+                                "polo": "PASSIVO",
                                 "id_sistema": {
-                                    "login": "03867168466"
+                                    "login": null
                                 },
                                 "documento": [
                                     {
-                                        "CPF": "038.671.684-66"
+                                        "CPF": null
                                     }
                                 ],
                                 "endereco": {
-                                    "logradouro": "CARACOL",
-                                    "numero": "00",
-                                    "complemento": "BL 02 AP 302",
-                                    "bairro": "CANDEIAS",
-                                    "municipio": "JABOATAO DOS GUARARAPES",
-                                    "estado": "PE",
-                                    "cep": "54430-180"
+                                    "logradouro": null,
+                                    "numero": null,
+                                    "complemento": null,
+                                    "bairro": null,
+                                    "municipio": null,
+                                    "estado": null,
+                                    "cep": null
                                 }
                             }
                         ]
-                    }
-                ]
-            }
-        ],
-        "Relator(a)": "Rosangela Telles",
-        "Comarca": "Comarca: Bebedouro",
-        "Data do julgamento": "Data do julgamento: 19/12/2024",
-        "Data de publicação": "Data de publicação: 22/12/2024",
-        "Ementa": "Ementa: AGRAVO DE INSTRUMENTO - JUSTIÇA GRATUITA – Pessoa física – Requisitos legais previstos no artigo 98 do CPC e no artigo 5°, inciso LXXIV, da Constituição Federal – Preenchimento – Necessidade para concessão da gratuidade processual: – Apenas diante do preenchimento dos requisitos legais previstos no artigo 98 do CP e no artigo 5°, inciso LXXIV, da Constituição Federal, é que se admite a"
-    },
-    {
-        "numero": "0000683-44.2013.8.26.0596",
-        "valorDaCausa": null,
-        "area_code": null,
-        "tribunal_code": null,
-        "vara_code": null,
-        "area": null,
-        "tribunal": "TJ-SP",
-        "instancias": [
-            {
-                "fonte_script": "Scrapper",
-                "fonte_sistema": "TJ-SP",
-                "fonte_tipo": "TRIBUNAL",
-                "fonte_url": "https://esaj.tjsp.jus.br/",
-                "grau": null,
-                "classe": null,
-                "orgaoJulgador": "37ª Câmara de Direito Privado",
-                "segredoJustica": null,
-                "justicaGratuita": null,
-                "assunto_principal": null,
-                "assuntos": "Apelação Cível / Contratos Bancários",
-                "first_mov": "2024-09-26T11:43:42.215",
-                "last_mov": "2024-12-26T11:43:41.894",
-                "envolvidos": [
+                    },
                     {
-                        "nome": "J. M. R. I.",
-                        "tipo": "RECLAMANTE",
-                        "polo": "ATIVO",
+                        "nome": "Jacob Valente",
+                        "tipo": "RELATOR(A)",
+                        "polo": "OUTROS",
                         "id_sistema": {
-                            "login": "03411657430"
+                            "login": null
                         },
                         "documento": [],
                         "endereco": {},
-                        "representantes": [
-                            {
-                                "nome": "RENE GOMES DA VEIGA PESSOA JUNIOR",
-                                "tipo": "ADVOGADO",
-                                "polo": "ATIVO",
-                                "id_sistema": {
-                                    "login": "03867168466"
-                                },
-                                "documento": [
-                                    {
-                                        "CPF": "038.671.684-66"
-                                    }
-                                ],
-                                "endereco": {
-                                    "logradouro": "CARACOL",
-                                    "numero": "00",
-                                    "complemento": "BL 02 AP 302",
-                                    "bairro": "CANDEIAS",
-                                    "municipio": "JABOATAO DOS GUARARAPES",
-                                    "estado": "PE",
-                                    "cep": "54430-180"
-                                }
-                            }
-                        ]
+                        "representantes": []
                     }
-                ]
-            }
-        ],
-        "Relator(a)": "José Wagner de Oliveira Melatto Peixoto",
-        "Comarca": "Comarca: Serrana",
-        "Data do julgamento": "Data do julgamento: 17/12/2024",
-        "Data de publicação": "Data de publicação: 22/12/2024",
-        "Ementa": "Ementa: AGRAVO DE INSTRUMENTO - JUSTIÇA GRATUITA – Pessoa física – Requisitos legais previstos no artigo 98 do CPC e no artigo 5°, inciso LXXIV, da Constituição Federal – Preenchimento – Necessidade para concessão da gratuidade processual: – Apenas diante do preenchimento dos requisitos legais previstos no artigo 98 do CP e no artigo 5°, inciso LXXIV, da Constituição Federal, é que se admite a"
-    },
-    {
-        "numero": "2336525-34.2024.8.26.0000",
-        "valorDaCausa": null,
-        "area_code": null,
-        "tribunal_code": null,
-        "vara_code": null,
-        "area": null,
-        "tribunal": "TJ-SP",
-        "instancias": [
-            {
-                "fonte_script": "Scrapper",
-                "fonte_sistema": "TJ-SP",
-                "fonte_tipo": "TRIBUNAL",
-                "fonte_url": "https://esaj.tjsp.jus.br/",
-                "grau": null,
-                "classe": null,
-                "orgaoJulgador": "18ª Câmara de Direito Privado",
-                "segredoJustica": null,
-                "justicaGratuita": null,
-                "assunto_principal": null,
-                "assuntos": "Agravo de Instrumento / Contratos Bancários",
-                "first_mov": "2024-09-26T11:43:42.215",
-                "last_mov": "2024-12-26T11:43:41.894",
-                "envolvidos": [
+                ],
+                "movimentacoes": [
                     {
-                        "nome": "J. M. R. I.",
-                        "tipo": "RECLAMANTE",
-                        "polo": "ATIVO",
-                        "id_sistema": {
-                            "login": "03411657430"
-                        },
-                        "documento": [],
-                        "endereco": {},
-                        "representantes": [
-                            {
-                                "nome": "RENE GOMES DA VEIGA PESSOA JUNIOR",
-                                "tipo": "ADVOGADO",
-                                "polo": "ATIVO",
-                                "id_sistema": {
-                                    "login": "03867168466"
-                                },
-                                "documento": [
-                                    {
-                                        "CPF": "038.671.684-66"
-                                    }
-                                ],
-                                "endereco": {
-                                    "logradouro": "CARACOL",
-                                    "numero": "00",
-                                    "complemento": "BL 02 AP 302",
-                                    "bairro": "CANDEIAS",
-                                    "municipio": "JABOATAO DOS GUARARAPES",
-                                    "estado": "PE",
-                                    "cep": "54430-180"
-                                }
-                            }
-                        ]
-                    }
-                ]
-            }
-        ],
-        "Relator(a)": "Helio Faria",
-        "Comarca": "Comarca: Nova Odessa",
-        "Data do julgamento": "Data do julgamento: 21/12/2024",
-        "Data de publicação": "Data de publicação: 22/12/2024",
-        "Ementa": "Ementa: AGRAVO DE INSTRUMENTO - JUSTIÇA GRATUITA – Pessoa física – Requisitos legais previstos no artigo 98 do CPC e no artigo 5°, inciso LXXIV, da Constituição Federal – Preenchimento – Necessidade para concessão da gratuidade processual: – Apenas diante do preenchimento dos requisitos legais previstos no artigo 98 do CP e no artigo 5°, inciso LXXIV, da Constituição Federal, é que se admite a"
-    },
-    {
-        "numero": "1037954-20.2024.8.26.0100",
-        "valorDaCausa": null,
-        "area_code": null,
-        "tribunal_code": null,
-        "vara_code": null,
-        "area": null,
-        "tribunal": "TJ-SP",
-        "instancias": [
-            {
-                "fonte_script": "Scrapper",
-                "fonte_sistema": "TJ-SP",
-                "fonte_tipo": "TRIBUNAL",
-                "fonte_url": "https://esaj.tjsp.jus.br/",
-                "grau": null,
-                "classe": null,
-                "orgaoJulgador": "18ª Câmara de Direito Privado",
-                "segredoJustica": null,
-                "justicaGratuita": null,
-                "assunto_principal": null,
-                "assuntos": "Apelação Cível / Bancários",
-                "first_mov": "2024-09-26T11:43:42.215",
-                "last_mov": "2024-12-26T11:43:41.894",
-                "envolvidos": [
+                        "titulo": "Data de publicação",
+                        "tipoConteudo": "HTML",
+                        "data": "26/12/2024",
+                        "ativo": null,
+                        "documento": null,
+                        "mostrarHeaderData": null,
+                        "usuarioCriador": null
+                    },
                     {
-                        "nome": "J. M. R. I.",
-                        "tipo": "RECLAMANTE",
-                        "polo": "ATIVO",
-                        "id_sistema": {
-                            "login": "03411657430"
-                        },
-                        "documento": [],
-                        "endereco": {},
-                        "representantes": [
-                            {
-                                "nome": "RENE GOMES DA VEIGA PESSOA JUNIOR",
-                                "tipo": "ADVOGADO",
-                                "polo": "ATIVO",
-                                "id_sistema": {
-                                    "login": "03867168466"
-                                },
-                                "documento": [
-                                    {
-                                        "CPF": "038.671.684-66"
-                                    }
-                                ],
-                                "endereco": {
-                                    "logradouro": "CARACOL",
-                                    "numero": "00",
-                                    "complemento": "BL 02 AP 302",
-                                    "bairro": "CANDEIAS",
-                                    "municipio": "JABOATAO DOS GUARARAPES",
-                                    "estado": "PE",
-                                    "cep": "54430-180"
-                                }
-                            }
-                        ]
+                        "titulo": null,
+                        "tipoConteudo": null,
+                        "data": null,
+                        "ativo": null,
+                        "documento": null,
+                        "usuarioCriador": null
+                    },
+                    {
+                        "id": null,
+                        "idUnicoDocumento": null,
+                        "titulo": "Ata da Audieancia",
+                        "tipo": "Ata da Audieancia",
+                        "tipoConteudo": "PDF",
+                        "data": "26/12/2024",
+                        "ativo": null,
+                        "documentoSigiloso": null,
+                        "usuarioPerito": null,
+                        "publico": null,
+                        "usuarioJuntada": null,
+                        "usuarioCriador": null,
+                        "instancia": null
                     }
                 ]
             }
-        ],
-        "Relator(a)": "Helio Faria",
-        "Comarca": "Comarca: São Paulo",
-        "Data do julgamento": "Data do julgamento: 21/12/2024",
-        "Data de publicação": "Data de publicação: 22/12/2024",
-        "Ementa": "Ementa: AGRAVO DE INSTRUMENTO - JUSTIÇA GRATUITA – Pessoa física – Requisitos legais previstos no artigo 98 do CPC e no artigo 5°, inciso LXXIV, da Constituição Federal – Preenchimento – Necessidade para concessão da gratuidade processual: – Apenas diante do preenchimento dos requisitos legais previstos no artigo 98 do CP e no artigo 5°, inciso LXXIV, da Constituição Federal, é que se admite a"
+        ]
     },
     {
-        "numero": "2337645-15.2024.8.26.0000",
+        "numero": "2321224-47.2024.8.26.0000",
         "valorDaCausa": null,
         "area_code": null,
         "tribunal_code": null,
         "vara_code": null,
         "area": null,
         "tribunal": "TJ-SP",
+        "comarca": "São Paulo",
         "instancias": [
             {
                 "fonte_script": "Scrapper",
@@ -618,55 +442,2401 @@
                 "fonte_url": "https://esaj.tjsp.jus.br/",
                 "grau": null,
                 "classe": null,
-                "orgaoJulgador": "18ª Câmara de Direito Privado",
+                "orgaoJulgador": "12ª Câmara de Direito Privado",
                 "segredoJustica": null,
                 "justicaGratuita": null,
                 "assunto_principal": null,
                 "assuntos": "Agravo de Instrumento / Cédula de Crédito Bancário",
-                "first_mov": "2024-09-26T11:43:42.215",
-                "last_mov": "2024-12-26T11:43:41.894",
+                "first_mov": null,
+                "last_mov": "26/12/2024",
                 "envolvidos": [
                     {
-                        "nome": "J. M. R. I.",
+                        "nome": null,
                         "tipo": "RECLAMANTE",
                         "polo": "ATIVO",
                         "id_sistema": {
-                            "login": "03411657430"
+                            "login": null
                         },
                         "documento": [],
                         "endereco": {},
                         "representantes": [
                             {
-                                "nome": "RENE GOMES DA VEIGA PESSOA JUNIOR",
+                                "nome": null,
                                 "tipo": "ADVOGADO",
                                 "polo": "ATIVO",
                                 "id_sistema": {
-                                    "login": "03867168466"
+                                    "login": null
                                 },
                                 "documento": [
                                     {
-                                        "CPF": "038.671.684-66"
+                                        "CPF": null
                                     }
                                 ],
                                 "endereco": {
-                                    "logradouro": "CARACOL",
-                                    "numero": "00",
-                                    "complemento": "BL 02 AP 302",
-                                    "bairro": "CANDEIAS",
-                                    "municipio": "JABOATAO DOS GUARARAPES",
-                                    "estado": "PE",
-                                    "cep": "54430-180"
+                                    "logradouro": null,
+                                    "numero": null,
+                                    "complemento": null,
+                                    "bairro": null,
+                                    "municipio": null,
+                                    "estado": null,
+                                    "cep": null
                                 }
                             }
                         ]
+                    },
+                    {
+                        "nome": null,
+                        "tipo": "RECLAMADO",
+                        "polo": "PASSIVO",
+                        "id_sistema": {
+                            "login": null
+                        },
+                        "documento": [],
+                        "endereco": {},
+                        "representantes": [
+                            {
+                                "nome": null,
+                                "tipo": "ADVOGADO",
+                                "polo": "PASSIVO",
+                                "id_sistema": {
+                                    "login": null
+                                },
+                                "documento": [
+                                    {
+                                        "CPF": null
+                                    }
+                                ],
+                                "endereco": {
+                                    "logradouro": null,
+                                    "numero": null,
+                                    "complemento": null,
+                                    "bairro": null,
+                                    "municipio": null,
+                                    "estado": null,
+                                    "cep": null
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "nome": "Jacob Valente",
+                        "tipo": "RELATOR(A)",
+                        "polo": "OUTROS",
+                        "id_sistema": {
+                            "login": null
+                        },
+                        "documento": [],
+                        "endereco": {},
+                        "representantes": []
+                    }
+                ],
+                "movimentacoes": [
+                    {
+                        "titulo": "Data de publicação",
+                        "tipoConteudo": "HTML",
+                        "data": "26/12/2024",
+                        "ativo": null,
+                        "documento": null,
+                        "mostrarHeaderData": null,
+                        "usuarioCriador": null
+                    },
+                    {
+                        "titulo": null,
+                        "tipoConteudo": null,
+                        "data": null,
+                        "ativo": null,
+                        "documento": null,
+                        "usuarioCriador": null
+                    },
+                    {
+                        "id": null,
+                        "idUnicoDocumento": null,
+                        "titulo": "Ata da Audieancia",
+                        "tipo": "Ata da Audieancia",
+                        "tipoConteudo": "PDF",
+                        "data": "26/12/2024",
+                        "ativo": null,
+                        "documentoSigiloso": null,
+                        "usuarioPerito": null,
+                        "publico": null,
+                        "usuarioJuntada": null,
+                        "usuarioCriador": null,
+                        "instancia": null
                     }
                 ]
             }
-        ],
-        "Relator(a)": "Helio Faria",
-        "Comarca": "Comarca: Guarulhos",
-        "Data do julgamento": "Data do julgamento: 21/12/2024",
-        "Data de publicação": "Data de publicação: 22/12/2024",
-        "Ementa": "Ementa: AGRAVO DE INSTRUMENTO - JUSTIÇA GRATUITA – Pessoa física – Requisitos legais previstos no artigo 98 do CPC e no artigo 5°, inciso LXXIV, da Constituição Federal – Preenchimento – Necessidade para concessão da gratuidade processual: – Apenas diante do preenchimento dos requisitos legais previstos no artigo 98 do CP e no artigo 5°, inciso LXXIV, da Constituição Federal, é que se admite a"
+        ]
+    },
+    {
+        "numero": "1007418-83.2024.8.26.0566",
+        "valorDaCausa": null,
+        "area_code": null,
+        "tribunal_code": null,
+        "vara_code": null,
+        "area": null,
+        "tribunal": "TJ-SP",
+        "comarca": "São Carlos",
+        "instancias": [
+            {
+                "fonte_script": "Scrapper",
+                "fonte_sistema": "TJ-SP",
+                "fonte_tipo": "TRIBUNAL",
+                "fonte_url": "https://esaj.tjsp.jus.br/",
+                "grau": null,
+                "classe": null,
+                "orgaoJulgador": "12ª Câmara de Direito Privado",
+                "segredoJustica": null,
+                "justicaGratuita": null,
+                "assunto_principal": null,
+                "assuntos": "Apelação Cível / Bancários",
+                "first_mov": null,
+                "last_mov": "26/12/2024",
+                "envolvidos": [
+                    {
+                        "nome": null,
+                        "tipo": "RECLAMANTE",
+                        "polo": "ATIVO",
+                        "id_sistema": {
+                            "login": null
+                        },
+                        "documento": [],
+                        "endereco": {},
+                        "representantes": [
+                            {
+                                "nome": null,
+                                "tipo": "ADVOGADO",
+                                "polo": "ATIVO",
+                                "id_sistema": {
+                                    "login": null
+                                },
+                                "documento": [
+                                    {
+                                        "CPF": null
+                                    }
+                                ],
+                                "endereco": {
+                                    "logradouro": null,
+                                    "numero": null,
+                                    "complemento": null,
+                                    "bairro": null,
+                                    "municipio": null,
+                                    "estado": null,
+                                    "cep": null
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "nome": null,
+                        "tipo": "RECLAMADO",
+                        "polo": "PASSIVO",
+                        "id_sistema": {
+                            "login": null
+                        },
+                        "documento": [],
+                        "endereco": {},
+                        "representantes": [
+                            {
+                                "nome": null,
+                                "tipo": "ADVOGADO",
+                                "polo": "PASSIVO",
+                                "id_sistema": {
+                                    "login": null
+                                },
+                                "documento": [
+                                    {
+                                        "CPF": null
+                                    }
+                                ],
+                                "endereco": {
+                                    "logradouro": null,
+                                    "numero": null,
+                                    "complemento": null,
+                                    "bairro": null,
+                                    "municipio": null,
+                                    "estado": null,
+                                    "cep": null
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "nome": "Jacob Valente",
+                        "tipo": "RELATOR(A)",
+                        "polo": "OUTROS",
+                        "id_sistema": {
+                            "login": null
+                        },
+                        "documento": [],
+                        "endereco": {},
+                        "representantes": []
+                    }
+                ],
+                "movimentacoes": [
+                    {
+                        "titulo": "Data de publicação",
+                        "tipoConteudo": "HTML",
+                        "data": "26/12/2024",
+                        "ativo": null,
+                        "documento": null,
+                        "mostrarHeaderData": null,
+                        "usuarioCriador": null
+                    },
+                    {
+                        "titulo": null,
+                        "tipoConteudo": null,
+                        "data": null,
+                        "ativo": null,
+                        "documento": null,
+                        "usuarioCriador": null
+                    },
+                    {
+                        "id": null,
+                        "idUnicoDocumento": null,
+                        "titulo": "Ata da Audieancia",
+                        "tipo": "Ata da Audieancia",
+                        "tipoConteudo": "PDF",
+                        "data": "26/12/2024",
+                        "ativo": null,
+                        "documentoSigiloso": null,
+                        "usuarioPerito": null,
+                        "publico": null,
+                        "usuarioJuntada": null,
+                        "usuarioCriador": null,
+                        "instancia": null
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "numero": "2286280-19.2024.8.26.0000",
+        "valorDaCausa": null,
+        "area_code": null,
+        "tribunal_code": null,
+        "vara_code": null,
+        "area": null,
+        "tribunal": "TJ-SP",
+        "comarca": "Adamantina",
+        "instancias": [
+            {
+                "fonte_script": "Scrapper",
+                "fonte_sistema": "TJ-SP",
+                "fonte_tipo": "TRIBUNAL",
+                "fonte_url": "https://esaj.tjsp.jus.br/",
+                "grau": null,
+                "classe": null,
+                "orgaoJulgador": "12ª Câmara de Direito Privado",
+                "segredoJustica": null,
+                "justicaGratuita": null,
+                "assunto_principal": null,
+                "assuntos": "Embargos de Declaração Cível / Bancários",
+                "first_mov": null,
+                "last_mov": "26/12/2024",
+                "envolvidos": [
+                    {
+                        "nome": null,
+                        "tipo": "RECLAMANTE",
+                        "polo": "ATIVO",
+                        "id_sistema": {
+                            "login": null
+                        },
+                        "documento": [],
+                        "endereco": {},
+                        "representantes": [
+                            {
+                                "nome": null,
+                                "tipo": "ADVOGADO",
+                                "polo": "ATIVO",
+                                "id_sistema": {
+                                    "login": null
+                                },
+                                "documento": [
+                                    {
+                                        "CPF": null
+                                    }
+                                ],
+                                "endereco": {
+                                    "logradouro": null,
+                                    "numero": null,
+                                    "complemento": null,
+                                    "bairro": null,
+                                    "municipio": null,
+                                    "estado": null,
+                                    "cep": null
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "nome": null,
+                        "tipo": "RECLAMADO",
+                        "polo": "PASSIVO",
+                        "id_sistema": {
+                            "login": null
+                        },
+                        "documento": [],
+                        "endereco": {},
+                        "representantes": [
+                            {
+                                "nome": null,
+                                "tipo": "ADVOGADO",
+                                "polo": "PASSIVO",
+                                "id_sistema": {
+                                    "login": null
+                                },
+                                "documento": [
+                                    {
+                                        "CPF": null
+                                    }
+                                ],
+                                "endereco": {
+                                    "logradouro": null,
+                                    "numero": null,
+                                    "complemento": null,
+                                    "bairro": null,
+                                    "municipio": null,
+                                    "estado": null,
+                                    "cep": null
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "nome": "Jacob Valente",
+                        "tipo": "RELATOR(A)",
+                        "polo": "OUTROS",
+                        "id_sistema": {
+                            "login": null
+                        },
+                        "documento": [],
+                        "endereco": {},
+                        "representantes": []
+                    }
+                ],
+                "movimentacoes": [
+                    {
+                        "titulo": "Data de publicação",
+                        "tipoConteudo": "HTML",
+                        "data": "26/12/2024",
+                        "ativo": null,
+                        "documento": null,
+                        "mostrarHeaderData": null,
+                        "usuarioCriador": null
+                    },
+                    {
+                        "titulo": null,
+                        "tipoConteudo": null,
+                        "data": null,
+                        "ativo": null,
+                        "documento": null,
+                        "usuarioCriador": null
+                    },
+                    {
+                        "id": null,
+                        "idUnicoDocumento": null,
+                        "titulo": "Ata da Audieancia",
+                        "tipo": "Ata da Audieancia",
+                        "tipoConteudo": "PDF",
+                        "data": "26/12/2024",
+                        "ativo": null,
+                        "documentoSigiloso": null,
+                        "usuarioPerito": null,
+                        "publico": null,
+                        "usuarioJuntada": null,
+                        "usuarioCriador": null,
+                        "instancia": null
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "numero": "2289197-11.2024.8.26.0000",
+        "valorDaCausa": null,
+        "area_code": null,
+        "tribunal_code": null,
+        "vara_code": null,
+        "area": null,
+        "tribunal": "TJ-SP",
+        "comarca": "Teodoro Sampaio",
+        "instancias": [
+            {
+                "fonte_script": "Scrapper",
+                "fonte_sistema": "TJ-SP",
+                "fonte_tipo": "TRIBUNAL",
+                "fonte_url": "https://esaj.tjsp.jus.br/",
+                "grau": null,
+                "classe": null,
+                "orgaoJulgador": "12ª Câmara de Direito Privado",
+                "segredoJustica": null,
+                "justicaGratuita": null,
+                "assunto_principal": null,
+                "assuntos": "Agravo Interno Cível / Empréstimo consignado",
+                "first_mov": null,
+                "last_mov": "26/12/2024",
+                "envolvidos": [
+                    {
+                        "nome": null,
+                        "tipo": "RECLAMANTE",
+                        "polo": "ATIVO",
+                        "id_sistema": {
+                            "login": null
+                        },
+                        "documento": [],
+                        "endereco": {},
+                        "representantes": [
+                            {
+                                "nome": null,
+                                "tipo": "ADVOGADO",
+                                "polo": "ATIVO",
+                                "id_sistema": {
+                                    "login": null
+                                },
+                                "documento": [
+                                    {
+                                        "CPF": null
+                                    }
+                                ],
+                                "endereco": {
+                                    "logradouro": null,
+                                    "numero": null,
+                                    "complemento": null,
+                                    "bairro": null,
+                                    "municipio": null,
+                                    "estado": null,
+                                    "cep": null
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "nome": null,
+                        "tipo": "RECLAMADO",
+                        "polo": "PASSIVO",
+                        "id_sistema": {
+                            "login": null
+                        },
+                        "documento": [],
+                        "endereco": {},
+                        "representantes": [
+                            {
+                                "nome": null,
+                                "tipo": "ADVOGADO",
+                                "polo": "PASSIVO",
+                                "id_sistema": {
+                                    "login": null
+                                },
+                                "documento": [
+                                    {
+                                        "CPF": null
+                                    }
+                                ],
+                                "endereco": {
+                                    "logradouro": null,
+                                    "numero": null,
+                                    "complemento": null,
+                                    "bairro": null,
+                                    "municipio": null,
+                                    "estado": null,
+                                    "cep": null
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "nome": "Jacob Valente",
+                        "tipo": "RELATOR(A)",
+                        "polo": "OUTROS",
+                        "id_sistema": {
+                            "login": null
+                        },
+                        "documento": [],
+                        "endereco": {},
+                        "representantes": []
+                    }
+                ],
+                "movimentacoes": [
+                    {
+                        "titulo": "Data de publicação",
+                        "tipoConteudo": "HTML",
+                        "data": "26/12/2024",
+                        "ativo": null,
+                        "documento": null,
+                        "mostrarHeaderData": null,
+                        "usuarioCriador": null
+                    },
+                    {
+                        "titulo": null,
+                        "tipoConteudo": null,
+                        "data": null,
+                        "ativo": null,
+                        "documento": null,
+                        "usuarioCriador": null
+                    },
+                    {
+                        "id": null,
+                        "idUnicoDocumento": null,
+                        "titulo": "Ata da Audieancia",
+                        "tipo": "Ata da Audieancia",
+                        "tipoConteudo": "PDF",
+                        "data": "26/12/2024",
+                        "ativo": null,
+                        "documentoSigiloso": null,
+                        "usuarioPerito": null,
+                        "publico": null,
+                        "usuarioJuntada": null,
+                        "usuarioCriador": null,
+                        "instancia": null
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "numero": "1017365-35.2023.8.26.0005",
+        "valorDaCausa": null,
+        "area_code": null,
+        "tribunal_code": null,
+        "vara_code": null,
+        "area": null,
+        "tribunal": "TJ-SP",
+        "comarca": "São Paulo",
+        "instancias": [
+            {
+                "fonte_script": "Scrapper",
+                "fonte_sistema": "TJ-SP",
+                "fonte_tipo": "TRIBUNAL",
+                "fonte_url": "https://esaj.tjsp.jus.br/",
+                "grau": null,
+                "classe": null,
+                "orgaoJulgador": "12ª Câmara de Direito Privado",
+                "segredoJustica": null,
+                "justicaGratuita": null,
+                "assunto_principal": null,
+                "assuntos": "Embargos de Declaração Cível / Bancários",
+                "first_mov": null,
+                "last_mov": "26/12/2024",
+                "envolvidos": [
+                    {
+                        "nome": null,
+                        "tipo": "RECLAMANTE",
+                        "polo": "ATIVO",
+                        "id_sistema": {
+                            "login": null
+                        },
+                        "documento": [],
+                        "endereco": {},
+                        "representantes": [
+                            {
+                                "nome": null,
+                                "tipo": "ADVOGADO",
+                                "polo": "ATIVO",
+                                "id_sistema": {
+                                    "login": null
+                                },
+                                "documento": [
+                                    {
+                                        "CPF": null
+                                    }
+                                ],
+                                "endereco": {
+                                    "logradouro": null,
+                                    "numero": null,
+                                    "complemento": null,
+                                    "bairro": null,
+                                    "municipio": null,
+                                    "estado": null,
+                                    "cep": null
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "nome": null,
+                        "tipo": "RECLAMADO",
+                        "polo": "PASSIVO",
+                        "id_sistema": {
+                            "login": null
+                        },
+                        "documento": [],
+                        "endereco": {},
+                        "representantes": [
+                            {
+                                "nome": null,
+                                "tipo": "ADVOGADO",
+                                "polo": "PASSIVO",
+                                "id_sistema": {
+                                    "login": null
+                                },
+                                "documento": [
+                                    {
+                                        "CPF": null
+                                    }
+                                ],
+                                "endereco": {
+                                    "logradouro": null,
+                                    "numero": null,
+                                    "complemento": null,
+                                    "bairro": null,
+                                    "municipio": null,
+                                    "estado": null,
+                                    "cep": null
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "nome": "Jacob Valente",
+                        "tipo": "RELATOR(A)",
+                        "polo": "OUTROS",
+                        "id_sistema": {
+                            "login": null
+                        },
+                        "documento": [],
+                        "endereco": {},
+                        "representantes": []
+                    }
+                ],
+                "movimentacoes": [
+                    {
+                        "titulo": "Data de publicação",
+                        "tipoConteudo": "HTML",
+                        "data": "26/12/2024",
+                        "ativo": null,
+                        "documento": null,
+                        "mostrarHeaderData": null,
+                        "usuarioCriador": null
+                    },
+                    {
+                        "titulo": null,
+                        "tipoConteudo": null,
+                        "data": null,
+                        "ativo": null,
+                        "documento": null,
+                        "usuarioCriador": null
+                    },
+                    {
+                        "id": null,
+                        "idUnicoDocumento": null,
+                        "titulo": "Ata da Audieancia",
+                        "tipo": "Ata da Audieancia",
+                        "tipoConteudo": "PDF",
+                        "data": "26/12/2024",
+                        "ativo": null,
+                        "documentoSigiloso": null,
+                        "usuarioPerito": null,
+                        "publico": null,
+                        "usuarioJuntada": null,
+                        "usuarioCriador": null,
+                        "instancia": null
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "numero": "1004853-43.2021.8.26.0020",
+        "valorDaCausa": null,
+        "area_code": null,
+        "tribunal_code": null,
+        "vara_code": null,
+        "area": null,
+        "tribunal": "TJ-SP",
+        "comarca": "São Paulo",
+        "instancias": [
+            {
+                "fonte_script": "Scrapper",
+                "fonte_sistema": "TJ-SP",
+                "fonte_tipo": "TRIBUNAL",
+                "fonte_url": "https://esaj.tjsp.jus.br/",
+                "grau": null,
+                "classe": null,
+                "orgaoJulgador": "12ª Câmara de Direito Privado",
+                "segredoJustica": null,
+                "justicaGratuita": null,
+                "assunto_principal": null,
+                "assuntos": "Apelação Cível / Bancários",
+                "first_mov": null,
+                "last_mov": "26/12/2024",
+                "envolvidos": [
+                    {
+                        "nome": null,
+                        "tipo": "RECLAMANTE",
+                        "polo": "ATIVO",
+                        "id_sistema": {
+                            "login": null
+                        },
+                        "documento": [],
+                        "endereco": {},
+                        "representantes": [
+                            {
+                                "nome": null,
+                                "tipo": "ADVOGADO",
+                                "polo": "ATIVO",
+                                "id_sistema": {
+                                    "login": null
+                                },
+                                "documento": [
+                                    {
+                                        "CPF": null
+                                    }
+                                ],
+                                "endereco": {
+                                    "logradouro": null,
+                                    "numero": null,
+                                    "complemento": null,
+                                    "bairro": null,
+                                    "municipio": null,
+                                    "estado": null,
+                                    "cep": null
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "nome": null,
+                        "tipo": "RECLAMADO",
+                        "polo": "PASSIVO",
+                        "id_sistema": {
+                            "login": null
+                        },
+                        "documento": [],
+                        "endereco": {},
+                        "representantes": [
+                            {
+                                "nome": null,
+                                "tipo": "ADVOGADO",
+                                "polo": "PASSIVO",
+                                "id_sistema": {
+                                    "login": null
+                                },
+                                "documento": [
+                                    {
+                                        "CPF": null
+                                    }
+                                ],
+                                "endereco": {
+                                    "logradouro": null,
+                                    "numero": null,
+                                    "complemento": null,
+                                    "bairro": null,
+                                    "municipio": null,
+                                    "estado": null,
+                                    "cep": null
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "nome": "Jacob Valente",
+                        "tipo": "RELATOR(A)",
+                        "polo": "OUTROS",
+                        "id_sistema": {
+                            "login": null
+                        },
+                        "documento": [],
+                        "endereco": {},
+                        "representantes": []
+                    }
+                ],
+                "movimentacoes": [
+                    {
+                        "titulo": "Data de publicação",
+                        "tipoConteudo": "HTML",
+                        "data": "26/12/2024",
+                        "ativo": null,
+                        "documento": null,
+                        "mostrarHeaderData": null,
+                        "usuarioCriador": null
+                    },
+                    {
+                        "titulo": null,
+                        "tipoConteudo": null,
+                        "data": null,
+                        "ativo": null,
+                        "documento": null,
+                        "usuarioCriador": null
+                    },
+                    {
+                        "id": null,
+                        "idUnicoDocumento": null,
+                        "titulo": "Ata da Audieancia",
+                        "tipo": "Ata da Audieancia",
+                        "tipoConteudo": "PDF",
+                        "data": "26/12/2024",
+                        "ativo": null,
+                        "documentoSigiloso": null,
+                        "usuarioPerito": null,
+                        "publico": null,
+                        "usuarioJuntada": null,
+                        "usuarioCriador": null,
+                        "instancia": null
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "numero": "1009978-54.2023.8.26.0009",
+        "valorDaCausa": null,
+        "area_code": null,
+        "tribunal_code": null,
+        "vara_code": null,
+        "area": null,
+        "tribunal": "TJ-SP",
+        "comarca": "São Paulo",
+        "instancias": [
+            {
+                "fonte_script": "Scrapper",
+                "fonte_sistema": "TJ-SP",
+                "fonte_tipo": "TRIBUNAL",
+                "fonte_url": "https://esaj.tjsp.jus.br/",
+                "grau": null,
+                "classe": null,
+                "orgaoJulgador": "12ª Câmara de Direito Privado",
+                "segredoJustica": null,
+                "justicaGratuita": null,
+                "assunto_principal": null,
+                "assuntos": "Embargos de Declaração Cível / Espécies de Títulos de Crédito",
+                "first_mov": null,
+                "last_mov": "26/12/2024",
+                "envolvidos": [
+                    {
+                        "nome": null,
+                        "tipo": "RECLAMANTE",
+                        "polo": "ATIVO",
+                        "id_sistema": {
+                            "login": null
+                        },
+                        "documento": [],
+                        "endereco": {},
+                        "representantes": [
+                            {
+                                "nome": null,
+                                "tipo": "ADVOGADO",
+                                "polo": "ATIVO",
+                                "id_sistema": {
+                                    "login": null
+                                },
+                                "documento": [
+                                    {
+                                        "CPF": null
+                                    }
+                                ],
+                                "endereco": {
+                                    "logradouro": null,
+                                    "numero": null,
+                                    "complemento": null,
+                                    "bairro": null,
+                                    "municipio": null,
+                                    "estado": null,
+                                    "cep": null
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "nome": null,
+                        "tipo": "RECLAMADO",
+                        "polo": "PASSIVO",
+                        "id_sistema": {
+                            "login": null
+                        },
+                        "documento": [],
+                        "endereco": {},
+                        "representantes": [
+                            {
+                                "nome": null,
+                                "tipo": "ADVOGADO",
+                                "polo": "PASSIVO",
+                                "id_sistema": {
+                                    "login": null
+                                },
+                                "documento": [
+                                    {
+                                        "CPF": null
+                                    }
+                                ],
+                                "endereco": {
+                                    "logradouro": null,
+                                    "numero": null,
+                                    "complemento": null,
+                                    "bairro": null,
+                                    "municipio": null,
+                                    "estado": null,
+                                    "cep": null
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "nome": "Jacob Valente",
+                        "tipo": "RELATOR(A)",
+                        "polo": "OUTROS",
+                        "id_sistema": {
+                            "login": null
+                        },
+                        "documento": [],
+                        "endereco": {},
+                        "representantes": []
+                    }
+                ],
+                "movimentacoes": [
+                    {
+                        "titulo": "Data de publicação",
+                        "tipoConteudo": "HTML",
+                        "data": "26/12/2024",
+                        "ativo": null,
+                        "documento": null,
+                        "mostrarHeaderData": null,
+                        "usuarioCriador": null
+                    },
+                    {
+                        "titulo": null,
+                        "tipoConteudo": null,
+                        "data": null,
+                        "ativo": null,
+                        "documento": null,
+                        "usuarioCriador": null
+                    },
+                    {
+                        "id": null,
+                        "idUnicoDocumento": null,
+                        "titulo": "Ata da Audieancia",
+                        "tipo": "Ata da Audieancia",
+                        "tipoConteudo": "PDF",
+                        "data": "26/12/2024",
+                        "ativo": null,
+                        "documentoSigiloso": null,
+                        "usuarioPerito": null,
+                        "publico": null,
+                        "usuarioJuntada": null,
+                        "usuarioCriador": null,
+                        "instancia": null
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "numero": "2355941-85.2024.8.26.0000",
+        "valorDaCausa": null,
+        "area_code": null,
+        "tribunal_code": null,
+        "vara_code": null,
+        "area": null,
+        "tribunal": "TJ-SP",
+        "comarca": "São Paulo",
+        "instancias": [
+            {
+                "fonte_script": "Scrapper",
+                "fonte_sistema": "TJ-SP",
+                "fonte_tipo": "TRIBUNAL",
+                "fonte_url": "https://esaj.tjsp.jus.br/",
+                "grau": null,
+                "classe": null,
+                "orgaoJulgador": "12ª Câmara de Direito Privado",
+                "segredoJustica": null,
+                "justicaGratuita": null,
+                "assunto_principal": null,
+                "assuntos": "Agravo de Instrumento / Contratos Bancários",
+                "first_mov": null,
+                "last_mov": "26/12/2024",
+                "envolvidos": [
+                    {
+                        "nome": null,
+                        "tipo": "RECLAMANTE",
+                        "polo": "ATIVO",
+                        "id_sistema": {
+                            "login": null
+                        },
+                        "documento": [],
+                        "endereco": {},
+                        "representantes": [
+                            {
+                                "nome": null,
+                                "tipo": "ADVOGADO",
+                                "polo": "ATIVO",
+                                "id_sistema": {
+                                    "login": null
+                                },
+                                "documento": [
+                                    {
+                                        "CPF": null
+                                    }
+                                ],
+                                "endereco": {
+                                    "logradouro": null,
+                                    "numero": null,
+                                    "complemento": null,
+                                    "bairro": null,
+                                    "municipio": null,
+                                    "estado": null,
+                                    "cep": null
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "nome": null,
+                        "tipo": "RECLAMADO",
+                        "polo": "PASSIVO",
+                        "id_sistema": {
+                            "login": null
+                        },
+                        "documento": [],
+                        "endereco": {},
+                        "representantes": [
+                            {
+                                "nome": null,
+                                "tipo": "ADVOGADO",
+                                "polo": "PASSIVO",
+                                "id_sistema": {
+                                    "login": null
+                                },
+                                "documento": [
+                                    {
+                                        "CPF": null
+                                    }
+                                ],
+                                "endereco": {
+                                    "logradouro": null,
+                                    "numero": null,
+                                    "complemento": null,
+                                    "bairro": null,
+                                    "municipio": null,
+                                    "estado": null,
+                                    "cep": null
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "nome": "Jacob Valente",
+                        "tipo": "RELATOR(A)",
+                        "polo": "OUTROS",
+                        "id_sistema": {
+                            "login": null
+                        },
+                        "documento": [],
+                        "endereco": {},
+                        "representantes": []
+                    }
+                ],
+                "movimentacoes": [
+                    {
+                        "titulo": "Data de publicação",
+                        "tipoConteudo": "HTML",
+                        "data": "26/12/2024",
+                        "ativo": null,
+                        "documento": null,
+                        "mostrarHeaderData": null,
+                        "usuarioCriador": null
+                    },
+                    {
+                        "titulo": null,
+                        "tipoConteudo": null,
+                        "data": null,
+                        "ativo": null,
+                        "documento": null,
+                        "usuarioCriador": null
+                    },
+                    {
+                        "id": null,
+                        "idUnicoDocumento": null,
+                        "titulo": "Ata da Audieancia",
+                        "tipo": "Ata da Audieancia",
+                        "tipoConteudo": "PDF",
+                        "data": "26/12/2024",
+                        "ativo": null,
+                        "documentoSigiloso": null,
+                        "usuarioPerito": null,
+                        "publico": null,
+                        "usuarioJuntada": null,
+                        "usuarioCriador": null,
+                        "instancia": null
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "numero": "1004027-48.2024.8.26.0590",
+        "valorDaCausa": null,
+        "area_code": null,
+        "tribunal_code": null,
+        "vara_code": null,
+        "area": null,
+        "tribunal": "TJ-SP",
+        "comarca": "São Vicente",
+        "instancias": [
+            {
+                "fonte_script": "Scrapper",
+                "fonte_sistema": "TJ-SP",
+                "fonte_tipo": "TRIBUNAL",
+                "fonte_url": "https://esaj.tjsp.jus.br/",
+                "grau": null,
+                "classe": null,
+                "orgaoJulgador": "12ª Câmara de Direito Privado",
+                "segredoJustica": null,
+                "justicaGratuita": null,
+                "assunto_principal": null,
+                "assuntos": "Apelação Cível / Bancários",
+                "first_mov": null,
+                "last_mov": "26/12/2024",
+                "envolvidos": [
+                    {
+                        "nome": null,
+                        "tipo": "RECLAMANTE",
+                        "polo": "ATIVO",
+                        "id_sistema": {
+                            "login": null
+                        },
+                        "documento": [],
+                        "endereco": {},
+                        "representantes": [
+                            {
+                                "nome": null,
+                                "tipo": "ADVOGADO",
+                                "polo": "ATIVO",
+                                "id_sistema": {
+                                    "login": null
+                                },
+                                "documento": [
+                                    {
+                                        "CPF": null
+                                    }
+                                ],
+                                "endereco": {
+                                    "logradouro": null,
+                                    "numero": null,
+                                    "complemento": null,
+                                    "bairro": null,
+                                    "municipio": null,
+                                    "estado": null,
+                                    "cep": null
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "nome": null,
+                        "tipo": "RECLAMADO",
+                        "polo": "PASSIVO",
+                        "id_sistema": {
+                            "login": null
+                        },
+                        "documento": [],
+                        "endereco": {},
+                        "representantes": [
+                            {
+                                "nome": null,
+                                "tipo": "ADVOGADO",
+                                "polo": "PASSIVO",
+                                "id_sistema": {
+                                    "login": null
+                                },
+                                "documento": [
+                                    {
+                                        "CPF": null
+                                    }
+                                ],
+                                "endereco": {
+                                    "logradouro": null,
+                                    "numero": null,
+                                    "complemento": null,
+                                    "bairro": null,
+                                    "municipio": null,
+                                    "estado": null,
+                                    "cep": null
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "nome": "Jacob Valente",
+                        "tipo": "RELATOR(A)",
+                        "polo": "OUTROS",
+                        "id_sistema": {
+                            "login": null
+                        },
+                        "documento": [],
+                        "endereco": {},
+                        "representantes": []
+                    }
+                ],
+                "movimentacoes": [
+                    {
+                        "titulo": "Data de publicação",
+                        "tipoConteudo": "HTML",
+                        "data": "26/12/2024",
+                        "ativo": null,
+                        "documento": null,
+                        "mostrarHeaderData": null,
+                        "usuarioCriador": null
+                    },
+                    {
+                        "titulo": null,
+                        "tipoConteudo": null,
+                        "data": null,
+                        "ativo": null,
+                        "documento": null,
+                        "usuarioCriador": null
+                    },
+                    {
+                        "id": null,
+                        "idUnicoDocumento": null,
+                        "titulo": "Ata da Audieancia",
+                        "tipo": "Ata da Audieancia",
+                        "tipoConteudo": "PDF",
+                        "data": "26/12/2024",
+                        "ativo": null,
+                        "documentoSigiloso": null,
+                        "usuarioPerito": null,
+                        "publico": null,
+                        "usuarioJuntada": null,
+                        "usuarioCriador": null,
+                        "instancia": null
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "numero": "1027857-92.2023.8.26.0003",
+        "valorDaCausa": null,
+        "area_code": null,
+        "tribunal_code": null,
+        "vara_code": null,
+        "area": null,
+        "tribunal": "TJ-SP",
+        "comarca": "São Paulo",
+        "instancias": [
+            {
+                "fonte_script": "Scrapper",
+                "fonte_sistema": "TJ-SP",
+                "fonte_tipo": "TRIBUNAL",
+                "fonte_url": "https://esaj.tjsp.jus.br/",
+                "grau": null,
+                "classe": null,
+                "orgaoJulgador": "12ª Câmara de Direito Privado",
+                "segredoJustica": null,
+                "justicaGratuita": null,
+                "assunto_principal": null,
+                "assuntos": "Apelação Cível / Bancários",
+                "first_mov": null,
+                "last_mov": "26/12/2024",
+                "envolvidos": [
+                    {
+                        "nome": null,
+                        "tipo": "RECLAMANTE",
+                        "polo": "ATIVO",
+                        "id_sistema": {
+                            "login": null
+                        },
+                        "documento": [],
+                        "endereco": {},
+                        "representantes": [
+                            {
+                                "nome": null,
+                                "tipo": "ADVOGADO",
+                                "polo": "ATIVO",
+                                "id_sistema": {
+                                    "login": null
+                                },
+                                "documento": [
+                                    {
+                                        "CPF": null
+                                    }
+                                ],
+                                "endereco": {
+                                    "logradouro": null,
+                                    "numero": null,
+                                    "complemento": null,
+                                    "bairro": null,
+                                    "municipio": null,
+                                    "estado": null,
+                                    "cep": null
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "nome": null,
+                        "tipo": "RECLAMADO",
+                        "polo": "PASSIVO",
+                        "id_sistema": {
+                            "login": null
+                        },
+                        "documento": [],
+                        "endereco": {},
+                        "representantes": [
+                            {
+                                "nome": null,
+                                "tipo": "ADVOGADO",
+                                "polo": "PASSIVO",
+                                "id_sistema": {
+                                    "login": null
+                                },
+                                "documento": [
+                                    {
+                                        "CPF": null
+                                    }
+                                ],
+                                "endereco": {
+                                    "logradouro": null,
+                                    "numero": null,
+                                    "complemento": null,
+                                    "bairro": null,
+                                    "municipio": null,
+                                    "estado": null,
+                                    "cep": null
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "nome": "Jacob Valente",
+                        "tipo": "RELATOR(A)",
+                        "polo": "OUTROS",
+                        "id_sistema": {
+                            "login": null
+                        },
+                        "documento": [],
+                        "endereco": {},
+                        "representantes": []
+                    }
+                ],
+                "movimentacoes": [
+                    {
+                        "titulo": "Data de publicação",
+                        "tipoConteudo": "HTML",
+                        "data": "26/12/2024",
+                        "ativo": null,
+                        "documento": null,
+                        "mostrarHeaderData": null,
+                        "usuarioCriador": null
+                    },
+                    {
+                        "titulo": null,
+                        "tipoConteudo": null,
+                        "data": null,
+                        "ativo": null,
+                        "documento": null,
+                        "usuarioCriador": null
+                    },
+                    {
+                        "id": null,
+                        "idUnicoDocumento": null,
+                        "titulo": "Ata da Audieancia",
+                        "tipo": "Ata da Audieancia",
+                        "tipoConteudo": "PDF",
+                        "data": "26/12/2024",
+                        "ativo": null,
+                        "documentoSigiloso": null,
+                        "usuarioPerito": null,
+                        "publico": null,
+                        "usuarioJuntada": null,
+                        "usuarioCriador": null,
+                        "instancia": null
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "numero": "2362372-38.2024.8.26.0000",
+        "valorDaCausa": null,
+        "area_code": null,
+        "tribunal_code": null,
+        "vara_code": null,
+        "area": null,
+        "tribunal": "TJ-SP",
+        "comarca": "São Paulo",
+        "instancias": [
+            {
+                "fonte_script": "Scrapper",
+                "fonte_sistema": "TJ-SP",
+                "fonte_tipo": "TRIBUNAL",
+                "fonte_url": "https://esaj.tjsp.jus.br/",
+                "grau": null,
+                "classe": null,
+                "orgaoJulgador": "12ª Câmara de Direito Privado",
+                "segredoJustica": null,
+                "justicaGratuita": null,
+                "assunto_principal": null,
+                "assuntos": "Agravo de Instrumento / Cédula de Crédito Bancário",
+                "first_mov": null,
+                "last_mov": "26/12/2024",
+                "envolvidos": [
+                    {
+                        "nome": null,
+                        "tipo": "RECLAMANTE",
+                        "polo": "ATIVO",
+                        "id_sistema": {
+                            "login": null
+                        },
+                        "documento": [],
+                        "endereco": {},
+                        "representantes": [
+                            {
+                                "nome": null,
+                                "tipo": "ADVOGADO",
+                                "polo": "ATIVO",
+                                "id_sistema": {
+                                    "login": null
+                                },
+                                "documento": [
+                                    {
+                                        "CPF": null
+                                    }
+                                ],
+                                "endereco": {
+                                    "logradouro": null,
+                                    "numero": null,
+                                    "complemento": null,
+                                    "bairro": null,
+                                    "municipio": null,
+                                    "estado": null,
+                                    "cep": null
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "nome": null,
+                        "tipo": "RECLAMADO",
+                        "polo": "PASSIVO",
+                        "id_sistema": {
+                            "login": null
+                        },
+                        "documento": [],
+                        "endereco": {},
+                        "representantes": [
+                            {
+                                "nome": null,
+                                "tipo": "ADVOGADO",
+                                "polo": "PASSIVO",
+                                "id_sistema": {
+                                    "login": null
+                                },
+                                "documento": [
+                                    {
+                                        "CPF": null
+                                    }
+                                ],
+                                "endereco": {
+                                    "logradouro": null,
+                                    "numero": null,
+                                    "complemento": null,
+                                    "bairro": null,
+                                    "municipio": null,
+                                    "estado": null,
+                                    "cep": null
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "nome": "Jacob Valente",
+                        "tipo": "RELATOR(A)",
+                        "polo": "OUTROS",
+                        "id_sistema": {
+                            "login": null
+                        },
+                        "documento": [],
+                        "endereco": {},
+                        "representantes": []
+                    }
+                ],
+                "movimentacoes": [
+                    {
+                        "titulo": "Data de publicação",
+                        "tipoConteudo": "HTML",
+                        "data": "26/12/2024",
+                        "ativo": null,
+                        "documento": null,
+                        "mostrarHeaderData": null,
+                        "usuarioCriador": null
+                    },
+                    {
+                        "titulo": null,
+                        "tipoConteudo": null,
+                        "data": null,
+                        "ativo": null,
+                        "documento": null,
+                        "usuarioCriador": null
+                    },
+                    {
+                        "id": null,
+                        "idUnicoDocumento": null,
+                        "titulo": "Ata da Audieancia",
+                        "tipo": "Ata da Audieancia",
+                        "tipoConteudo": "PDF",
+                        "data": "26/12/2024",
+                        "ativo": null,
+                        "documentoSigiloso": null,
+                        "usuarioPerito": null,
+                        "publico": null,
+                        "usuarioJuntada": null,
+                        "usuarioCriador": null,
+                        "instancia": null
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "numero": "2356678-88.2024.8.26.0000",
+        "valorDaCausa": null,
+        "area_code": null,
+        "tribunal_code": null,
+        "vara_code": null,
+        "area": null,
+        "tribunal": "TJ-SP",
+        "comarca": "São Paulo",
+        "instancias": [
+            {
+                "fonte_script": "Scrapper",
+                "fonte_sistema": "TJ-SP",
+                "fonte_tipo": "TRIBUNAL",
+                "fonte_url": "https://esaj.tjsp.jus.br/",
+                "grau": null,
+                "classe": null,
+                "orgaoJulgador": "12ª Câmara de Direito Privado",
+                "segredoJustica": null,
+                "justicaGratuita": null,
+                "assunto_principal": null,
+                "assuntos": "Agravo de Instrumento / Empréstimo consignado",
+                "first_mov": null,
+                "last_mov": "26/12/2024",
+                "envolvidos": [
+                    {
+                        "nome": null,
+                        "tipo": "RECLAMANTE",
+                        "polo": "ATIVO",
+                        "id_sistema": {
+                            "login": null
+                        },
+                        "documento": [],
+                        "endereco": {},
+                        "representantes": [
+                            {
+                                "nome": null,
+                                "tipo": "ADVOGADO",
+                                "polo": "ATIVO",
+                                "id_sistema": {
+                                    "login": null
+                                },
+                                "documento": [
+                                    {
+                                        "CPF": null
+                                    }
+                                ],
+                                "endereco": {
+                                    "logradouro": null,
+                                    "numero": null,
+                                    "complemento": null,
+                                    "bairro": null,
+                                    "municipio": null,
+                                    "estado": null,
+                                    "cep": null
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "nome": null,
+                        "tipo": "RECLAMADO",
+                        "polo": "PASSIVO",
+                        "id_sistema": {
+                            "login": null
+                        },
+                        "documento": [],
+                        "endereco": {},
+                        "representantes": [
+                            {
+                                "nome": null,
+                                "tipo": "ADVOGADO",
+                                "polo": "PASSIVO",
+                                "id_sistema": {
+                                    "login": null
+                                },
+                                "documento": [
+                                    {
+                                        "CPF": null
+                                    }
+                                ],
+                                "endereco": {
+                                    "logradouro": null,
+                                    "numero": null,
+                                    "complemento": null,
+                                    "bairro": null,
+                                    "municipio": null,
+                                    "estado": null,
+                                    "cep": null
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "nome": "Jacob Valente",
+                        "tipo": "RELATOR(A)",
+                        "polo": "OUTROS",
+                        "id_sistema": {
+                            "login": null
+                        },
+                        "documento": [],
+                        "endereco": {},
+                        "representantes": []
+                    }
+                ],
+                "movimentacoes": [
+                    {
+                        "titulo": "Data de publicação",
+                        "tipoConteudo": "HTML",
+                        "data": "26/12/2024",
+                        "ativo": null,
+                        "documento": null,
+                        "mostrarHeaderData": null,
+                        "usuarioCriador": null
+                    },
+                    {
+                        "titulo": null,
+                        "tipoConteudo": null,
+                        "data": null,
+                        "ativo": null,
+                        "documento": null,
+                        "usuarioCriador": null
+                    },
+                    {
+                        "id": null,
+                        "idUnicoDocumento": null,
+                        "titulo": "Ata da Audieancia",
+                        "tipo": "Ata da Audieancia",
+                        "tipoConteudo": "PDF",
+                        "data": "26/12/2024",
+                        "ativo": null,
+                        "documentoSigiloso": null,
+                        "usuarioPerito": null,
+                        "publico": null,
+                        "usuarioJuntada": null,
+                        "usuarioCriador": null,
+                        "instancia": null
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "numero": "2354034-75.2024.8.26.0000",
+        "valorDaCausa": null,
+        "area_code": null,
+        "tribunal_code": null,
+        "vara_code": null,
+        "area": null,
+        "tribunal": "TJ-SP",
+        "comarca": "São Paulo",
+        "instancias": [
+            {
+                "fonte_script": "Scrapper",
+                "fonte_sistema": "TJ-SP",
+                "fonte_tipo": "TRIBUNAL",
+                "fonte_url": "https://esaj.tjsp.jus.br/",
+                "grau": null,
+                "classe": null,
+                "orgaoJulgador": "12ª Câmara de Direito Privado",
+                "segredoJustica": null,
+                "justicaGratuita": null,
+                "assunto_principal": null,
+                "assuntos": "Agravo de Instrumento / Cédula de Crédito Bancário",
+                "first_mov": null,
+                "last_mov": "26/12/2024",
+                "envolvidos": [
+                    {
+                        "nome": null,
+                        "tipo": "RECLAMANTE",
+                        "polo": "ATIVO",
+                        "id_sistema": {
+                            "login": null
+                        },
+                        "documento": [],
+                        "endereco": {},
+                        "representantes": [
+                            {
+                                "nome": null,
+                                "tipo": "ADVOGADO",
+                                "polo": "ATIVO",
+                                "id_sistema": {
+                                    "login": null
+                                },
+                                "documento": [
+                                    {
+                                        "CPF": null
+                                    }
+                                ],
+                                "endereco": {
+                                    "logradouro": null,
+                                    "numero": null,
+                                    "complemento": null,
+                                    "bairro": null,
+                                    "municipio": null,
+                                    "estado": null,
+                                    "cep": null
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "nome": null,
+                        "tipo": "RECLAMADO",
+                        "polo": "PASSIVO",
+                        "id_sistema": {
+                            "login": null
+                        },
+                        "documento": [],
+                        "endereco": {},
+                        "representantes": [
+                            {
+                                "nome": null,
+                                "tipo": "ADVOGADO",
+                                "polo": "PASSIVO",
+                                "id_sistema": {
+                                    "login": null
+                                },
+                                "documento": [
+                                    {
+                                        "CPF": null
+                                    }
+                                ],
+                                "endereco": {
+                                    "logradouro": null,
+                                    "numero": null,
+                                    "complemento": null,
+                                    "bairro": null,
+                                    "municipio": null,
+                                    "estado": null,
+                                    "cep": null
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "nome": "Jacob Valente",
+                        "tipo": "RELATOR(A)",
+                        "polo": "OUTROS",
+                        "id_sistema": {
+                            "login": null
+                        },
+                        "documento": [],
+                        "endereco": {},
+                        "representantes": []
+                    }
+                ],
+                "movimentacoes": [
+                    {
+                        "titulo": "Data de publicação",
+                        "tipoConteudo": "HTML",
+                        "data": "26/12/2024",
+                        "ativo": null,
+                        "documento": null,
+                        "mostrarHeaderData": null,
+                        "usuarioCriador": null
+                    },
+                    {
+                        "titulo": null,
+                        "tipoConteudo": null,
+                        "data": null,
+                        "ativo": null,
+                        "documento": null,
+                        "usuarioCriador": null
+                    },
+                    {
+                        "id": null,
+                        "idUnicoDocumento": null,
+                        "titulo": "Ata da Audieancia",
+                        "tipo": "Ata da Audieancia",
+                        "tipoConteudo": "PDF",
+                        "data": "26/12/2024",
+                        "ativo": null,
+                        "documentoSigiloso": null,
+                        "usuarioPerito": null,
+                        "publico": null,
+                        "usuarioJuntada": null,
+                        "usuarioCriador": null,
+                        "instancia": null
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "numero": "2350887-41.2024.8.26.0000",
+        "valorDaCausa": null,
+        "area_code": null,
+        "tribunal_code": null,
+        "vara_code": null,
+        "area": null,
+        "tribunal": "TJ-SP",
+        "comarca": "Buritama",
+        "instancias": [
+            {
+                "fonte_script": "Scrapper",
+                "fonte_sistema": "TJ-SP",
+                "fonte_tipo": "TRIBUNAL",
+                "fonte_url": "https://esaj.tjsp.jus.br/",
+                "grau": null,
+                "classe": null,
+                "orgaoJulgador": "12ª Câmara de Direito Privado",
+                "segredoJustica": null,
+                "justicaGratuita": null,
+                "assunto_principal": null,
+                "assuntos": "Agravo de Instrumento / Empréstimo consignado",
+                "first_mov": null,
+                "last_mov": "26/12/2024",
+                "envolvidos": [
+                    {
+                        "nome": null,
+                        "tipo": "RECLAMANTE",
+                        "polo": "ATIVO",
+                        "id_sistema": {
+                            "login": null
+                        },
+                        "documento": [],
+                        "endereco": {},
+                        "representantes": [
+                            {
+                                "nome": null,
+                                "tipo": "ADVOGADO",
+                                "polo": "ATIVO",
+                                "id_sistema": {
+                                    "login": null
+                                },
+                                "documento": [
+                                    {
+                                        "CPF": null
+                                    }
+                                ],
+                                "endereco": {
+                                    "logradouro": null,
+                                    "numero": null,
+                                    "complemento": null,
+                                    "bairro": null,
+                                    "municipio": null,
+                                    "estado": null,
+                                    "cep": null
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "nome": null,
+                        "tipo": "RECLAMADO",
+                        "polo": "PASSIVO",
+                        "id_sistema": {
+                            "login": null
+                        },
+                        "documento": [],
+                        "endereco": {},
+                        "representantes": [
+                            {
+                                "nome": null,
+                                "tipo": "ADVOGADO",
+                                "polo": "PASSIVO",
+                                "id_sistema": {
+                                    "login": null
+                                },
+                                "documento": [
+                                    {
+                                        "CPF": null
+                                    }
+                                ],
+                                "endereco": {
+                                    "logradouro": null,
+                                    "numero": null,
+                                    "complemento": null,
+                                    "bairro": null,
+                                    "municipio": null,
+                                    "estado": null,
+                                    "cep": null
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "nome": "Jacob Valente",
+                        "tipo": "RELATOR(A)",
+                        "polo": "OUTROS",
+                        "id_sistema": {
+                            "login": null
+                        },
+                        "documento": [],
+                        "endereco": {},
+                        "representantes": []
+                    }
+                ],
+                "movimentacoes": [
+                    {
+                        "titulo": "Data de publicação",
+                        "tipoConteudo": "HTML",
+                        "data": "26/12/2024",
+                        "ativo": null,
+                        "documento": null,
+                        "mostrarHeaderData": null,
+                        "usuarioCriador": null
+                    },
+                    {
+                        "titulo": null,
+                        "tipoConteudo": null,
+                        "data": null,
+                        "ativo": null,
+                        "documento": null,
+                        "usuarioCriador": null
+                    },
+                    {
+                        "id": null,
+                        "idUnicoDocumento": null,
+                        "titulo": "Ata da Audieancia",
+                        "tipo": "Ata da Audieancia",
+                        "tipoConteudo": "PDF",
+                        "data": "26/12/2024",
+                        "ativo": null,
+                        "documentoSigiloso": null,
+                        "usuarioPerito": null,
+                        "publico": null,
+                        "usuarioJuntada": null,
+                        "usuarioCriador": null,
+                        "instancia": null
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "numero": "1037452-42.2023.8.26.0577",
+        "valorDaCausa": null,
+        "area_code": null,
+        "tribunal_code": null,
+        "vara_code": null,
+        "area": null,
+        "tribunal": "TJ-SP",
+        "comarca": "São José dos Campos",
+        "instancias": [
+            {
+                "fonte_script": "Scrapper",
+                "fonte_sistema": "TJ-SP",
+                "fonte_tipo": "TRIBUNAL",
+                "fonte_url": "https://esaj.tjsp.jus.br/",
+                "grau": null,
+                "classe": null,
+                "orgaoJulgador": "12ª Câmara de Direito Privado",
+                "segredoJustica": null,
+                "justicaGratuita": null,
+                "assunto_principal": null,
+                "assuntos": "Apelação Cível / Bancários",
+                "first_mov": null,
+                "last_mov": "26/12/2024",
+                "envolvidos": [
+                    {
+                        "nome": null,
+                        "tipo": "RECLAMANTE",
+                        "polo": "ATIVO",
+                        "id_sistema": {
+                            "login": null
+                        },
+                        "documento": [],
+                        "endereco": {},
+                        "representantes": [
+                            {
+                                "nome": null,
+                                "tipo": "ADVOGADO",
+                                "polo": "ATIVO",
+                                "id_sistema": {
+                                    "login": null
+                                },
+                                "documento": [
+                                    {
+                                        "CPF": null
+                                    }
+                                ],
+                                "endereco": {
+                                    "logradouro": null,
+                                    "numero": null,
+                                    "complemento": null,
+                                    "bairro": null,
+                                    "municipio": null,
+                                    "estado": null,
+                                    "cep": null
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "nome": null,
+                        "tipo": "RECLAMADO",
+                        "polo": "PASSIVO",
+                        "id_sistema": {
+                            "login": null
+                        },
+                        "documento": [],
+                        "endereco": {},
+                        "representantes": [
+                            {
+                                "nome": null,
+                                "tipo": "ADVOGADO",
+                                "polo": "PASSIVO",
+                                "id_sistema": {
+                                    "login": null
+                                },
+                                "documento": [
+                                    {
+                                        "CPF": null
+                                    }
+                                ],
+                                "endereco": {
+                                    "logradouro": null,
+                                    "numero": null,
+                                    "complemento": null,
+                                    "bairro": null,
+                                    "municipio": null,
+                                    "estado": null,
+                                    "cep": null
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "nome": "Jacob Valente",
+                        "tipo": "RELATOR(A)",
+                        "polo": "OUTROS",
+                        "id_sistema": {
+                            "login": null
+                        },
+                        "documento": [],
+                        "endereco": {},
+                        "representantes": []
+                    }
+                ],
+                "movimentacoes": [
+                    {
+                        "titulo": "Data de publicação",
+                        "tipoConteudo": "HTML",
+                        "data": "26/12/2024",
+                        "ativo": null,
+                        "documento": null,
+                        "mostrarHeaderData": null,
+                        "usuarioCriador": null
+                    },
+                    {
+                        "titulo": null,
+                        "tipoConteudo": null,
+                        "data": null,
+                        "ativo": null,
+                        "documento": null,
+                        "usuarioCriador": null
+                    },
+                    {
+                        "id": null,
+                        "idUnicoDocumento": null,
+                        "titulo": "Ata da Audieancia",
+                        "tipo": "Ata da Audieancia",
+                        "tipoConteudo": "PDF",
+                        "data": "26/12/2024",
+                        "ativo": null,
+                        "documentoSigiloso": null,
+                        "usuarioPerito": null,
+                        "publico": null,
+                        "usuarioJuntada": null,
+                        "usuarioCriador": null,
+                        "instancia": null
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "numero": "2305744-29.2024.8.26.0000",
+        "valorDaCausa": null,
+        "area_code": null,
+        "tribunal_code": null,
+        "vara_code": null,
+        "area": null,
+        "tribunal": "TJ-SP",
+        "comarca": "São Paulo",
+        "instancias": [
+            {
+                "fonte_script": "Scrapper",
+                "fonte_sistema": "TJ-SP",
+                "fonte_tipo": "TRIBUNAL",
+                "fonte_url": "https://esaj.tjsp.jus.br/",
+                "grau": null,
+                "classe": null,
+                "orgaoJulgador": "12ª Câmara de Direito Privado",
+                "segredoJustica": null,
+                "justicaGratuita": null,
+                "assunto_principal": null,
+                "assuntos": "Agravo de Instrumento / Contratos Bancários",
+                "first_mov": null,
+                "last_mov": "26/12/2024",
+                "envolvidos": [
+                    {
+                        "nome": null,
+                        "tipo": "RECLAMANTE",
+                        "polo": "ATIVO",
+                        "id_sistema": {
+                            "login": null
+                        },
+                        "documento": [],
+                        "endereco": {},
+                        "representantes": [
+                            {
+                                "nome": null,
+                                "tipo": "ADVOGADO",
+                                "polo": "ATIVO",
+                                "id_sistema": {
+                                    "login": null
+                                },
+                                "documento": [
+                                    {
+                                        "CPF": null
+                                    }
+                                ],
+                                "endereco": {
+                                    "logradouro": null,
+                                    "numero": null,
+                                    "complemento": null,
+                                    "bairro": null,
+                                    "municipio": null,
+                                    "estado": null,
+                                    "cep": null
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "nome": null,
+                        "tipo": "RECLAMADO",
+                        "polo": "PASSIVO",
+                        "id_sistema": {
+                            "login": null
+                        },
+                        "documento": [],
+                        "endereco": {},
+                        "representantes": [
+                            {
+                                "nome": null,
+                                "tipo": "ADVOGADO",
+                                "polo": "PASSIVO",
+                                "id_sistema": {
+                                    "login": null
+                                },
+                                "documento": [
+                                    {
+                                        "CPF": null
+                                    }
+                                ],
+                                "endereco": {
+                                    "logradouro": null,
+                                    "numero": null,
+                                    "complemento": null,
+                                    "bairro": null,
+                                    "municipio": null,
+                                    "estado": null,
+                                    "cep": null
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "nome": "Jacob Valente",
+                        "tipo": "RELATOR(A)",
+                        "polo": "OUTROS",
+                        "id_sistema": {
+                            "login": null
+                        },
+                        "documento": [],
+                        "endereco": {},
+                        "representantes": []
+                    }
+                ],
+                "movimentacoes": [
+                    {
+                        "titulo": "Data de publicação",
+                        "tipoConteudo": "HTML",
+                        "data": "26/12/2024",
+                        "ativo": null,
+                        "documento": null,
+                        "mostrarHeaderData": null,
+                        "usuarioCriador": null
+                    },
+                    {
+                        "titulo": null,
+                        "tipoConteudo": null,
+                        "data": null,
+                        "ativo": null,
+                        "documento": null,
+                        "usuarioCriador": null
+                    },
+                    {
+                        "id": null,
+                        "idUnicoDocumento": null,
+                        "titulo": "Ata da Audieancia",
+                        "tipo": "Ata da Audieancia",
+                        "tipoConteudo": "PDF",
+                        "data": "26/12/2024",
+                        "ativo": null,
+                        "documentoSigiloso": null,
+                        "usuarioPerito": null,
+                        "publico": null,
+                        "usuarioJuntada": null,
+                        "usuarioCriador": null,
+                        "instancia": null
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "numero": "1026042-26.2024.8.26.0003",
+        "valorDaCausa": null,
+        "area_code": null,
+        "tribunal_code": null,
+        "vara_code": null,
+        "area": null,
+        "tribunal": "TJ-SP",
+        "comarca": "São Paulo",
+        "instancias": [
+            {
+                "fonte_script": "Scrapper",
+                "fonte_sistema": "TJ-SP",
+                "fonte_tipo": "TRIBUNAL",
+                "fonte_url": "https://esaj.tjsp.jus.br/",
+                "grau": null,
+                "classe": null,
+                "orgaoJulgador": "14ª Câmara de Direito Privado",
+                "segredoJustica": null,
+                "justicaGratuita": null,
+                "assunto_principal": null,
+                "assuntos": "Apelação Cível / Bancários",
+                "first_mov": null,
+                "last_mov": "26/12/2024",
+                "envolvidos": [
+                    {
+                        "nome": null,
+                        "tipo": "RECLAMANTE",
+                        "polo": "ATIVO",
+                        "id_sistema": {
+                            "login": null
+                        },
+                        "documento": [],
+                        "endereco": {},
+                        "representantes": [
+                            {
+                                "nome": null,
+                                "tipo": "ADVOGADO",
+                                "polo": "ATIVO",
+                                "id_sistema": {
+                                    "login": null
+                                },
+                                "documento": [
+                                    {
+                                        "CPF": null
+                                    }
+                                ],
+                                "endereco": {
+                                    "logradouro": null,
+                                    "numero": null,
+                                    "complemento": null,
+                                    "bairro": null,
+                                    "municipio": null,
+                                    "estado": null,
+                                    "cep": null
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "nome": null,
+                        "tipo": "RECLAMADO",
+                        "polo": "PASSIVO",
+                        "id_sistema": {
+                            "login": null
+                        },
+                        "documento": [],
+                        "endereco": {},
+                        "representantes": [
+                            {
+                                "nome": null,
+                                "tipo": "ADVOGADO",
+                                "polo": "PASSIVO",
+                                "id_sistema": {
+                                    "login": null
+                                },
+                                "documento": [
+                                    {
+                                        "CPF": null
+                                    }
+                                ],
+                                "endereco": {
+                                    "logradouro": null,
+                                    "numero": null,
+                                    "complemento": null,
+                                    "bairro": null,
+                                    "municipio": null,
+                                    "estado": null,
+                                    "cep": null
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "nome": "Penna Machado",
+                        "tipo": "RELATOR(A)",
+                        "polo": "OUTROS",
+                        "id_sistema": {
+                            "login": null
+                        },
+                        "documento": [],
+                        "endereco": {},
+                        "representantes": []
+                    }
+                ],
+                "movimentacoes": [
+                    {
+                        "titulo": "Data de publicação",
+                        "tipoConteudo": "HTML",
+                        "data": "26/12/2024",
+                        "ativo": null,
+                        "documento": null,
+                        "mostrarHeaderData": null,
+                        "usuarioCriador": null
+                    },
+                    {
+                        "titulo": null,
+                        "tipoConteudo": null,
+                        "data": null,
+                        "ativo": null,
+                        "documento": null,
+                        "usuarioCriador": null
+                    },
+                    {
+                        "id": null,
+                        "idUnicoDocumento": null,
+                        "titulo": "Ata da Audieancia",
+                        "tipo": "Ata da Audieancia",
+                        "tipoConteudo": "PDF",
+                        "data": "26/12/2024",
+                        "ativo": null,
+                        "documentoSigiloso": null,
+                        "usuarioPerito": null,
+                        "publico": null,
+                        "usuarioJuntada": null,
+                        "usuarioCriador": null,
+                        "instancia": null
+                    }
+                ]
+            }
+        ]
     }
 ]

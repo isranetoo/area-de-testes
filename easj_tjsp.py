@@ -1,8 +1,10 @@
 import json
+import time
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
-import time
+from selenium.webdriver.chrome.options import Options
+
 
 def search_and_collect(driver):
     """
@@ -22,7 +24,7 @@ def search_and_collect(driver):
         time.sleep(5)
 
         i = 1
-        while i <= 10:
+        while i <= 20:
             result_xpath = f'//*[@id="divDadosResultado-A"]/table/tbody/tr[{i}]'
             
             try:
@@ -36,6 +38,10 @@ def search_and_collect(driver):
                     "vara_code": None,
                     "area": None,
                     "tribunal": "TJ-SP",
+                    "comarca": remove_prefix(
+                            extract_text(result_element, f'//*[@id="divDadosResultado-A"]/table/tbody/tr[{i}]/td[2]/table/tbody/tr[4]/td'), 
+                            "Comarca: "
+                        ),
                     "instancias": [{
                         "fonte_script": "Scrapper",
                         "fonte_sistema": "TJ-SP",
@@ -58,48 +64,119 @@ def search_and_collect(driver):
                             "Classe/Assunto: "
                         ),
 
-                        "first_mov": "2024-09-26T11:43:42.215",
-                        "last_mov": "2024-12-26T11:43:41.894",
-
-                        "envolvidos": [
+                        "first_mov": None,
+                        "last_mov": remove_prefix(extract_text(result_element, f'//*[@id="divDadosResultado-A"]/table/tbody/tr[2]/td[2]/table/tbody/tr[7]/td'),
+                            "Data de publicação: "
+                        ),
+                         "envolvidos": [
+                    {
+                        "nome": None,
+                        "tipo": "RECLAMANTE",
+                        "polo": "ATIVO",
+                        "id_sistema": {"login": None},
+                        "documento": [],
+                        "endereco": {},
+                        "representantes": [
                             {
-                                "nome": "J. M. R. I.",
-                                "tipo": "RECLAMANTE",
+                                "nome": None,
+                                "tipo": "ADVOGADO",
                                 "polo": "ATIVO",
-                                "id_sistema": {"login": "03411657430"},
-                                "documento": [],
-                                "endereco": {},
-                                "representantes": [
-                                    {
-                                        "nome": "RENE GOMES DA VEIGA PESSOA JUNIOR",
-                                        "tipo": "ADVOGADO",
-                                        "polo": "ATIVO",
-                                        "id_sistema": {"login": "03867168466"},
-                                        "documento": [{"CPF": "038.671.684-66"}],
-                                        "endereco": {
-                                            "logradouro": "CARACOL",
-                                            "numero": "00",
-                                            "complemento": "BL 02 AP 302",
-                                            "bairro": "CANDEIAS",
-                                            "municipio": "JABOATAO DOS GUARARAPES",
-                                            "estado": "PE",
-                                            "cep": "54430-180"
-                                        }
-                                    }
-                                ]
+                                "id_sistema": {"login": None},
+                                "documento": [{"CPF": None}],
+                                "endereco": {
+                                    "logradouro": None,
+                                    "numero": None,
+                                    "complemento": None,
+                                    "bairro": None,
+                                    "municipio": None,
+                                    "estado": None,
+                                    "cep": None,
+                                }
                             }
                         ]
-                    }],
-                    "Relator(a)": remove_prefix(
-                        extract_text(result_element, f'//*[@id="divDadosResultado-A"]/table/tbody/tr[{i}]/td[2]/table/tbody/tr[3]/td'), 
-                        "Relator(a): "
-                    ),
-                    "Comarca": extract_text(result_element, f'//*[@id="divDadosResultado-A"]/table/tbody/tr[{i}]/td[2]/table/tbody/tr[4]/td'),
-                    "Data do julgamento": extract_text(result_element, f'//*[@id="divDadosResultado-A"]/table/tbody/tr[{i}]/td[2]/table/tbody/tr[6]/td'),
-                    "Data de publicação": extract_text(result_element, f'//*[@id="divDadosResultado-A"]/table/tbody/tr[2]/td[2]/table/tbody/tr[7]/td'),
-                    "Ementa": extract_text(result_element, f'//*[@id="divDadosResultado-A"]/table/tbody/tr[2]/td[2]/table/tbody/tr[8]/td/div[1]')
-                }
+                    },
+                    {
+                        "nome": None,
+                        "tipo": "RECLAMADO",
+                        "polo": "PASSIVO",
+                        "id_sistema": {"login": None},
+                        "documento": [],
+                        "endereco": {},
+                        "representantes": [
+                            {
+                                "nome": None,
+                                "tipo": "ADVOGADO",
+                                "polo": "PASSIVO",
+                                "id_sistema": {"login": None},
+                                "documento": [{"CPF": None}],
+                                "endereco": {
+                                    "logradouro": None,
+                                    "numero": None,
+                                    "complemento": None,
+                                    "bairro": None,
+                                    "municipio": None,
+                                    "estado": None,
+                                    "cep": None
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "nome": remove_prefix(
+                            extract_text(result_element, f'//*[@id="divDadosResultado-A"]/table/tbody/tr[{i}]/td[2]/table/tbody/tr[3]/td'), 
+                            "Relator(a): "
+                        ),
+                        "tipo": "RELATOR(A)",
+                        "polo": "OUTROS",
+                        "id_sistema": {"login": None},
+                        "documento": [],
+                        "endereco": {},
+                        "representantes": []
+                    }
+                ],
 
+                "movimentacoes": [
+                    {
+                        "titulo": "Data de publicação",
+                        "tipoConteudo": "HTML",
+                        "data": remove_prefix(extract_text(result_element, f'//*[@id="divDadosResultado-A"]/table/tbody/tr[2]/td[2]/table/tbody/tr[7]/td'),
+                            "Data de publicação: "
+                        ),
+                        "ativo": None,
+                        "documento":None,
+                        "mostrarHeaderData": None,
+                        "usuarioCriador": None
+                    },
+                    {
+                        "titulo": None,
+                        "tipoConteudo": None,
+                        "data": None,
+                        "ativo": None,
+                        "documento": None,
+                        "usuarioCriador": None
+                    },
+                    {
+                        "id": None,
+                        "idUnicoDocumento": None,
+                        "titulo": "Ata da Audieancia",
+                        "tipo": "Ata da Audieancia",
+                        "tipoConteudo": "PDF",
+                        "data": remove_prefix(extract_text(result_element, f'//*[@id="divDadosResultado-A"]/table/tbody/tr[2]/td[2]/table/tbody/tr[7]/td'),
+                            "Data de publicação: "
+                        ),
+                        "ativo": None,
+                        "documentoSigiloso": None,
+                        "usuarioPerito": None,
+                        "publico": None,
+                        "usuarioJuntada": None,
+                        "usuarioCriador": None,
+                        "instancia": None
+                    }
+                ]
+            }
+        ]
+    }
+ 
                 results.append(data)
 
                 print(f"Linha {i} processada com sucesso.")
@@ -116,6 +193,7 @@ def search_and_collect(driver):
     except Exception as e:
         print(f"Erro durante a busca ou coleta de informações: {e}")
 
+
 def extract_text(parent_element, relative_xpath):
     """
     Extrai o texto de um elemento relativo ao elemento pai.
@@ -125,24 +203,23 @@ def extract_text(parent_element, relative_xpath):
         return element.text.strip()
     except Exception:
         return None
+  
 
 def remove_prefix(text, prefix):
-    """
-    Remove o prefixo especificado do texto, se presente.
-    
-    Args:
-        text (str): O texto a ser processado.
-        prefix (str): O prefixo a ser removido.
-    
-    Returns:
-        str: O texto sem o prefixo, ou o texto original se o prefixo não for encontrado.
-    """
+    """Remove o prefixo especificado do texto, se presente."""
     if text and text.startswith(prefix):
         return text.replace(prefix, "").strip()
     return text
 
+
 if __name__ == "__main__":
-    driver = webdriver.Chrome()  
+    chrome_options = Options()
+    chrome_options.add_argument("--headless")
+    chrome_options.add_argument("--disable-gpu")
+    chrome_options.add_argument("--no-sandbox")
+    chrome_options.add_argument("--disable-dev-shm-usage")
+
+    driver = webdriver.Chrome(chrome_options)  
 
     try:
         search_and_collect(driver)
