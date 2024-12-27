@@ -1,24 +1,34 @@
 import json
-import time
 from selenium import webdriver
 from selenium.webdriver.common.by import By
-from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.chrome.options import Options
 
-def manage_session_and_extract(driver, session_file="session_data.json"):
-    """
-    Gerencia a sessão do navegador (carregando ou salvando), realiza a busca e coleta os dados dos processos.
-    """
-    
+
+def save_session_data(driver, session_file="session_data.json"):
+    """Salva os dados da sessão (cookies e local storage)"""
+    try:
+        cookies = driver.get_cookies()
+        local_storage = driver.execute_script("return window.localStorage;")
+        session_data = {
+            "cookies": cookies,
+            "localStorage": local_storage,
+        }
+        with open(session_file, "w", encoding="utf-8") as file:
+            json.dump(session_data, file, ensure_ascii=False, indent=4)
+        print(f"Dados da sessão salvos em '{session_file}'.")
+    except Exception as e:
+        print(f"Erro ao salvar os dados da sessão: {e}")
+
+
+def load_session_data(driver, session_file="session_data.json"):
+    """Carrega os dados da sessão (cookies e local storage)"""
     try:
         with open(session_file, "r", encoding="utf-8") as file:
             session_data = json.load(file)
 
-        driver.get("https://esaj.tjsp.jus.br")  
+        driver.get("https://esaj.tjsp.jus.br")
 
         for cookie in session_data.get("cookies", []):
-            if "domain" in cookie and not cookie["domain"].startswith("."):
-                cookie["domain"] = f".{cookie['domain']}"  
             driver.add_cookie(cookie)
 
         for key, value in session_data.get("localStorage", {}).items():
@@ -30,42 +40,6 @@ def manage_session_and_extract(driver, session_file="session_data.json"):
     except Exception as e:
         print(f"Erro ao carregar os dados da sessão: {e}")
 
-    all_case_data = []
-    base_url = "https://esaj.tjsp.jus.br/cjsg/trocaDePagina.do?tipoDeDecisao=A&pagina={}&conversationId="
-    try:
-        for page in range(1, 6):
-            print(f"Acessando página {page}")
-            driver.get(base_url.format(page))
-            time.sleep(2)
-            case_data = extract_case_data(driver)
-            all_case_data.extend(case_data)
-
-        with open("processos.json", "w", encoding="utf-8") as file:
-            json.dump(all_case_data, file, ensure_ascii=False, indent=4)
-
-        print("Dados de todos os processos salvos no arquivo 'processos.json'.")
-    except Exception as e:
-        print(f"Erro durante a busca ou coleta de informações: {e}")
-
-    
-    try:
-        cookies = driver.get_cookies()
-        current_url = driver.current_url
-        domain = current_url.split("//")[1].split("/")[0] 
-        valid_cookies = [cookie for cookie in cookies if domain in cookie.get("domain", "")]
-
-        local_storage = driver.execute_script("return window.localStorage;")
-        session_data = {
-            "cookies": valid_cookies,
-            "localStorage": local_storage,
-        }
-
-        with open(session_file, "w", encoding="utf-8") as file:
-            json.dump(session_data, file, ensure_ascii=False, indent=4)
-
-        print(f"Dados da sessão salvos em {session_file}.")
-    except Exception as e:
-        print(f"Erro ao salvar os dados da sessão: {e}")
 
 def extract_case_data(driver):
     """Coleta os dados da página de processos"""
@@ -228,11 +202,13 @@ def extract_case_data(driver):
         print(f"Erro ao coletar dados da tabela: {e}")
         return []
 
+
 def remove_prefix(text, prefix):
-    """Remove o prefixo especificado do texto, se presente."""
+    """Remove o prefixo especificado do texto, se presente"""
     if text and text.startswith(prefix):
         return text.replace(prefix, "").strip()
     return text
+
 
 if __name__ == "__main__":
     chrome_options = Options()
@@ -244,6 +220,27 @@ if __name__ == "__main__":
     driver = webdriver.Chrome(options=chrome_options)
 
     try:
-        manage_session_and_extract(driver)
+        load_session_data(driver)
+
+        all_case_data = []  
+        base_url = "https://esaj.tjsp.jus.br/cjsg/trocaDePagina.do?tipoDeDecisao=A&pagina={}&conversationId="
+     
+        page = 1
+        while page <= 5:
+            print(f"Acessando página {page}")
+            driver.get(base_url.format(page))
+
+            
+            case_data = extract_case_data(driver)
+            all_case_data.extend(case_data)
+
+            page += 1  
+
+        with open("processos.json", "w", encoding="utf-8") as file:
+            json.dump(all_case_data, file, ensure_ascii=False, indent=4)
+
+        print("Dados de todos os processos salvos no arquivo 'processos.json'.")
+        save_session_data(driver)
+
     finally:
         driver.quit()
