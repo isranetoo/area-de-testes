@@ -1,8 +1,8 @@
-import json
+import requests
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.options import Options
-
+import json
 
 def save_session_data(driver, session_file="session_data.json"):
     """Salva os dados da sessão (cookies e local storage)"""
@@ -19,14 +19,13 @@ def save_session_data(driver, session_file="session_data.json"):
     except Exception as e:
         print(f"Erro ao salvar os dados da sessão: {e}")
 
-
 def load_session_data(driver, session_file="session_data.json"):
     """Carrega os dados da sessão (cookies e local storage)"""
     try:
         with open(session_file, "r", encoding="utf-8") as file:
             session_data = json.load(file)
 
-        driver.get("https://esaj.tjsp.jus.br")
+        driver.get("https://esaj.tjsp.jus.br/cjsg/resultadoCompleta.do")
 
         for cookie in session_data.get("cookies", []):
             driver.add_cookie(cookie)
@@ -35,11 +34,27 @@ def load_session_data(driver, session_file="session_data.json"):
             driver.execute_script(f"window.localStorage.setItem('{key}', '{value}');")
 
         print(f"Dados da sessão carregados de '{session_file}'.")
+        return True
     except FileNotFoundError:
         print(f"Arquivo '{session_file}' não encontrado. Iniciando sem sessão anterior.")
+        return False
     except Exception as e:
         print(f"Erro ao carregar os dados da sessão: {e}")
+        return False
 
+def download_pdf(cdacordao):
+    """Baixa o PDF com base no cdacordao"""
+    url = f"https://esaj.tjsp.jus.br/cjsg/getArquivo.do?cdAcordao={cdacordao}&cdForo=0"
+    try:
+        response = requests.get(url)
+        if response.status_code == 200:
+            with open(f"processo_{cdacordao}.pdf", 'wb') as f:
+                f.write(response.content)
+            print(f"PDF {cdacordao} baixado com sucesso.")
+        else:
+            print(f"Erro ao baixar o PDF para {cdacordao}. Status: {response.status_code}")
+    except Exception as e:
+        print(f"Erro ao tentar baixar o PDF {cdacordao}: {e}")
 
 def extract_case_data(driver):
     """Coleta os dados da página de processos"""
@@ -192,23 +207,28 @@ def extract_case_data(driver):
             }
         ]
     }
+
+                # Extrai os valores de 'cdacordao' e baixa os PDFs
+                links = row.find_elements(By.XPATH, f"td[2]/table/tbody/tr[1]/td/a")
+                for link in links:
+                    cdacordao = link.get_attribute("cdacordao")
+                    if cdacordao:
+                        download_pdf(cdacordao)
+
                 results.append(case_data)
                 print(f"Processo {i} coletado com sucesso.")
             except Exception as e:
                 print(f"Erro ao coletar dados da linha {i}: {e}")
-
         return results
     except Exception as e:
         print(f"Erro ao coletar dados da tabela: {e}")
         return []
-
 
 def remove_prefix(text, prefix):
     """Remove o prefixo especificado do texto, se presente"""
     if text and text.startswith(prefix):
         return text.replace(prefix, "").strip()
     return text
-
 
 if __name__ == "__main__":
     chrome_options = Options()
@@ -220,21 +240,24 @@ if __name__ == "__main__":
     driver = webdriver.Chrome(options=chrome_options)
 
     try:
-        load_session_data(driver)
+        session_loaded = load_session_data(driver)
 
-        all_case_data = []  
+        if not session_loaded:
+            print("A sessão não foi carregada. Coletando dados de processos.")
+            driver.get("https://esaj.tjsp.jus.br/cjsg/resultadoCompleta.do")
+
+        all_case_data = []
         base_url = "https://esaj.tjsp.jus.br/cjsg/trocaDePagina.do?tipoDeDecisao=A&pagina={}&conversationId="
-     
+
         page = 1
         while page <= 5:
             print(f"Acessando página {page}")
             driver.get(base_url.format(page))
 
-            
             case_data = extract_case_data(driver)
             all_case_data.extend(case_data)
 
-            page += 1  
+            page += 1
 
         with open("processos.json", "w", encoding="utf-8") as file:
             json.dump(all_case_data, file, ensure_ascii=False, indent=4)

@@ -2,7 +2,37 @@
     "cookies": [
         {
             "domain": ".esaj.tjsp.jus.br",
-            "expiry": 1736168568,
+            "expiry": 1751936478,
+            "httpOnly": false,
+            "name": "__utmz",
+            "path": "/",
+            "sameSite": "Lax",
+            "secure": true,
+            "value": "173948983.1736168478.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)"
+        },
+        {
+            "domain": ".esaj.tjsp.jus.br",
+            "expiry": 1770728478,
+            "httpOnly": false,
+            "name": "__utma",
+            "path": "/",
+            "sameSite": "Lax",
+            "secure": true,
+            "value": "173948983.292954348.1736168478.1736168478.1736168478.1"
+        },
+        {
+            "domain": ".esaj.tjsp.jus.br",
+            "expiry": 1736190920,
+            "httpOnly": false,
+            "name": "__utmb",
+            "path": "/",
+            "sameSite": "Lax",
+            "secure": false,
+            "value": "173948983.1.10.1736189120"
+        },
+        {
+            "domain": ".esaj.tjsp.jus.br",
+            "expiry": 1736189720,
             "httpOnly": false,
             "name": "__utmt",
             "path": "/",
@@ -12,23 +42,21 @@
         },
         {
             "domain": ".esaj.tjsp.jus.br",
-            "expiry": 1736169768,
             "httpOnly": false,
-            "name": "__utmb",
+            "name": "__utmc",
             "path": "/",
             "sameSite": "Lax",
-            "secure": false,
-            "value": "173948983.1.10.1736167968"
+            "secure": true,
+            "value": "173948983"
         },
         {
             "domain": ".esaj.tjsp.jus.br",
-            "expiry": 1770727968,
             "httpOnly": false,
-            "name": "__utma",
-            "path": "/",
+            "name": "K-JSESSIONID-lnmpmgnp",
+            "path": "/cjsg",
             "sameSite": "Lax",
-            "secure": false,
-            "value": "173948983.341670928.1736167968.1736167968.1736167968.1"
+            "secure": true,
+            "value": "B143C31FEF4E329367BFB8797E8088A6"
         },
         {
             "domain": "esaj.tjsp.jus.br",
@@ -37,26 +65,16 @@
             "path": "/cjsg",
             "sameSite": "Lax",
             "secure": false,
-            "value": "123DE43158BE4B2912D7CAEB9EB6A26E.cjsg2"
-        },
-        {
-            "domain": ".esaj.tjsp.jus.br",
-            "expiry": 1751935968,
-            "httpOnly": false,
-            "name": "__utmz",
-            "path": "/",
-            "sameSite": "Lax",
-            "secure": false,
-            "value": "173948983.1736167968.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)"
+            "value": "DE24E8178D55D5F90BC8E5E559A90D8C.cjsg1"
         },
         {
             "domain": ".esaj.tjsp.jus.br",
             "httpOnly": false,
-            "name": "__utmc",
-            "path": "/",
+            "name": "JSESSIONID",
+            "path": "/cjsg",
             "sameSite": "Lax",
-            "secure": false,
-            "value": "173948983"
+            "secure": true,
+            "value": "B4FF5C4541B8FCD0B43B512290C15190.cjsg1"
         },
         {
             "domain": "esaj.tjsp.jus.br",
@@ -65,15 +83,15 @@
             "path": "/cjsg",
             "sameSite": "Lax",
             "secure": false,
-            "value": "2C5552246AD8249A598DC5BFAD9DF934"
+            "value": "B143C31FEF4E329367BFB8797E8088A6"
         }
     ],
     "localStorage": {
-        "_grecaptcha": "09AJNbFnf83S6l6Oj2TWeHLb6OpIJJImyNZ7rhqJj1wqLhErTWf5vWoo9jYY-Ay4c-Wn7h-w5at72IlxZGbW4KYq3Eu1LZzJQcbZuuQZGNU7LPlaNQ2uaiOUVN9-1ix0nS",
+        "_grecaptcha": "09AJNbFnfi6AGzpnN2vZ2nI04snhy88erloEjqoK7ueF6NFdg5TzLsot233SECJHIsgXrs1EUfzcOzQxFraPwfXFO69ZTKH1yzculsef6dX_DmC8setU8IXpvXGnpo7Cdb",
         "clear": {},
         "getItem": {},
         "key": {},
-        "length": 1,
+        "length": 7,
         "removeItem": {},
         "setItem": {}
     }
