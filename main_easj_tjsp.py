@@ -1,45 +1,7 @@
 import json
-import time
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.options import Options
-from selenium.webdriver.common.keys import Keys
-
-def manage_session_and_search(driver, session_file="session_data.json"):
-    """
-    Gerencia a sessão do navegador (carregando ou salvando) e realiza a busca.
-    """
-    try:
-        with open(session_file, "r", encoding="utf-8") as file:
-            session_data = json.load(file)
-
-        driver.get("https://esaj.tjsp.jus.br")  
-
-        for cookie in session_data.get("cookies", []):
-            if "domain" in cookie and not cookie["domain"].startswith("."):
-                cookie["domain"] = f".{cookie['domain']}"  
-            driver.add_cookie(cookie)
-
-        for key, value in session_data.get("localStorage", {}).items():
-            driver.execute_script(f"window.localStorage.setItem('{key}', '{value}');")
-
-        print(f"Dados da sessão carregados de '{session_file}'.")
-    except FileNotFoundError:
-        print(f"Arquivo '{session_file}' não encontrado. Iniciando sem sessão anterior.")
-    except Exception as e:
-        print(f"Erro ao carregar os dados da sessão: {e}")
-
-    try:
-        url = "https://esaj.tjsp.jus.br/cjsg/resultadoCompleta.do"
-        driver.get(url)
-        time.sleep(2)
-
-        search_input = driver.find_element(By.XPATH, '//*[@id="iddados.buscaInteiroTeor"]')
-        search_input.send_keys("itau")
-        search_input.send_keys(Keys.RETURN)
-        print("Busca realizada com sucesso.")
-    except Exception as e:
-        print(f"Erro durante a busca: {e}")
 
 def save_session_data(driver, session_file="session_data.json"):
     """Salva os dados da sessão (cookies e local storage)"""
@@ -62,7 +24,7 @@ def load_session_data(driver, session_file="session_data.json"):
         with open(session_file, "r", encoding="utf-8") as file:
             session_data = json.load(file)
 
-        driver.get("https://esaj.tjsp.jus.br")
+        driver.get("https://esaj.tjsp.jus.br/cjsg/resultadoCompleta.do")
 
         for cookie in session_data.get("cookies", []):
             driver.add_cookie(cookie)
@@ -71,10 +33,13 @@ def load_session_data(driver, session_file="session_data.json"):
             driver.execute_script(f"window.localStorage.setItem('{key}', '{value}');")
 
         print(f"Dados da sessão carregados de '{session_file}'.")
+        return True
     except FileNotFoundError:
         print(f"Arquivo '{session_file}' não encontrado. Iniciando sem sessão anterior.")
+        return False
     except Exception as e:
         print(f"Erro ao carregar os dados da sessão: {e}")
+        return False
 
 def extract_case_data(driver):
     """Coleta os dados da página de processos"""
@@ -225,6 +190,8 @@ def extract_case_data(driver):
                     }
                 ]
             }
+        ]
+    }
                 results.append(case_data)
                 print(f"Processo {i} coletado com sucesso.")
             except Exception as e:
@@ -251,20 +218,24 @@ if __name__ == "__main__":
     driver = webdriver.Chrome(options=chrome_options)
 
     try:
-        load_session_data(driver)
+        session_loaded = load_session_data(driver)
 
-        all_case_data = []  
+        if not session_loaded:
+            print("Sessão não carregada. Realize o login manualmente ou continue sem dados da sessão.")
+            driver.get("https://esaj.tjsp.jus.br/cjsg/resultadoCompleta.do")
+
+        all_case_data = []
         base_url = "https://esaj.tjsp.jus.br/cjsg/trocaDePagina.do?tipoDeDecisao=A&pagina={}&conversationId="
-     
+
         page = 1
-        while page <= 20:
+        while page <= 5:
             print(f"Acessando página {page}")
             driver.get(base_url.format(page))
 
             case_data = extract_case_data(driver)
             all_case_data.extend(case_data)
 
-            page += 1  
+            page += 1
 
         with open("processos.json", "w", encoding="utf-8") as file:
             json.dump(all_case_data, file, ensure_ascii=False, indent=4)
