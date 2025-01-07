@@ -1,11 +1,15 @@
 import requests
+import json
+import main_pdf_extract 
+import re
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.options import Options
-import json
+from main_pdf_extract import main 
+
 
 def save_session_data(driver, session_file="session_data.json"):
-    """Salva os dados da sessão (cookies e local storage)"""
+    """Salva os dados da sessão (cookies e local storage)."""
     try:
         cookies = driver.get_cookies()
         local_storage = driver.execute_script("return window.localStorage;")
@@ -19,8 +23,9 @@ def save_session_data(driver, session_file="session_data.json"):
     except Exception as e:
         print(f"Erro ao salvar os dados da sessão: {e}")
 
+
 def load_session_data(driver, session_file="session_data.json"):
-    """Carrega os dados da sessão (cookies e local storage)"""
+    """Carrega os dados da sessão (cookies e local storage)."""
     try:
         with open(session_file, "r", encoding="utf-8") as file:
             session_data = json.load(file)
@@ -42,29 +47,63 @@ def load_session_data(driver, session_file="session_data.json"):
         print(f"Erro ao carregar os dados da sessão: {e}")
         return False
 
+
 def download_pdf(cdacordao):
-    """Baixa o PDF com base no cdacordao"""
+    """
+    Baixa o PDF com base no cdacordao e executa a extração.
+    """
     url = f"https://esaj.tjsp.jus.br/cjsg/getArquivo.do?cdAcordao={cdacordao}&cdForo=0"
+    output_file = "processo_temp.pdf"  # Nome fixo para sobrescrever o arquivo anterior
+
     try:
         response = requests.get(url)
         if response.status_code == 200:
-            with open(f"processo_{cdacordao}.pdf", 'wb') as f:
+            with open(output_file, 'wb') as f:
                 f.write(response.content)
             print(f"PDF {cdacordao} baixado com sucesso.")
+
+            
+            main_pdf_extract.main(output_file, page_index=1)  
         else:
             print(f"Erro ao baixar o PDF para {cdacordao}. Status: {response.status_code}")
     except Exception as e:
         print(f"Erro ao tentar baixar o PDF {cdacordao}: {e}")
 
+
+def remove_prefix(text, prefix):
+    """Remove o prefixo especificado do texto, se presente."""
+    if text and text.startswith(prefix):
+        return text.replace(prefix, "").strip()
+    return text
+
+
+patterns = {
+    "APELANTE": r'APELANTE:\s*(.+)',
+    "AGRAVANTE": r'AGRAVANTE:\s*(.+)',
+    "EMBARGANTE": r'EMBARGANTE:\s*(.+)',
+    "RECORRENTE": r'Recorrente:\s*(.+)',
+}
+
+# Extract the patterns
+extracted_data = main_pdf_extract.extract_patterns_from_pdf("processo_temp.pdf", 1, patterns)
+
+# Remove the prefixes from the keys
+cleaned_data = {key: re.sub(f"{key}:\s*", "", value) for key, value in extracted_data.items() if value}
+
+
+
 def extract_case_data(driver):
-    """Coleta os dados da página de processos"""
+    """Coleta os dados da página de processos e baixa os PDFs correspondentes."""
     results = []
     rows_xpath = "//body/table[1]/tbody/tr"
 
     try:
+        # Localiza as linhas da tabela de processos na página
         rows = driver.find_elements(By.XPATH, rows_xpath)
+
         for i, row in enumerate(rows, start=1):
             try:
+                # Extração de dados básicos do processo
                 case_data = {                             
                     "numero":  row.find_element(By.XPATH, f"td[2]/table/tbody/tr[1]/td/a[1]").text,
                     "valorDaCausa": None,
@@ -102,7 +141,13 @@ def extract_case_data(driver):
                         ),
                          "envolvidos": [
                     {
-                        "nome": None,
+                        "nome": main_pdf_extract.extract_patterns_from_pdf("processo_temp.pdf", 1, 
+                        {
+                            "APELANTE": r'APELANTE:\s*(.+)',
+                            "AGRAVANTE": r'AGRAVANTE:\s*(.+)',
+                            "EMBARGANTE": r'EMBARGANTE:\s*(.+)',
+                            "RECORRENTE": r'Recorrente:\s*(.+)',
+                        }),
                         "tipo": "RECLAMANTE",
                         "polo": "ATIVO",
                         "id_sistema": {"login": None},
@@ -208,7 +253,7 @@ def extract_case_data(driver):
         ]
     }
 
-                # Extrai os valores de 'cdacordao' e baixa os PDFs
+                
                 links = row.find_elements(By.XPATH, f"td[2]/table/tbody/tr[1]/td/a")
                 for link in links:
                     cdacordao = link.get_attribute("cdacordao")
@@ -220,15 +265,11 @@ def extract_case_data(driver):
             except Exception as e:
                 print(f"Erro ao coletar dados da linha {i}: {e}")
         return results
+
     except Exception as e:
         print(f"Erro ao coletar dados da tabela: {e}")
         return []
 
-def remove_prefix(text, prefix):
-    """Remove o prefixo especificado do texto, se presente"""
-    if text and text.startswith(prefix):
-        return text.replace(prefix, "").strip()
-    return text
 
 if __name__ == "__main__":
     chrome_options = Options()
@@ -248,9 +289,8 @@ if __name__ == "__main__":
 
         all_case_data = []
         base_url = "https://esaj.tjsp.jus.br/cjsg/trocaDePagina.do?tipoDeDecisao=A&pagina={}&conversationId="
-
         page = 1
-        while page <= 5:
+        while page <= 2:
             print(f"Acessando página {page}")
             driver.get(base_url.format(page))
 
