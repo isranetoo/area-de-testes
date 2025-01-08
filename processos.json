@@ -1,0 +1,2878 @@
+[
+    {
+        "numero": "2362704-05.2024.8.26.0000",
+        "valorDaCausa": null,
+        "area_code": null,
+        "tribunal_code": null,
+        "vara_code": null,
+        "area": null,
+        "tribunal": "TJ-SP",
+        "comarca": "Americana",
+        "instancias": [
+            {
+                "fonte_script": "Scrapper",
+                "fonte_sistema": "TJ-SP",
+                "fonte_tipo": "TRIBUNAL",
+                "fonte_url": "https://esaj.tjsp.jus.br/",
+                "grau": null,
+                "classe": null,
+                "orgaoJulgador": "10ª Câmara de Direito Privado",
+                "segredoJustica": null,
+                "justicaGratuita": null,
+                "assunto_principal": null,
+                "assuntos": "Agravo de Instrumento / Tratamento médico-hospitalar",
+                "first_mov": null,
+                "last_mov": "07/01/2025",
+                "envolvidos": [
+                    {
+                        "nome": [
+                            "Marcio  Antonio  Marcondes"
+                        ],
+                        "tipo": "RECLAMANTE",
+                        "polo": "ATIVO",
+                        "id_sistema": {
+                            "login": null
+                        },
+                        "documento": [],
+                        "endereco": {},
+                        "representantes": [
+                            {
+                                "nome": null,
+                                "tipo": "ADVOGADO",
+                                "polo": "ATIVO",
+                                "id_sistema": {
+                                    "login": null
+                                },
+                                "documento": [
+                                    {
+                                        "CPF": null
+                                    }
+                                ],
+                                "endereco": {
+                                    "logradouro": null,
+                                    "numero": null,
+                                    "complemento": null,
+                                    "bairro": null,
+                                    "municipio": null,
+                                    "estado": null,
+                                    "cep": null
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "nome": null,
+                        "tipo": "RECLAMADO",
+                        "polo": "PASSIVO",
+                        "id_sistema": {
+                            "login": null
+                        },
+                        "documento": [],
+                        "endereco": {},
+                        "representantes": [
+                            {
+                                "nome": null,
+                                "tipo": "ADVOGADO",
+                                "polo": "PASSIVO",
+                                "id_sistema": {
+                                    "login": null
+                                },
+                                "documento": [
+                                    {
+                                        "CPF": null
+                                    }
+                                ],
+                                "endereco": {
+                                    "logradouro": null,
+                                    "numero": null,
+                                    "complemento": null,
+                                    "bairro": null,
+                                    "municipio": null,
+                                    "estado": null,
+                                    "cep": null
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "nome": "Jair de Souza",
+                        "tipo": "RELATOR(A)",
+                        "polo": "OUTROS",
+                        "id_sistema": {
+                            "login": null
+                        },
+                        "documento": [],
+                        "endereco": {},
+                        "representantes": []
+                    }
+                ],
+                "movimentacoes": [
+                    {
+                        "titulo": "Data de publicação",
+                        "tipoConteudo": "HTML",
+                        "data": "07/01/2025",
+                        "ativo": null,
+                        "documento": null,
+                        "mostrarHeaderData": null,
+                        "usuarioCriador": null
+                    },
+                    {
+                        "titulo": null,
+                        "tipoConteudo": null,
+                        "data": null,
+                        "ativo": null,
+                        "documento": null,
+                        "usuarioCriador": null
+                    },
+                    {
+                        "id": null,
+                        "idUnicoDocumento": null,
+                        "titulo": "Ata da Audieancia",
+                        "tipo": "Ata da Audieancia",
+                        "tipoConteudo": "PDF",
+                        "data": "07/01/2025",
+                        "ativo": null,
+                        "documentoSigiloso": null,
+                        "usuarioPerito": null,
+                        "publico": null,
+                        "usuarioJuntada": null,
+                        "usuarioCriador": null,
+                        "instancia": null
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "numero": "2333253-32.2024.8.26.0000",
+        "valorDaCausa": null,
+        "area_code": null,
+        "tribunal_code": null,
+        "vara_code": null,
+        "area": null,
+        "tribunal": "TJ-SP",
+        "comarca": "Cajamar",
+        "instancias": [
+            {
+                "fonte_script": "Scrapper",
+                "fonte_sistema": "TJ-SP",
+                "fonte_tipo": "TRIBUNAL",
+                "fonte_url": "https://esaj.tjsp.jus.br/",
+                "grau": null,
+                "classe": null,
+                "orgaoJulgador": "10ª Câmara de Direito Privado",
+                "segredoJustica": null,
+                "justicaGratuita": null,
+                "assunto_principal": null,
+                "assuntos": "Agravo de Instrumento / Tratamento médico-hospitalar",
+                "first_mov": null,
+                "last_mov": "07/01/2025",
+                "envolvidos": [
+                    {
+                        "nome": [
+                            "São Lucas  Saúde  S/A"
+                        ],
+                        "tipo": "RECLAMANTE",
+                        "polo": "ATIVO",
+                        "id_sistema": {
+                            "login": null
+                        },
+                        "documento": [],
+                        "endereco": {},
+                        "representantes": [
+                            {
+                                "nome": null,
+                                "tipo": "ADVOGADO",
+                                "polo": "ATIVO",
+                                "id_sistema": {
+                                    "login": null
+                                },
+                                "documento": [
+                                    {
+                                        "CPF": null
+                                    }
+                                ],
+                                "endereco": {
+                                    "logradouro": null,
+                                    "numero": null,
+                                    "complemento": null,
+                                    "bairro": null,
+                                    "municipio": null,
+                                    "estado": null,
+                                    "cep": null
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "nome": null,
+                        "tipo": "RECLAMADO",
+                        "polo": "PASSIVO",
+                        "id_sistema": {
+                            "login": null
+                        },
+                        "documento": [],
+                        "endereco": {},
+                        "representantes": [
+                            {
+                                "nome": null,
+                                "tipo": "ADVOGADO",
+                                "polo": "PASSIVO",
+                                "id_sistema": {
+                                    "login": null
+                                },
+                                "documento": [
+                                    {
+                                        "CPF": null
+                                    }
+                                ],
+                                "endereco": {
+                                    "logradouro": null,
+                                    "numero": null,
+                                    "complemento": null,
+                                    "bairro": null,
+                                    "municipio": null,
+                                    "estado": null,
+                                    "cep": null
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "nome": "Jair de Souza",
+                        "tipo": "RELATOR(A)",
+                        "polo": "OUTROS",
+                        "id_sistema": {
+                            "login": null
+                        },
+                        "documento": [],
+                        "endereco": {},
+                        "representantes": []
+                    }
+                ],
+                "movimentacoes": [
+                    {
+                        "titulo": "Data de publicação",
+                        "tipoConteudo": "HTML",
+                        "data": "07/01/2025",
+                        "ativo": null,
+                        "documento": null,
+                        "mostrarHeaderData": null,
+                        "usuarioCriador": null
+                    },
+                    {
+                        "titulo": null,
+                        "tipoConteudo": null,
+                        "data": null,
+                        "ativo": null,
+                        "documento": null,
+                        "usuarioCriador": null
+                    },
+                    {
+                        "id": null,
+                        "idUnicoDocumento": null,
+                        "titulo": "Ata da Audieancia",
+                        "tipo": "Ata da Audieancia",
+                        "tipoConteudo": "PDF",
+                        "data": "07/01/2025",
+                        "ativo": null,
+                        "documentoSigiloso": null,
+                        "usuarioPerito": null,
+                        "publico": null,
+                        "usuarioJuntada": null,
+                        "usuarioCriador": null,
+                        "instancia": null
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "numero": "2301693-72.2024.8.26.0000",
+        "valorDaCausa": null,
+        "area_code": null,
+        "tribunal_code": null,
+        "vara_code": null,
+        "area": null,
+        "tribunal": "TJ-SP",
+        "comarca": "São Paulo",
+        "instancias": [
+            {
+                "fonte_script": "Scrapper",
+                "fonte_sistema": "TJ-SP",
+                "fonte_tipo": "TRIBUNAL",
+                "fonte_url": "https://esaj.tjsp.jus.br/",
+                "grau": null,
+                "classe": null,
+                "orgaoJulgador": "10ª Câmara de Direito Privado",
+                "segredoJustica": null,
+                "justicaGratuita": null,
+                "assunto_principal": null,
+                "assuntos": "Agravo de Instrumento / Reivindicação",
+                "first_mov": null,
+                "last_mov": "07/01/2025",
+                "envolvidos": [
+                    {
+                        "nome": [
+                            "Barbara  Araujo  Meza"
+                        ],
+                        "tipo": "RECLAMANTE",
+                        "polo": "ATIVO",
+                        "id_sistema": {
+                            "login": null
+                        },
+                        "documento": [],
+                        "endereco": {},
+                        "representantes": [
+                            {
+                                "nome": null,
+                                "tipo": "ADVOGADO",
+                                "polo": "ATIVO",
+                                "id_sistema": {
+                                    "login": null
+                                },
+                                "documento": [
+                                    {
+                                        "CPF": null
+                                    }
+                                ],
+                                "endereco": {
+                                    "logradouro": null,
+                                    "numero": null,
+                                    "complemento": null,
+                                    "bairro": null,
+                                    "municipio": null,
+                                    "estado": null,
+                                    "cep": null
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "nome": null,
+                        "tipo": "RECLAMADO",
+                        "polo": "PASSIVO",
+                        "id_sistema": {
+                            "login": null
+                        },
+                        "documento": [],
+                        "endereco": {},
+                        "representantes": [
+                            {
+                                "nome": null,
+                                "tipo": "ADVOGADO",
+                                "polo": "PASSIVO",
+                                "id_sistema": {
+                                    "login": null
+                                },
+                                "documento": [
+                                    {
+                                        "CPF": null
+                                    }
+                                ],
+                                "endereco": {
+                                    "logradouro": null,
+                                    "numero": null,
+                                    "complemento": null,
+                                    "bairro": null,
+                                    "municipio": null,
+                                    "estado": null,
+                                    "cep": null
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "nome": "Jair de Souza",
+                        "tipo": "RELATOR(A)",
+                        "polo": "OUTROS",
+                        "id_sistema": {
+                            "login": null
+                        },
+                        "documento": [],
+                        "endereco": {},
+                        "representantes": []
+                    }
+                ],
+                "movimentacoes": [
+                    {
+                        "titulo": "Data de publicação",
+                        "tipoConteudo": "HTML",
+                        "data": "07/01/2025",
+                        "ativo": null,
+                        "documento": null,
+                        "mostrarHeaderData": null,
+                        "usuarioCriador": null
+                    },
+                    {
+                        "titulo": null,
+                        "tipoConteudo": null,
+                        "data": null,
+                        "ativo": null,
+                        "documento": null,
+                        "usuarioCriador": null
+                    },
+                    {
+                        "id": null,
+                        "idUnicoDocumento": null,
+                        "titulo": "Ata da Audieancia",
+                        "tipo": "Ata da Audieancia",
+                        "tipoConteudo": "PDF",
+                        "data": "07/01/2025",
+                        "ativo": null,
+                        "documentoSigiloso": null,
+                        "usuarioPerito": null,
+                        "publico": null,
+                        "usuarioJuntada": null,
+                        "usuarioCriador": null,
+                        "instancia": null
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "numero": "2320495-21.2024.8.26.0000",
+        "valorDaCausa": null,
+        "area_code": null,
+        "tribunal_code": null,
+        "vara_code": null,
+        "area": null,
+        "tribunal": "TJ-SP",
+        "comarca": "Jales",
+        "instancias": [
+            {
+                "fonte_script": "Scrapper",
+                "fonte_sistema": "TJ-SP",
+                "fonte_tipo": "TRIBUNAL",
+                "fonte_url": "https://esaj.tjsp.jus.br/",
+                "grau": null,
+                "classe": null,
+                "orgaoJulgador": "10ª Câmara de Direito Privado",
+                "segredoJustica": null,
+                "justicaGratuita": null,
+                "assunto_principal": null,
+                "assuntos": "Agravo de Instrumento / Promessa de Compra e Venda",
+                "first_mov": null,
+                "last_mov": "07/01/2025",
+                "envolvidos": [
+                    {
+                        "nome": [
+                            "Ana Carolina  Remotto  de Souza"
+                        ],
+                        "tipo": "RECLAMANTE",
+                        "polo": "ATIVO",
+                        "id_sistema": {
+                            "login": null
+                        },
+                        "documento": [],
+                        "endereco": {},
+                        "representantes": [
+                            {
+                                "nome": null,
+                                "tipo": "ADVOGADO",
+                                "polo": "ATIVO",
+                                "id_sistema": {
+                                    "login": null
+                                },
+                                "documento": [
+                                    {
+                                        "CPF": null
+                                    }
+                                ],
+                                "endereco": {
+                                    "logradouro": null,
+                                    "numero": null,
+                                    "complemento": null,
+                                    "bairro": null,
+                                    "municipio": null,
+                                    "estado": null,
+                                    "cep": null
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "nome": null,
+                        "tipo": "RECLAMADO",
+                        "polo": "PASSIVO",
+                        "id_sistema": {
+                            "login": null
+                        },
+                        "documento": [],
+                        "endereco": {},
+                        "representantes": [
+                            {
+                                "nome": null,
+                                "tipo": "ADVOGADO",
+                                "polo": "PASSIVO",
+                                "id_sistema": {
+                                    "login": null
+                                },
+                                "documento": [
+                                    {
+                                        "CPF": null
+                                    }
+                                ],
+                                "endereco": {
+                                    "logradouro": null,
+                                    "numero": null,
+                                    "complemento": null,
+                                    "bairro": null,
+                                    "municipio": null,
+                                    "estado": null,
+                                    "cep": null
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "nome": "Jair de Souza",
+                        "tipo": "RELATOR(A)",
+                        "polo": "OUTROS",
+                        "id_sistema": {
+                            "login": null
+                        },
+                        "documento": [],
+                        "endereco": {},
+                        "representantes": []
+                    }
+                ],
+                "movimentacoes": [
+                    {
+                        "titulo": "Data de publicação",
+                        "tipoConteudo": "HTML",
+                        "data": "07/01/2025",
+                        "ativo": null,
+                        "documento": null,
+                        "mostrarHeaderData": null,
+                        "usuarioCriador": null
+                    },
+                    {
+                        "titulo": null,
+                        "tipoConteudo": null,
+                        "data": null,
+                        "ativo": null,
+                        "documento": null,
+                        "usuarioCriador": null
+                    },
+                    {
+                        "id": null,
+                        "idUnicoDocumento": null,
+                        "titulo": "Ata da Audieancia",
+                        "tipo": "Ata da Audieancia",
+                        "tipoConteudo": "PDF",
+                        "data": "07/01/2025",
+                        "ativo": null,
+                        "documentoSigiloso": null,
+                        "usuarioPerito": null,
+                        "publico": null,
+                        "usuarioJuntada": null,
+                        "usuarioCriador": null,
+                        "instancia": null
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "numero": "2309981-09.2024.8.26.0000",
+        "valorDaCausa": null,
+        "area_code": null,
+        "tribunal_code": null,
+        "vara_code": null,
+        "area": null,
+        "tribunal": "TJ-SP",
+        "comarca": "Piracicaba",
+        "instancias": [
+            {
+                "fonte_script": "Scrapper",
+                "fonte_sistema": "TJ-SP",
+                "fonte_tipo": "TRIBUNAL",
+                "fonte_url": "https://esaj.tjsp.jus.br/",
+                "grau": null,
+                "classe": null,
+                "orgaoJulgador": "10ª Câmara de Direito Privado",
+                "segredoJustica": null,
+                "justicaGratuita": null,
+                "assunto_principal": null,
+                "assuntos": "Agravo de Instrumento / Vícios de Construção",
+                "first_mov": null,
+                "last_mov": "07/01/2025",
+                "envolvidos": [
+                    {
+                        "nome": [
+                            "Heitor  Rodrigues  de Lima,  Benvinda  Lebreiro  Mangas"
+                        ],
+                        "tipo": "RECLAMANTE",
+                        "polo": "ATIVO",
+                        "id_sistema": {
+                            "login": null
+                        },
+                        "documento": [],
+                        "endereco": {},
+                        "representantes": [
+                            {
+                                "nome": null,
+                                "tipo": "ADVOGADO",
+                                "polo": "ATIVO",
+                                "id_sistema": {
+                                    "login": null
+                                },
+                                "documento": [
+                                    {
+                                        "CPF": null
+                                    }
+                                ],
+                                "endereco": {
+                                    "logradouro": null,
+                                    "numero": null,
+                                    "complemento": null,
+                                    "bairro": null,
+                                    "municipio": null,
+                                    "estado": null,
+                                    "cep": null
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "nome": null,
+                        "tipo": "RECLAMADO",
+                        "polo": "PASSIVO",
+                        "id_sistema": {
+                            "login": null
+                        },
+                        "documento": [],
+                        "endereco": {},
+                        "representantes": [
+                            {
+                                "nome": null,
+                                "tipo": "ADVOGADO",
+                                "polo": "PASSIVO",
+                                "id_sistema": {
+                                    "login": null
+                                },
+                                "documento": [
+                                    {
+                                        "CPF": null
+                                    }
+                                ],
+                                "endereco": {
+                                    "logradouro": null,
+                                    "numero": null,
+                                    "complemento": null,
+                                    "bairro": null,
+                                    "municipio": null,
+                                    "estado": null,
+                                    "cep": null
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "nome": "Jair de Souza",
+                        "tipo": "RELATOR(A)",
+                        "polo": "OUTROS",
+                        "id_sistema": {
+                            "login": null
+                        },
+                        "documento": [],
+                        "endereco": {},
+                        "representantes": []
+                    }
+                ],
+                "movimentacoes": [
+                    {
+                        "titulo": "Data de publicação",
+                        "tipoConteudo": "HTML",
+                        "data": "07/01/2025",
+                        "ativo": null,
+                        "documento": null,
+                        "mostrarHeaderData": null,
+                        "usuarioCriador": null
+                    },
+                    {
+                        "titulo": null,
+                        "tipoConteudo": null,
+                        "data": null,
+                        "ativo": null,
+                        "documento": null,
+                        "usuarioCriador": null
+                    },
+                    {
+                        "id": null,
+                        "idUnicoDocumento": null,
+                        "titulo": "Ata da Audieancia",
+                        "tipo": "Ata da Audieancia",
+                        "tipoConteudo": "PDF",
+                        "data": "07/01/2025",
+                        "ativo": null,
+                        "documentoSigiloso": null,
+                        "usuarioPerito": null,
+                        "publico": null,
+                        "usuarioJuntada": null,
+                        "usuarioCriador": null,
+                        "instancia": null
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "numero": "2232018-22.2024.8.26.0000",
+        "valorDaCausa": null,
+        "area_code": null,
+        "tribunal_code": null,
+        "vara_code": null,
+        "area": null,
+        "tribunal": "TJ-SP",
+        "comarca": "Mairiporã",
+        "instancias": [
+            {
+                "fonte_script": "Scrapper",
+                "fonte_sistema": "TJ-SP",
+                "fonte_tipo": "TRIBUNAL",
+                "fonte_url": "https://esaj.tjsp.jus.br/",
+                "grau": null,
+                "classe": null,
+                "orgaoJulgador": "10ª Câmara de Direito Privado",
+                "segredoJustica": null,
+                "justicaGratuita": null,
+                "assunto_principal": null,
+                "assuntos": "Agravo de Instrumento / Planos de saúde",
+                "first_mov": null,
+                "last_mov": "07/01/2025",
+                "envolvidos": [
+                    {
+                        "nome": [
+                            "Raquel  Cristina  dos Santos"
+                        ],
+                        "tipo": "RECLAMANTE",
+                        "polo": "ATIVO",
+                        "id_sistema": {
+                            "login": null
+                        },
+                        "documento": [],
+                        "endereco": {},
+                        "representantes": [
+                            {
+                                "nome": null,
+                                "tipo": "ADVOGADO",
+                                "polo": "ATIVO",
+                                "id_sistema": {
+                                    "login": null
+                                },
+                                "documento": [
+                                    {
+                                        "CPF": null
+                                    }
+                                ],
+                                "endereco": {
+                                    "logradouro": null,
+                                    "numero": null,
+                                    "complemento": null,
+                                    "bairro": null,
+                                    "municipio": null,
+                                    "estado": null,
+                                    "cep": null
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "nome": null,
+                        "tipo": "RECLAMADO",
+                        "polo": "PASSIVO",
+                        "id_sistema": {
+                            "login": null
+                        },
+                        "documento": [],
+                        "endereco": {},
+                        "representantes": [
+                            {
+                                "nome": null,
+                                "tipo": "ADVOGADO",
+                                "polo": "PASSIVO",
+                                "id_sistema": {
+                                    "login": null
+                                },
+                                "documento": [
+                                    {
+                                        "CPF": null
+                                    }
+                                ],
+                                "endereco": {
+                                    "logradouro": null,
+                                    "numero": null,
+                                    "complemento": null,
+                                    "bairro": null,
+                                    "municipio": null,
+                                    "estado": null,
+                                    "cep": null
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "nome": "Jair de Souza",
+                        "tipo": "RELATOR(A)",
+                        "polo": "OUTROS",
+                        "id_sistema": {
+                            "login": null
+                        },
+                        "documento": [],
+                        "endereco": {},
+                        "representantes": []
+                    }
+                ],
+                "movimentacoes": [
+                    {
+                        "titulo": "Data de publicação",
+                        "tipoConteudo": "HTML",
+                        "data": "07/01/2025",
+                        "ativo": null,
+                        "documento": null,
+                        "mostrarHeaderData": null,
+                        "usuarioCriador": null
+                    },
+                    {
+                        "titulo": null,
+                        "tipoConteudo": null,
+                        "data": null,
+                        "ativo": null,
+                        "documento": null,
+                        "usuarioCriador": null
+                    },
+                    {
+                        "id": null,
+                        "idUnicoDocumento": null,
+                        "titulo": "Ata da Audieancia",
+                        "tipo": "Ata da Audieancia",
+                        "tipoConteudo": "PDF",
+                        "data": "07/01/2025",
+                        "ativo": null,
+                        "documentoSigiloso": null,
+                        "usuarioPerito": null,
+                        "publico": null,
+                        "usuarioJuntada": null,
+                        "usuarioCriador": null,
+                        "instancia": null
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "numero": "2230602-19.2024.8.26.0000",
+        "valorDaCausa": null,
+        "area_code": null,
+        "tribunal_code": null,
+        "vara_code": null,
+        "area": null,
+        "tribunal": "TJ-SP",
+        "comarca": "Adamantina",
+        "instancias": [
+            {
+                "fonte_script": "Scrapper",
+                "fonte_sistema": "TJ-SP",
+                "fonte_tipo": "TRIBUNAL",
+                "fonte_url": "https://esaj.tjsp.jus.br/",
+                "grau": null,
+                "classe": null,
+                "orgaoJulgador": "10ª Câmara de Direito Privado",
+                "segredoJustica": null,
+                "justicaGratuita": null,
+                "assunto_principal": null,
+                "assuntos": "Agravo de Instrumento / Indenização por Dano Material",
+                "first_mov": null,
+                "last_mov": "07/01/2025",
+                "envolvidos": [
+                    {
+                        "nome": [
+                            "Iramaia  Pasotti"
+                        ],
+                        "tipo": "RECLAMANTE",
+                        "polo": "ATIVO",
+                        "id_sistema": {
+                            "login": null
+                        },
+                        "documento": [],
+                        "endereco": {},
+                        "representantes": [
+                            {
+                                "nome": null,
+                                "tipo": "ADVOGADO",
+                                "polo": "ATIVO",
+                                "id_sistema": {
+                                    "login": null
+                                },
+                                "documento": [
+                                    {
+                                        "CPF": null
+                                    }
+                                ],
+                                "endereco": {
+                                    "logradouro": null,
+                                    "numero": null,
+                                    "complemento": null,
+                                    "bairro": null,
+                                    "municipio": null,
+                                    "estado": null,
+                                    "cep": null
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "nome": null,
+                        "tipo": "RECLAMADO",
+                        "polo": "PASSIVO",
+                        "id_sistema": {
+                            "login": null
+                        },
+                        "documento": [],
+                        "endereco": {},
+                        "representantes": [
+                            {
+                                "nome": null,
+                                "tipo": "ADVOGADO",
+                                "polo": "PASSIVO",
+                                "id_sistema": {
+                                    "login": null
+                                },
+                                "documento": [
+                                    {
+                                        "CPF": null
+                                    }
+                                ],
+                                "endereco": {
+                                    "logradouro": null,
+                                    "numero": null,
+                                    "complemento": null,
+                                    "bairro": null,
+                                    "municipio": null,
+                                    "estado": null,
+                                    "cep": null
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "nome": "Jair de Souza",
+                        "tipo": "RELATOR(A)",
+                        "polo": "OUTROS",
+                        "id_sistema": {
+                            "login": null
+                        },
+                        "documento": [],
+                        "endereco": {},
+                        "representantes": []
+                    }
+                ],
+                "movimentacoes": [
+                    {
+                        "titulo": "Data de publicação",
+                        "tipoConteudo": "HTML",
+                        "data": "07/01/2025",
+                        "ativo": null,
+                        "documento": null,
+                        "mostrarHeaderData": null,
+                        "usuarioCriador": null
+                    },
+                    {
+                        "titulo": null,
+                        "tipoConteudo": null,
+                        "data": null,
+                        "ativo": null,
+                        "documento": null,
+                        "usuarioCriador": null
+                    },
+                    {
+                        "id": null,
+                        "idUnicoDocumento": null,
+                        "titulo": "Ata da Audieancia",
+                        "tipo": "Ata da Audieancia",
+                        "tipoConteudo": "PDF",
+                        "data": "07/01/2025",
+                        "ativo": null,
+                        "documentoSigiloso": null,
+                        "usuarioPerito": null,
+                        "publico": null,
+                        "usuarioJuntada": null,
+                        "usuarioCriador": null,
+                        "instancia": null
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "numero": "2254426-07.2024.8.26.0000",
+        "valorDaCausa": null,
+        "area_code": null,
+        "tribunal_code": null,
+        "vara_code": null,
+        "area": null,
+        "tribunal": "TJ-SP",
+        "comarca": "São Paulo",
+        "instancias": [
+            {
+                "fonte_script": "Scrapper",
+                "fonte_sistema": "TJ-SP",
+                "fonte_tipo": "TRIBUNAL",
+                "fonte_url": "https://esaj.tjsp.jus.br/",
+                "grau": null,
+                "classe": null,
+                "orgaoJulgador": "10ª Câmara de Direito Privado",
+                "segredoJustica": null,
+                "justicaGratuita": null,
+                "assunto_principal": null,
+                "assuntos": "Agravo de Instrumento / Tratamento médico-hospitalar",
+                "first_mov": null,
+                "last_mov": "07/01/2025",
+                "envolvidos": [
+                    {
+                        "nome": [
+                            "Creusa  Moreno  Bettio"
+                        ],
+                        "tipo": "RECLAMANTE",
+                        "polo": "ATIVO",
+                        "id_sistema": {
+                            "login": null
+                        },
+                        "documento": [],
+                        "endereco": {},
+                        "representantes": [
+                            {
+                                "nome": null,
+                                "tipo": "ADVOGADO",
+                                "polo": "ATIVO",
+                                "id_sistema": {
+                                    "login": null
+                                },
+                                "documento": [
+                                    {
+                                        "CPF": null
+                                    }
+                                ],
+                                "endereco": {
+                                    "logradouro": null,
+                                    "numero": null,
+                                    "complemento": null,
+                                    "bairro": null,
+                                    "municipio": null,
+                                    "estado": null,
+                                    "cep": null
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "nome": null,
+                        "tipo": "RECLAMADO",
+                        "polo": "PASSIVO",
+                        "id_sistema": {
+                            "login": null
+                        },
+                        "documento": [],
+                        "endereco": {},
+                        "representantes": [
+                            {
+                                "nome": null,
+                                "tipo": "ADVOGADO",
+                                "polo": "PASSIVO",
+                                "id_sistema": {
+                                    "login": null
+                                },
+                                "documento": [
+                                    {
+                                        "CPF": null
+                                    }
+                                ],
+                                "endereco": {
+                                    "logradouro": null,
+                                    "numero": null,
+                                    "complemento": null,
+                                    "bairro": null,
+                                    "municipio": null,
+                                    "estado": null,
+                                    "cep": null
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "nome": "Jair de Souza",
+                        "tipo": "RELATOR(A)",
+                        "polo": "OUTROS",
+                        "id_sistema": {
+                            "login": null
+                        },
+                        "documento": [],
+                        "endereco": {},
+                        "representantes": []
+                    }
+                ],
+                "movimentacoes": [
+                    {
+                        "titulo": "Data de publicação",
+                        "tipoConteudo": "HTML",
+                        "data": "07/01/2025",
+                        "ativo": null,
+                        "documento": null,
+                        "mostrarHeaderData": null,
+                        "usuarioCriador": null
+                    },
+                    {
+                        "titulo": null,
+                        "tipoConteudo": null,
+                        "data": null,
+                        "ativo": null,
+                        "documento": null,
+                        "usuarioCriador": null
+                    },
+                    {
+                        "id": null,
+                        "idUnicoDocumento": null,
+                        "titulo": "Ata da Audieancia",
+                        "tipo": "Ata da Audieancia",
+                        "tipoConteudo": "PDF",
+                        "data": "07/01/2025",
+                        "ativo": null,
+                        "documentoSigiloso": null,
+                        "usuarioPerito": null,
+                        "publico": null,
+                        "usuarioJuntada": null,
+                        "usuarioCriador": null,
+                        "instancia": null
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "numero": "2261097-46.2024.8.26.0000",
+        "valorDaCausa": null,
+        "area_code": null,
+        "tribunal_code": null,
+        "vara_code": null,
+        "area": null,
+        "tribunal": "TJ-SP",
+        "comarca": "Piracicaba",
+        "instancias": [
+            {
+                "fonte_script": "Scrapper",
+                "fonte_sistema": "TJ-SP",
+                "fonte_tipo": "TRIBUNAL",
+                "fonte_url": "https://esaj.tjsp.jus.br/",
+                "grau": null,
+                "classe": null,
+                "orgaoJulgador": "10ª Câmara de Direito Privado",
+                "segredoJustica": null,
+                "justicaGratuita": null,
+                "assunto_principal": null,
+                "assuntos": "Agravo de Instrumento / Fornecimento de medicamentos",
+                "first_mov": null,
+                "last_mov": "07/01/2025",
+                "envolvidos": [
+                    {
+                        "nome": [
+                            "Amil  Assistência  Médica  Internacional  S/A"
+                        ],
+                        "tipo": "RECLAMANTE",
+                        "polo": "ATIVO",
+                        "id_sistema": {
+                            "login": null
+                        },
+                        "documento": [],
+                        "endereco": {},
+                        "representantes": [
+                            {
+                                "nome": null,
+                                "tipo": "ADVOGADO",
+                                "polo": "ATIVO",
+                                "id_sistema": {
+                                    "login": null
+                                },
+                                "documento": [
+                                    {
+                                        "CPF": null
+                                    }
+                                ],
+                                "endereco": {
+                                    "logradouro": null,
+                                    "numero": null,
+                                    "complemento": null,
+                                    "bairro": null,
+                                    "municipio": null,
+                                    "estado": null,
+                                    "cep": null
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "nome": null,
+                        "tipo": "RECLAMADO",
+                        "polo": "PASSIVO",
+                        "id_sistema": {
+                            "login": null
+                        },
+                        "documento": [],
+                        "endereco": {},
+                        "representantes": [
+                            {
+                                "nome": null,
+                                "tipo": "ADVOGADO",
+                                "polo": "PASSIVO",
+                                "id_sistema": {
+                                    "login": null
+                                },
+                                "documento": [
+                                    {
+                                        "CPF": null
+                                    }
+                                ],
+                                "endereco": {
+                                    "logradouro": null,
+                                    "numero": null,
+                                    "complemento": null,
+                                    "bairro": null,
+                                    "municipio": null,
+                                    "estado": null,
+                                    "cep": null
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "nome": "Jair de Souza",
+                        "tipo": "RELATOR(A)",
+                        "polo": "OUTROS",
+                        "id_sistema": {
+                            "login": null
+                        },
+                        "documento": [],
+                        "endereco": {},
+                        "representantes": []
+                    }
+                ],
+                "movimentacoes": [
+                    {
+                        "titulo": "Data de publicação",
+                        "tipoConteudo": "HTML",
+                        "data": "07/01/2025",
+                        "ativo": null,
+                        "documento": null,
+                        "mostrarHeaderData": null,
+                        "usuarioCriador": null
+                    },
+                    {
+                        "titulo": null,
+                        "tipoConteudo": null,
+                        "data": null,
+                        "ativo": null,
+                        "documento": null,
+                        "usuarioCriador": null
+                    },
+                    {
+                        "id": null,
+                        "idUnicoDocumento": null,
+                        "titulo": "Ata da Audieancia",
+                        "tipo": "Ata da Audieancia",
+                        "tipoConteudo": "PDF",
+                        "data": "07/01/2025",
+                        "ativo": null,
+                        "documentoSigiloso": null,
+                        "usuarioPerito": null,
+                        "publico": null,
+                        "usuarioJuntada": null,
+                        "usuarioCriador": null,
+                        "instancia": null
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "numero": "2228200-62.2024.8.26.0000",
+        "valorDaCausa": null,
+        "area_code": null,
+        "tribunal_code": null,
+        "vara_code": null,
+        "area": null,
+        "tribunal": "TJ-SP",
+        "comarca": "Mogi das Cruzes",
+        "instancias": [
+            {
+                "fonte_script": "Scrapper",
+                "fonte_sistema": "TJ-SP",
+                "fonte_tipo": "TRIBUNAL",
+                "fonte_url": "https://esaj.tjsp.jus.br/",
+                "grau": null,
+                "classe": null,
+                "orgaoJulgador": "10ª Câmara de Direito Privado",
+                "segredoJustica": null,
+                "justicaGratuita": null,
+                "assunto_principal": null,
+                "assuntos": "Agravo de Instrumento / Tratamento médico-hospitalar",
+                "first_mov": null,
+                "last_mov": "07/01/2025",
+                "envolvidos": [
+                    {
+                        "nome": [
+                            "Arthur  Felipe  Moreira  Menor  representado,  Franciele  Aparecida  de"
+                        ],
+                        "tipo": "RECLAMANTE",
+                        "polo": "ATIVO",
+                        "id_sistema": {
+                            "login": null
+                        },
+                        "documento": [],
+                        "endereco": {},
+                        "representantes": [
+                            {
+                                "nome": null,
+                                "tipo": "ADVOGADO",
+                                "polo": "ATIVO",
+                                "id_sistema": {
+                                    "login": null
+                                },
+                                "documento": [
+                                    {
+                                        "CPF": null
+                                    }
+                                ],
+                                "endereco": {
+                                    "logradouro": null,
+                                    "numero": null,
+                                    "complemento": null,
+                                    "bairro": null,
+                                    "municipio": null,
+                                    "estado": null,
+                                    "cep": null
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "nome": null,
+                        "tipo": "RECLAMADO",
+                        "polo": "PASSIVO",
+                        "id_sistema": {
+                            "login": null
+                        },
+                        "documento": [],
+                        "endereco": {},
+                        "representantes": [
+                            {
+                                "nome": null,
+                                "tipo": "ADVOGADO",
+                                "polo": "PASSIVO",
+                                "id_sistema": {
+                                    "login": null
+                                },
+                                "documento": [
+                                    {
+                                        "CPF": null
+                                    }
+                                ],
+                                "endereco": {
+                                    "logradouro": null,
+                                    "numero": null,
+                                    "complemento": null,
+                                    "bairro": null,
+                                    "municipio": null,
+                                    "estado": null,
+                                    "cep": null
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "nome": "Jair de Souza",
+                        "tipo": "RELATOR(A)",
+                        "polo": "OUTROS",
+                        "id_sistema": {
+                            "login": null
+                        },
+                        "documento": [],
+                        "endereco": {},
+                        "representantes": []
+                    }
+                ],
+                "movimentacoes": [
+                    {
+                        "titulo": "Data de publicação",
+                        "tipoConteudo": "HTML",
+                        "data": "07/01/2025",
+                        "ativo": null,
+                        "documento": null,
+                        "mostrarHeaderData": null,
+                        "usuarioCriador": null
+                    },
+                    {
+                        "titulo": null,
+                        "tipoConteudo": null,
+                        "data": null,
+                        "ativo": null,
+                        "documento": null,
+                        "usuarioCriador": null
+                    },
+                    {
+                        "id": null,
+                        "idUnicoDocumento": null,
+                        "titulo": "Ata da Audieancia",
+                        "tipo": "Ata da Audieancia",
+                        "tipoConteudo": "PDF",
+                        "data": "07/01/2025",
+                        "ativo": null,
+                        "documentoSigiloso": null,
+                        "usuarioPerito": null,
+                        "publico": null,
+                        "usuarioJuntada": null,
+                        "usuarioCriador": null,
+                        "instancia": null
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "numero": "2236050-70.2024.8.26.0000",
+        "valorDaCausa": null,
+        "area_code": null,
+        "tribunal_code": null,
+        "vara_code": null,
+        "area": null,
+        "tribunal": "TJ-SP",
+        "comarca": "São Paulo",
+        "instancias": [
+            {
+                "fonte_script": "Scrapper",
+                "fonte_sistema": "TJ-SP",
+                "fonte_tipo": "TRIBUNAL",
+                "fonte_url": "https://esaj.tjsp.jus.br/",
+                "grau": null,
+                "classe": null,
+                "orgaoJulgador": "10ª Câmara de Direito Privado",
+                "segredoJustica": null,
+                "justicaGratuita": null,
+                "assunto_principal": null,
+                "assuntos": "Agravo de Instrumento / Planos de saúde",
+                "first_mov": null,
+                "last_mov": "07/01/2025",
+                "envolvidos": [
+                    {
+                        "nome": [
+                            "Amil  Assistência  Médica  Internacional  S/A"
+                        ],
+                        "tipo": "RECLAMANTE",
+                        "polo": "ATIVO",
+                        "id_sistema": {
+                            "login": null
+                        },
+                        "documento": [],
+                        "endereco": {},
+                        "representantes": [
+                            {
+                                "nome": null,
+                                "tipo": "ADVOGADO",
+                                "polo": "ATIVO",
+                                "id_sistema": {
+                                    "login": null
+                                },
+                                "documento": [
+                                    {
+                                        "CPF": null
+                                    }
+                                ],
+                                "endereco": {
+                                    "logradouro": null,
+                                    "numero": null,
+                                    "complemento": null,
+                                    "bairro": null,
+                                    "municipio": null,
+                                    "estado": null,
+                                    "cep": null
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "nome": null,
+                        "tipo": "RECLAMADO",
+                        "polo": "PASSIVO",
+                        "id_sistema": {
+                            "login": null
+                        },
+                        "documento": [],
+                        "endereco": {},
+                        "representantes": [
+                            {
+                                "nome": null,
+                                "tipo": "ADVOGADO",
+                                "polo": "PASSIVO",
+                                "id_sistema": {
+                                    "login": null
+                                },
+                                "documento": [
+                                    {
+                                        "CPF": null
+                                    }
+                                ],
+                                "endereco": {
+                                    "logradouro": null,
+                                    "numero": null,
+                                    "complemento": null,
+                                    "bairro": null,
+                                    "municipio": null,
+                                    "estado": null,
+                                    "cep": null
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "nome": "Jair de Souza",
+                        "tipo": "RELATOR(A)",
+                        "polo": "OUTROS",
+                        "id_sistema": {
+                            "login": null
+                        },
+                        "documento": [],
+                        "endereco": {},
+                        "representantes": []
+                    }
+                ],
+                "movimentacoes": [
+                    {
+                        "titulo": "Data de publicação",
+                        "tipoConteudo": "HTML",
+                        "data": "07/01/2025",
+                        "ativo": null,
+                        "documento": null,
+                        "mostrarHeaderData": null,
+                        "usuarioCriador": null
+                    },
+                    {
+                        "titulo": null,
+                        "tipoConteudo": null,
+                        "data": null,
+                        "ativo": null,
+                        "documento": null,
+                        "usuarioCriador": null
+                    },
+                    {
+                        "id": null,
+                        "idUnicoDocumento": null,
+                        "titulo": "Ata da Audieancia",
+                        "tipo": "Ata da Audieancia",
+                        "tipoConteudo": "PDF",
+                        "data": "07/01/2025",
+                        "ativo": null,
+                        "documentoSigiloso": null,
+                        "usuarioPerito": null,
+                        "publico": null,
+                        "usuarioJuntada": null,
+                        "usuarioCriador": null,
+                        "instancia": null
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "numero": "2264822-43.2024.8.26.0000",
+        "valorDaCausa": null,
+        "area_code": null,
+        "tribunal_code": null,
+        "vara_code": null,
+        "area": null,
+        "tribunal": "TJ-SP",
+        "comarca": "Santo André",
+        "instancias": [
+            {
+                "fonte_script": "Scrapper",
+                "fonte_sistema": "TJ-SP",
+                "fonte_tipo": "TRIBUNAL",
+                "fonte_url": "https://esaj.tjsp.jus.br/",
+                "grau": null,
+                "classe": null,
+                "orgaoJulgador": "10ª Câmara de Direito Privado",
+                "segredoJustica": null,
+                "justicaGratuita": null,
+                "assunto_principal": null,
+                "assuntos": "Agravo de Instrumento / Promessa de Compra e Venda",
+                "first_mov": null,
+                "last_mov": "07/01/2025",
+                "envolvidos": [
+                    {
+                        "nome": [
+                            "Amil  Assistência  Médica  Internacional  S/A"
+                        ],
+                        "tipo": "RECLAMANTE",
+                        "polo": "ATIVO",
+                        "id_sistema": {
+                            "login": null
+                        },
+                        "documento": [],
+                        "endereco": {},
+                        "representantes": [
+                            {
+                                "nome": null,
+                                "tipo": "ADVOGADO",
+                                "polo": "ATIVO",
+                                "id_sistema": {
+                                    "login": null
+                                },
+                                "documento": [
+                                    {
+                                        "CPF": null
+                                    }
+                                ],
+                                "endereco": {
+                                    "logradouro": null,
+                                    "numero": null,
+                                    "complemento": null,
+                                    "bairro": null,
+                                    "municipio": null,
+                                    "estado": null,
+                                    "cep": null
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "nome": null,
+                        "tipo": "RECLAMADO",
+                        "polo": "PASSIVO",
+                        "id_sistema": {
+                            "login": null
+                        },
+                        "documento": [],
+                        "endereco": {},
+                        "representantes": [
+                            {
+                                "nome": null,
+                                "tipo": "ADVOGADO",
+                                "polo": "PASSIVO",
+                                "id_sistema": {
+                                    "login": null
+                                },
+                                "documento": [
+                                    {
+                                        "CPF": null
+                                    }
+                                ],
+                                "endereco": {
+                                    "logradouro": null,
+                                    "numero": null,
+                                    "complemento": null,
+                                    "bairro": null,
+                                    "municipio": null,
+                                    "estado": null,
+                                    "cep": null
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "nome": "Jair de Souza",
+                        "tipo": "RELATOR(A)",
+                        "polo": "OUTROS",
+                        "id_sistema": {
+                            "login": null
+                        },
+                        "documento": [],
+                        "endereco": {},
+                        "representantes": []
+                    }
+                ],
+                "movimentacoes": [
+                    {
+                        "titulo": "Data de publicação",
+                        "tipoConteudo": "HTML",
+                        "data": "07/01/2025",
+                        "ativo": null,
+                        "documento": null,
+                        "mostrarHeaderData": null,
+                        "usuarioCriador": null
+                    },
+                    {
+                        "titulo": null,
+                        "tipoConteudo": null,
+                        "data": null,
+                        "ativo": null,
+                        "documento": null,
+                        "usuarioCriador": null
+                    },
+                    {
+                        "id": null,
+                        "idUnicoDocumento": null,
+                        "titulo": "Ata da Audieancia",
+                        "tipo": "Ata da Audieancia",
+                        "tipoConteudo": "PDF",
+                        "data": "07/01/2025",
+                        "ativo": null,
+                        "documentoSigiloso": null,
+                        "usuarioPerito": null,
+                        "publico": null,
+                        "usuarioJuntada": null,
+                        "usuarioCriador": null,
+                        "instancia": null
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "numero": "1018360-59.2020.8.26.0100",
+        "valorDaCausa": null,
+        "area_code": null,
+        "tribunal_code": null,
+        "vara_code": null,
+        "area": null,
+        "tribunal": "TJ-SP",
+        "comarca": "São Paulo",
+        "instancias": [
+            {
+                "fonte_script": "Scrapper",
+                "fonte_sistema": "TJ-SP",
+                "fonte_tipo": "TRIBUNAL",
+                "fonte_url": "https://esaj.tjsp.jus.br/",
+                "grau": null,
+                "classe": null,
+                "orgaoJulgador": "28ª Câmara de Direito Privado",
+                "segredoJustica": null,
+                "justicaGratuita": null,
+                "assunto_principal": null,
+                "assuntos": "Apelação Cível / Gestão de Negócios",
+                "first_mov": null,
+                "last_mov": "07/01/2025",
+                "envolvidos": [
+                    {
+                        "nome": [
+                            "André  Fernandes  Sanches,  Maria  Cristina  Machado  Sanches"
+                        ],
+                        "tipo": "RECLAMANTE",
+                        "polo": "ATIVO",
+                        "id_sistema": {
+                            "login": null
+                        },
+                        "documento": [],
+                        "endereco": {},
+                        "representantes": [
+                            {
+                                "nome": null,
+                                "tipo": "ADVOGADO",
+                                "polo": "ATIVO",
+                                "id_sistema": {
+                                    "login": null
+                                },
+                                "documento": [
+                                    {
+                                        "CPF": null
+                                    }
+                                ],
+                                "endereco": {
+                                    "logradouro": null,
+                                    "numero": null,
+                                    "complemento": null,
+                                    "bairro": null,
+                                    "municipio": null,
+                                    "estado": null,
+                                    "cep": null
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "nome": null,
+                        "tipo": "RECLAMADO",
+                        "polo": "PASSIVO",
+                        "id_sistema": {
+                            "login": null
+                        },
+                        "documento": [],
+                        "endereco": {},
+                        "representantes": [
+                            {
+                                "nome": null,
+                                "tipo": "ADVOGADO",
+                                "polo": "PASSIVO",
+                                "id_sistema": {
+                                    "login": null
+                                },
+                                "documento": [
+                                    {
+                                        "CPF": null
+                                    }
+                                ],
+                                "endereco": {
+                                    "logradouro": null,
+                                    "numero": null,
+                                    "complemento": null,
+                                    "bairro": null,
+                                    "municipio": null,
+                                    "estado": null,
+                                    "cep": null
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "nome": "Ferreira da Cruz",
+                        "tipo": "RELATOR(A)",
+                        "polo": "OUTROS",
+                        "id_sistema": {
+                            "login": null
+                        },
+                        "documento": [],
+                        "endereco": {},
+                        "representantes": []
+                    }
+                ],
+                "movimentacoes": [
+                    {
+                        "titulo": "Data de publicação",
+                        "tipoConteudo": "HTML",
+                        "data": "07/01/2025",
+                        "ativo": null,
+                        "documento": null,
+                        "mostrarHeaderData": null,
+                        "usuarioCriador": null
+                    },
+                    {
+                        "titulo": null,
+                        "tipoConteudo": null,
+                        "data": null,
+                        "ativo": null,
+                        "documento": null,
+                        "usuarioCriador": null
+                    },
+                    {
+                        "id": null,
+                        "idUnicoDocumento": null,
+                        "titulo": "Ata da Audieancia",
+                        "tipo": "Ata da Audieancia",
+                        "tipoConteudo": "PDF",
+                        "data": "07/01/2025",
+                        "ativo": null,
+                        "documentoSigiloso": null,
+                        "usuarioPerito": null,
+                        "publico": null,
+                        "usuarioJuntada": null,
+                        "usuarioCriador": null,
+                        "instancia": null
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "numero": "2391673-30.2024.8.26.0000",
+        "valorDaCausa": null,
+        "area_code": null,
+        "tribunal_code": null,
+        "vara_code": null,
+        "area": null,
+        "tribunal": "TJ-SP",
+        "comarca": "Campinas",
+        "instancias": [
+            {
+                "fonte_script": "Scrapper",
+                "fonte_sistema": "TJ-SP",
+                "fonte_tipo": "TRIBUNAL",
+                "fonte_url": "https://esaj.tjsp.jus.br/",
+                "grau": null,
+                "classe": null,
+                "orgaoJulgador": "28ª Câmara de Direito Privado",
+                "segredoJustica": null,
+                "justicaGratuita": null,
+                "assunto_principal": null,
+                "assuntos": "Agravo de Instrumento / Despesas Condominiais",
+                "first_mov": null,
+                "last_mov": "07/01/2025",
+                "envolvidos": [
+                    {
+                        "nome": [
+                            "Banco  Bradesco  S/A."
+                        ],
+                        "tipo": "RECLAMANTE",
+                        "polo": "ATIVO",
+                        "id_sistema": {
+                            "login": null
+                        },
+                        "documento": [],
+                        "endereco": {},
+                        "representantes": [
+                            {
+                                "nome": null,
+                                "tipo": "ADVOGADO",
+                                "polo": "ATIVO",
+                                "id_sistema": {
+                                    "login": null
+                                },
+                                "documento": [
+                                    {
+                                        "CPF": null
+                                    }
+                                ],
+                                "endereco": {
+                                    "logradouro": null,
+                                    "numero": null,
+                                    "complemento": null,
+                                    "bairro": null,
+                                    "municipio": null,
+                                    "estado": null,
+                                    "cep": null
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "nome": null,
+                        "tipo": "RECLAMADO",
+                        "polo": "PASSIVO",
+                        "id_sistema": {
+                            "login": null
+                        },
+                        "documento": [],
+                        "endereco": {},
+                        "representantes": [
+                            {
+                                "nome": null,
+                                "tipo": "ADVOGADO",
+                                "polo": "PASSIVO",
+                                "id_sistema": {
+                                    "login": null
+                                },
+                                "documento": [
+                                    {
+                                        "CPF": null
+                                    }
+                                ],
+                                "endereco": {
+                                    "logradouro": null,
+                                    "numero": null,
+                                    "complemento": null,
+                                    "bairro": null,
+                                    "municipio": null,
+                                    "estado": null,
+                                    "cep": null
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "nome": "Ferreira da Cruz",
+                        "tipo": "RELATOR(A)",
+                        "polo": "OUTROS",
+                        "id_sistema": {
+                            "login": null
+                        },
+                        "documento": [],
+                        "endereco": {},
+                        "representantes": []
+                    }
+                ],
+                "movimentacoes": [
+                    {
+                        "titulo": "Data de publicação",
+                        "tipoConteudo": "HTML",
+                        "data": "07/01/2025",
+                        "ativo": null,
+                        "documento": null,
+                        "mostrarHeaderData": null,
+                        "usuarioCriador": null
+                    },
+                    {
+                        "titulo": null,
+                        "tipoConteudo": null,
+                        "data": null,
+                        "ativo": null,
+                        "documento": null,
+                        "usuarioCriador": null
+                    },
+                    {
+                        "id": null,
+                        "idUnicoDocumento": null,
+                        "titulo": "Ata da Audieancia",
+                        "tipo": "Ata da Audieancia",
+                        "tipoConteudo": "PDF",
+                        "data": "07/01/2025",
+                        "ativo": null,
+                        "documentoSigiloso": null,
+                        "usuarioPerito": null,
+                        "publico": null,
+                        "usuarioJuntada": null,
+                        "usuarioCriador": null,
+                        "instancia": null
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "numero": "1034327-42.2022.8.26.0564",
+        "valorDaCausa": null,
+        "area_code": null,
+        "tribunal_code": null,
+        "vara_code": null,
+        "area": null,
+        "tribunal": "TJ-SP",
+        "comarca": "São Bernardo do Campo",
+        "instancias": [
+            {
+                "fonte_script": "Scrapper",
+                "fonte_sistema": "TJ-SP",
+                "fonte_tipo": "TRIBUNAL",
+                "fonte_url": "https://esaj.tjsp.jus.br/",
+                "grau": null,
+                "classe": null,
+                "orgaoJulgador": "28ª Câmara de Direito Privado",
+                "segredoJustica": null,
+                "justicaGratuita": null,
+                "assunto_principal": null,
+                "assuntos": "Apelação Cível / Alienação Fiduciária",
+                "first_mov": null,
+                "last_mov": "07/01/2025",
+                "envolvidos": [
+                    {
+                        "nome": [],
+                        "tipo": "RECLAMANTE",
+                        "polo": "ATIVO",
+                        "id_sistema": {
+                            "login": null
+                        },
+                        "documento": [],
+                        "endereco": {},
+                        "representantes": [
+                            {
+                                "nome": null,
+                                "tipo": "ADVOGADO",
+                                "polo": "ATIVO",
+                                "id_sistema": {
+                                    "login": null
+                                },
+                                "documento": [
+                                    {
+                                        "CPF": null
+                                    }
+                                ],
+                                "endereco": {
+                                    "logradouro": null,
+                                    "numero": null,
+                                    "complemento": null,
+                                    "bairro": null,
+                                    "municipio": null,
+                                    "estado": null,
+                                    "cep": null
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "nome": null,
+                        "tipo": "RECLAMADO",
+                        "polo": "PASSIVO",
+                        "id_sistema": {
+                            "login": null
+                        },
+                        "documento": [],
+                        "endereco": {},
+                        "representantes": [
+                            {
+                                "nome": null,
+                                "tipo": "ADVOGADO",
+                                "polo": "PASSIVO",
+                                "id_sistema": {
+                                    "login": null
+                                },
+                                "documento": [
+                                    {
+                                        "CPF": null
+                                    }
+                                ],
+                                "endereco": {
+                                    "logradouro": null,
+                                    "numero": null,
+                                    "complemento": null,
+                                    "bairro": null,
+                                    "municipio": null,
+                                    "estado": null,
+                                    "cep": null
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "nome": "Ferreira da Cruz",
+                        "tipo": "RELATOR(A)",
+                        "polo": "OUTROS",
+                        "id_sistema": {
+                            "login": null
+                        },
+                        "documento": [],
+                        "endereco": {},
+                        "representantes": []
+                    }
+                ],
+                "movimentacoes": [
+                    {
+                        "titulo": "Data de publicação",
+                        "tipoConteudo": "HTML",
+                        "data": "07/01/2025",
+                        "ativo": null,
+                        "documento": null,
+                        "mostrarHeaderData": null,
+                        "usuarioCriador": null
+                    },
+                    {
+                        "titulo": null,
+                        "tipoConteudo": null,
+                        "data": null,
+                        "ativo": null,
+                        "documento": null,
+                        "usuarioCriador": null
+                    },
+                    {
+                        "id": null,
+                        "idUnicoDocumento": null,
+                        "titulo": "Ata da Audieancia",
+                        "tipo": "Ata da Audieancia",
+                        "tipoConteudo": "PDF",
+                        "data": "07/01/2025",
+                        "ativo": null,
+                        "documentoSigiloso": null,
+                        "usuarioPerito": null,
+                        "publico": null,
+                        "usuarioJuntada": null,
+                        "usuarioCriador": null,
+                        "instancia": null
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "numero": "1018448-81.2021.8.26.0482",
+        "valorDaCausa": null,
+        "area_code": null,
+        "tribunal_code": null,
+        "vara_code": null,
+        "area": null,
+        "tribunal": "TJ-SP",
+        "comarca": "Presidente Prudente",
+        "instancias": [
+            {
+                "fonte_script": "Scrapper",
+                "fonte_sistema": "TJ-SP",
+                "fonte_tipo": "TRIBUNAL",
+                "fonte_url": "https://esaj.tjsp.jus.br/",
+                "grau": null,
+                "classe": null,
+                "orgaoJulgador": "28ª Câmara de Direito Privado",
+                "segredoJustica": null,
+                "justicaGratuita": null,
+                "assunto_principal": null,
+                "assuntos": "Apelação Cível / Fornecimento de Energia Elétrica",
+                "first_mov": null,
+                "last_mov": "07/01/2025",
+                "envolvidos": [
+                    {
+                        "nome": [
+                            "Itapeva  XI Multicarteira  Fundo  de Investimento  em"
+                        ],
+                        "tipo": "RECLAMANTE",
+                        "polo": "ATIVO",
+                        "id_sistema": {
+                            "login": null
+                        },
+                        "documento": [],
+                        "endereco": {},
+                        "representantes": [
+                            {
+                                "nome": null,
+                                "tipo": "ADVOGADO",
+                                "polo": "ATIVO",
+                                "id_sistema": {
+                                    "login": null
+                                },
+                                "documento": [
+                                    {
+                                        "CPF": null
+                                    }
+                                ],
+                                "endereco": {
+                                    "logradouro": null,
+                                    "numero": null,
+                                    "complemento": null,
+                                    "bairro": null,
+                                    "municipio": null,
+                                    "estado": null,
+                                    "cep": null
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "nome": null,
+                        "tipo": "RECLAMADO",
+                        "polo": "PASSIVO",
+                        "id_sistema": {
+                            "login": null
+                        },
+                        "documento": [],
+                        "endereco": {},
+                        "representantes": [
+                            {
+                                "nome": null,
+                                "tipo": "ADVOGADO",
+                                "polo": "PASSIVO",
+                                "id_sistema": {
+                                    "login": null
+                                },
+                                "documento": [
+                                    {
+                                        "CPF": null
+                                    }
+                                ],
+                                "endereco": {
+                                    "logradouro": null,
+                                    "numero": null,
+                                    "complemento": null,
+                                    "bairro": null,
+                                    "municipio": null,
+                                    "estado": null,
+                                    "cep": null
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "nome": "Ferreira da Cruz",
+                        "tipo": "RELATOR(A)",
+                        "polo": "OUTROS",
+                        "id_sistema": {
+                            "login": null
+                        },
+                        "documento": [],
+                        "endereco": {},
+                        "representantes": []
+                    }
+                ],
+                "movimentacoes": [
+                    {
+                        "titulo": "Data de publicação",
+                        "tipoConteudo": "HTML",
+                        "data": "07/01/2025",
+                        "ativo": null,
+                        "documento": null,
+                        "mostrarHeaderData": null,
+                        "usuarioCriador": null
+                    },
+                    {
+                        "titulo": null,
+                        "tipoConteudo": null,
+                        "data": null,
+                        "ativo": null,
+                        "documento": null,
+                        "usuarioCriador": null
+                    },
+                    {
+                        "id": null,
+                        "idUnicoDocumento": null,
+                        "titulo": "Ata da Audieancia",
+                        "tipo": "Ata da Audieancia",
+                        "tipoConteudo": "PDF",
+                        "data": "07/01/2025",
+                        "ativo": null,
+                        "documentoSigiloso": null,
+                        "usuarioPerito": null,
+                        "publico": null,
+                        "usuarioJuntada": null,
+                        "usuarioCriador": null,
+                        "instancia": null
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "numero": "1030357-55.2024.8.26.0114",
+        "valorDaCausa": null,
+        "area_code": null,
+        "tribunal_code": null,
+        "vara_code": null,
+        "area": null,
+        "tribunal": "TJ-SP",
+        "comarca": "Campinas",
+        "instancias": [
+            {
+                "fonte_script": "Scrapper",
+                "fonte_sistema": "TJ-SP",
+                "fonte_tipo": "TRIBUNAL",
+                "fonte_url": "https://esaj.tjsp.jus.br/",
+                "grau": null,
+                "classe": null,
+                "orgaoJulgador": "28ª Câmara de Direito Privado",
+                "segredoJustica": null,
+                "justicaGratuita": null,
+                "assunto_principal": null,
+                "assuntos": "Apelação Cível / Fornecimento de Energia Elétrica",
+                "first_mov": null,
+                "last_mov": "07/01/2025",
+                "envolvidos": [
+                    {
+                        "nome": [
+                            "Energisa  Sul-sudeste  Distribuidora  de Energia  S/A."
+                        ],
+                        "tipo": "RECLAMANTE",
+                        "polo": "ATIVO",
+                        "id_sistema": {
+                            "login": null
+                        },
+                        "documento": [],
+                        "endereco": {},
+                        "representantes": [
+                            {
+                                "nome": null,
+                                "tipo": "ADVOGADO",
+                                "polo": "ATIVO",
+                                "id_sistema": {
+                                    "login": null
+                                },
+                                "documento": [
+                                    {
+                                        "CPF": null
+                                    }
+                                ],
+                                "endereco": {
+                                    "logradouro": null,
+                                    "numero": null,
+                                    "complemento": null,
+                                    "bairro": null,
+                                    "municipio": null,
+                                    "estado": null,
+                                    "cep": null
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "nome": null,
+                        "tipo": "RECLAMADO",
+                        "polo": "PASSIVO",
+                        "id_sistema": {
+                            "login": null
+                        },
+                        "documento": [],
+                        "endereco": {},
+                        "representantes": [
+                            {
+                                "nome": null,
+                                "tipo": "ADVOGADO",
+                                "polo": "PASSIVO",
+                                "id_sistema": {
+                                    "login": null
+                                },
+                                "documento": [
+                                    {
+                                        "CPF": null
+                                    }
+                                ],
+                                "endereco": {
+                                    "logradouro": null,
+                                    "numero": null,
+                                    "complemento": null,
+                                    "bairro": null,
+                                    "municipio": null,
+                                    "estado": null,
+                                    "cep": null
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "nome": "Ferreira da Cruz",
+                        "tipo": "RELATOR(A)",
+                        "polo": "OUTROS",
+                        "id_sistema": {
+                            "login": null
+                        },
+                        "documento": [],
+                        "endereco": {},
+                        "representantes": []
+                    }
+                ],
+                "movimentacoes": [
+                    {
+                        "titulo": "Data de publicação",
+                        "tipoConteudo": "HTML",
+                        "data": "07/01/2025",
+                        "ativo": null,
+                        "documento": null,
+                        "mostrarHeaderData": null,
+                        "usuarioCriador": null
+                    },
+                    {
+                        "titulo": null,
+                        "tipoConteudo": null,
+                        "data": null,
+                        "ativo": null,
+                        "documento": null,
+                        "usuarioCriador": null
+                    },
+                    {
+                        "id": null,
+                        "idUnicoDocumento": null,
+                        "titulo": "Ata da Audieancia",
+                        "tipo": "Ata da Audieancia",
+                        "tipoConteudo": "PDF",
+                        "data": "07/01/2025",
+                        "ativo": null,
+                        "documentoSigiloso": null,
+                        "usuarioPerito": null,
+                        "publico": null,
+                        "usuarioJuntada": null,
+                        "usuarioCriador": null,
+                        "instancia": null
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "numero": "1012453-17.2022.8.26.0009",
+        "valorDaCausa": null,
+        "area_code": null,
+        "tribunal_code": null,
+        "vara_code": null,
+        "area": null,
+        "tribunal": "TJ-SP",
+        "comarca": "São Paulo",
+        "instancias": [
+            {
+                "fonte_script": "Scrapper",
+                "fonte_sistema": "TJ-SP",
+                "fonte_tipo": "TRIBUNAL",
+                "fonte_url": "https://esaj.tjsp.jus.br/",
+                "grau": null,
+                "classe": null,
+                "orgaoJulgador": "28ª Câmara de Direito Privado",
+                "segredoJustica": null,
+                "justicaGratuita": null,
+                "assunto_principal": null,
+                "assuntos": "Apelação Cível / Alienação Fiduciária",
+                "first_mov": null,
+                "last_mov": "07/01/2025",
+                "envolvidos": [
+                    {
+                        "nome": [
+                            "Companhia  Paulista  de Força  e Luz."
+                        ],
+                        "tipo": "RECLAMANTE",
+                        "polo": "ATIVO",
+                        "id_sistema": {
+                            "login": null
+                        },
+                        "documento": [],
+                        "endereco": {},
+                        "representantes": [
+                            {
+                                "nome": null,
+                                "tipo": "ADVOGADO",
+                                "polo": "ATIVO",
+                                "id_sistema": {
+                                    "login": null
+                                },
+                                "documento": [
+                                    {
+                                        "CPF": null
+                                    }
+                                ],
+                                "endereco": {
+                                    "logradouro": null,
+                                    "numero": null,
+                                    "complemento": null,
+                                    "bairro": null,
+                                    "municipio": null,
+                                    "estado": null,
+                                    "cep": null
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "nome": null,
+                        "tipo": "RECLAMADO",
+                        "polo": "PASSIVO",
+                        "id_sistema": {
+                            "login": null
+                        },
+                        "documento": [],
+                        "endereco": {},
+                        "representantes": [
+                            {
+                                "nome": null,
+                                "tipo": "ADVOGADO",
+                                "polo": "PASSIVO",
+                                "id_sistema": {
+                                    "login": null
+                                },
+                                "documento": [
+                                    {
+                                        "CPF": null
+                                    }
+                                ],
+                                "endereco": {
+                                    "logradouro": null,
+                                    "numero": null,
+                                    "complemento": null,
+                                    "bairro": null,
+                                    "municipio": null,
+                                    "estado": null,
+                                    "cep": null
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "nome": "Ferreira da Cruz",
+                        "tipo": "RELATOR(A)",
+                        "polo": "OUTROS",
+                        "id_sistema": {
+                            "login": null
+                        },
+                        "documento": [],
+                        "endereco": {},
+                        "representantes": []
+                    }
+                ],
+                "movimentacoes": [
+                    {
+                        "titulo": "Data de publicação",
+                        "tipoConteudo": "HTML",
+                        "data": "07/01/2025",
+                        "ativo": null,
+                        "documento": null,
+                        "mostrarHeaderData": null,
+                        "usuarioCriador": null
+                    },
+                    {
+                        "titulo": null,
+                        "tipoConteudo": null,
+                        "data": null,
+                        "ativo": null,
+                        "documento": null,
+                        "usuarioCriador": null
+                    },
+                    {
+                        "id": null,
+                        "idUnicoDocumento": null,
+                        "titulo": "Ata da Audieancia",
+                        "tipo": "Ata da Audieancia",
+                        "tipoConteudo": "PDF",
+                        "data": "07/01/2025",
+                        "ativo": null,
+                        "documentoSigiloso": null,
+                        "usuarioPerito": null,
+                        "publico": null,
+                        "usuarioJuntada": null,
+                        "usuarioCriador": null,
+                        "instancia": null
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "numero": "1004038-05.2019.8.26.0024",
+        "valorDaCausa": null,
+        "area_code": null,
+        "tribunal_code": null,
+        "vara_code": null,
+        "area": null,
+        "tribunal": "TJ-SP",
+        "comarca": "Andradina",
+        "instancias": [
+            {
+                "fonte_script": "Scrapper",
+                "fonte_sistema": "TJ-SP",
+                "fonte_tipo": "TRIBUNAL",
+                "fonte_url": "https://esaj.tjsp.jus.br/",
+                "grau": null,
+                "classe": null,
+                "orgaoJulgador": "28ª Câmara de Direito Privado",
+                "segredoJustica": null,
+                "justicaGratuita": null,
+                "assunto_principal": null,
+                "assuntos": "Apelação Cível / DPVAT",
+                "first_mov": null,
+                "last_mov": "07/01/2025",
+                "envolvidos": [
+                    {
+                        "nome": [],
+                        "tipo": "RECLAMANTE",
+                        "polo": "ATIVO",
+                        "id_sistema": {
+                            "login": null
+                        },
+                        "documento": [],
+                        "endereco": {},
+                        "representantes": [
+                            {
+                                "nome": null,
+                                "tipo": "ADVOGADO",
+                                "polo": "ATIVO",
+                                "id_sistema": {
+                                    "login": null
+                                },
+                                "documento": [
+                                    {
+                                        "CPF": null
+                                    }
+                                ],
+                                "endereco": {
+                                    "logradouro": null,
+                                    "numero": null,
+                                    "complemento": null,
+                                    "bairro": null,
+                                    "municipio": null,
+                                    "estado": null,
+                                    "cep": null
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "nome": null,
+                        "tipo": "RECLAMADO",
+                        "polo": "PASSIVO",
+                        "id_sistema": {
+                            "login": null
+                        },
+                        "documento": [],
+                        "endereco": {},
+                        "representantes": [
+                            {
+                                "nome": null,
+                                "tipo": "ADVOGADO",
+                                "polo": "PASSIVO",
+                                "id_sistema": {
+                                    "login": null
+                                },
+                                "documento": [
+                                    {
+                                        "CPF": null
+                                    }
+                                ],
+                                "endereco": {
+                                    "logradouro": null,
+                                    "numero": null,
+                                    "complemento": null,
+                                    "bairro": null,
+                                    "municipio": null,
+                                    "estado": null,
+                                    "cep": null
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "nome": "Ferreira da Cruz",
+                        "tipo": "RELATOR(A)",
+                        "polo": "OUTROS",
+                        "id_sistema": {
+                            "login": null
+                        },
+                        "documento": [],
+                        "endereco": {},
+                        "representantes": []
+                    }
+                ],
+                "movimentacoes": [
+                    {
+                        "titulo": "Data de publicação",
+                        "tipoConteudo": "HTML",
+                        "data": "07/01/2025",
+                        "ativo": null,
+                        "documento": null,
+                        "mostrarHeaderData": null,
+                        "usuarioCriador": null
+                    },
+                    {
+                        "titulo": null,
+                        "tipoConteudo": null,
+                        "data": null,
+                        "ativo": null,
+                        "documento": null,
+                        "usuarioCriador": null
+                    },
+                    {
+                        "id": null,
+                        "idUnicoDocumento": null,
+                        "titulo": "Ata da Audieancia",
+                        "tipo": "Ata da Audieancia",
+                        "tipoConteudo": "PDF",
+                        "data": "07/01/2025",
+                        "ativo": null,
+                        "documentoSigiloso": null,
+                        "usuarioPerito": null,
+                        "publico": null,
+                        "usuarioJuntada": null,
+                        "usuarioCriador": null,
+                        "instancia": null
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "numero": "2267153-95.2024.8.26.0000",
+        "valorDaCausa": null,
+        "area_code": null,
+        "tribunal_code": null,
+        "vara_code": null,
+        "area": null,
+        "tribunal": "TJ-SP",
+        "comarca": "Pindamonhangaba",
+        "instancias": [
+            {
+                "fonte_script": "Scrapper",
+                "fonte_sistema": "TJ-SP",
+                "fonte_tipo": "TRIBUNAL",
+                "fonte_url": "https://esaj.tjsp.jus.br/",
+                "grau": null,
+                "classe": null,
+                "orgaoJulgador": "10ª Câmara de Direito Privado",
+                "segredoJustica": null,
+                "justicaGratuita": null,
+                "assunto_principal": null,
+                "assuntos": "Agravo de Instrumento / Vícios de Construção",
+                "first_mov": null,
+                "last_mov": "07/01/2025",
+                "envolvidos": [
+                    {
+                        "nome": [
+                            "Seguradora  Líder  dos Consórcios  do Seguro  DPVAT."
+                        ],
+                        "tipo": "RECLAMANTE",
+                        "polo": "ATIVO",
+                        "id_sistema": {
+                            "login": null
+                        },
+                        "documento": [],
+                        "endereco": {},
+                        "representantes": [
+                            {
+                                "nome": null,
+                                "tipo": "ADVOGADO",
+                                "polo": "ATIVO",
+                                "id_sistema": {
+                                    "login": null
+                                },
+                                "documento": [
+                                    {
+                                        "CPF": null
+                                    }
+                                ],
+                                "endereco": {
+                                    "logradouro": null,
+                                    "numero": null,
+                                    "complemento": null,
+                                    "bairro": null,
+                                    "municipio": null,
+                                    "estado": null,
+                                    "cep": null
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "nome": null,
+                        "tipo": "RECLAMADO",
+                        "polo": "PASSIVO",
+                        "id_sistema": {
+                            "login": null
+                        },
+                        "documento": [],
+                        "endereco": {},
+                        "representantes": [
+                            {
+                                "nome": null,
+                                "tipo": "ADVOGADO",
+                                "polo": "PASSIVO",
+                                "id_sistema": {
+                                    "login": null
+                                },
+                                "documento": [
+                                    {
+                                        "CPF": null
+                                    }
+                                ],
+                                "endereco": {
+                                    "logradouro": null,
+                                    "numero": null,
+                                    "complemento": null,
+                                    "bairro": null,
+                                    "municipio": null,
+                                    "estado": null,
+                                    "cep": null
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "nome": "Jair de Souza",
+                        "tipo": "RELATOR(A)",
+                        "polo": "OUTROS",
+                        "id_sistema": {
+                            "login": null
+                        },
+                        "documento": [],
+                        "endereco": {},
+                        "representantes": []
+                    }
+                ],
+                "movimentacoes": [
+                    {
+                        "titulo": "Data de publicação",
+                        "tipoConteudo": "HTML",
+                        "data": "07/01/2025",
+                        "ativo": null,
+                        "documento": null,
+                        "mostrarHeaderData": null,
+                        "usuarioCriador": null
+                    },
+                    {
+                        "titulo": null,
+                        "tipoConteudo": null,
+                        "data": null,
+                        "ativo": null,
+                        "documento": null,
+                        "usuarioCriador": null
+                    },
+                    {
+                        "id": null,
+                        "idUnicoDocumento": null,
+                        "titulo": "Ata da Audieancia",
+                        "tipo": "Ata da Audieancia",
+                        "tipoConteudo": "PDF",
+                        "data": "07/01/2025",
+                        "ativo": null,
+                        "documentoSigiloso": null,
+                        "usuarioPerito": null,
+                        "publico": null,
+                        "usuarioJuntada": null,
+                        "usuarioCriador": null,
+                        "instancia": null
+                    }
+                ]
+            }
+        ]
+    }
+]

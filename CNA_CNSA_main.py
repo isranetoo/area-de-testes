@@ -4,7 +4,7 @@ import requests
 import pytesseract
 from PIL import Image, ImageFilter
 from bs4 import BeautifulSoup
-import re  # Para substituir caracteres inválidos no nome do arquivo
+import re  
 
 if os.name == "nt":
     pytesseract.pytesseract.tesseract_cmd = 'C:\\Program Files\\Tesseract-OCR\\tesseract.exe'

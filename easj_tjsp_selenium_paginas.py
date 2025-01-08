@@ -1,7 +1,6 @@
 import requests
 import json
 import main_pdf_extract 
-import re
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.options import Options
@@ -112,13 +111,16 @@ def extract_case_data(driver):
                         "last_mov": remove_prefix(row.find_element(By.XPATH, f"td[2]/table/tbody/tr[7]/td").text, "Data de publicação: "),
                         "envolvidos": [
                             {
-                                "nome": {key: remove_prefix(value, key) for key, value in main_pdf_extract.extract_patterns_from_pdf(
-                                    "processo_temp.pdf", 1, {
-                                        "APELANTE": r'APELANTE:\s*(.+)',
-                                        "AGRAVANTE": r'AGRAVANTE:\s*(.+)',
-                                        "EMBARGANTE": r'EMBARGANTE:\s*(.+)',
-                                        "RECORRENTE": r'Recorrente:\s*(.+)',
-                                    }).items()},
+                                "nome": [
+                                        remove_prefix(value, key) for key, value in main_pdf_extract.extract_patterns_from_pdf(
+                                            "processo_temp.pdf", 1, {
+                                                "APELANTE": r'APELANTE:\s*(.+)',
+                                                "AGRAVANTE": r'AGRAVANTE:\s*(.+)',
+                                                "EMBARGANTE": r'EMBARGANTE:\s*(.+)',
+                                                "RECORRENTE": r'Recorrente:\s*(.+)',
+                                            }
+                                        ).items()
+                                    ],
                                 "tipo": "RECLAMANTE",
                                 "polo": "ATIVO",
                                 "id_sistema": {"login": None},
